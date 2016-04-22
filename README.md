@@ -8,6 +8,13 @@ This is EXPERIMENTAL version. Use at your own risk.
 ## Table of contents
 * [Installation](#installation)
 * [Getting started](#getting-started)
+* [User guide](#user-guide)
+  * [Why use it?](#why-use-it)
+  * [Authentication](#authentication)
+  * [Understanding data](#understanding-data)
+  * [Making trades](#making-trades)
+  * [Configuration](#configuration)
+  * [Symbols](#symbols)
 * [API Reference](#api-reference)
 
 ## Installation
@@ -50,6 +57,54 @@ bux.login(account, function(err, data) {
 });
 
 ```
+
+## User guide
+
+### Why use it?
+TODO
+
+### Authentication
+
+```js
+var account = {
+  email: 'your_email@example.org',
+  password: 'your_bux_password'
+}
+
+bux.login(function(err, auth) {
+
+  // Grab your token (for store)
+  var token = data.access_token;
+
+  // Your authenticated requests
+  // ...
+});
+```
+
+If you have *access_token* then you can setup library directly:
+```js
+// passed as config option
+var bux = BUX.api({ access_token: 'MY_TOKEN' });
+
+// or later
+// TODO
+```
+
+### Understanding data
+TODO
+
+### Making trades
+TODO
+
+### Configuration
+
+`BUX.api` options:
+* `server` *(string)* - BUX API server address (default: `"https://api.bux.com"`)
+* `no_symbols` *(boolean)* - Dont resolve Products Symbols (default: `false`)
+* `access_token` *(string)* - Access Token
+
+### Symbols
+TODO
 
 ## API Reference
 
