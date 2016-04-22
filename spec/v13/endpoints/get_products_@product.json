@@ -1,0 +1,94 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/products/sb28205"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:28:47 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "symbol": "Activision",
+    "displayName": "Activision",
+    "securityId": "sb28205",
+    "quoteCurrency": "USD",
+    "displayDecimals": 3,
+    "maxLeverage": 5,
+    "multiplier": 100,
+    "currentPrice": {
+      "currency": "USD",
+      "decimals": 3,
+      "amount": "35.115"
+    },
+    "closingPrice": {
+      "currency": "USD",
+      "decimals": 3,
+      "amount": "35.225"
+    },
+    "dayRange": {
+      "currency": "USD",
+      "decimals": 3,
+      "high": "35.430",
+      "low": "34.960"
+    },
+    "yearRange": {
+      "currency": "USD",
+      "decimals": 3,
+      "high": "39.940",
+      "low": "16.550"
+    },
+    "openingHours": {
+      "timezone": "America/New_York",
+      "weekDays": [
+        [],
+        [
+          {
+            "start": "09:32",
+            "end": "15:59"
+          }
+        ],
+        [
+          {
+            "start": "09:32",
+            "end": "15:59"
+          }
+        ],
+        [
+          {
+            "start": "09:32",
+            "end": "15:59"
+          }
+        ],
+        [
+          {
+            "start": "09:32",
+            "end": "15:59"
+          }
+        ],
+        [
+          {
+            "start": "09:32",
+            "end": "15:59"
+          }
+        ],
+        []
+      ]
+    },
+    "category": "STOCKS",
+    "favorite": false,
+    "productMarketStatus": "OPEN",
+    "tags": [
+      "US_STOCKS"
+    ],
+    "description": "A merger of two video game giants to create a monster of a company, responsible for taking over the lives of teenagers everywhere. The makers of Guitar Hero, World of Warcraft & Call of Duty. Also responsible for many boys remaining virgins."
+  }
+}

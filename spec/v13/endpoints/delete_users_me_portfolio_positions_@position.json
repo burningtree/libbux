@@ -1,0 +1,47 @@
+{
+  "req": {
+    "method": "DELETE",
+    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/26af15b3-c7ac-4d41-9002-1af67492fd43"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 20:33:07 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "a42693c3-68e1-46db-86a9-ad647efefd97",
+    "positionId": "26af15b3-c7ac-4d41-9002-1af67492fd43",
+    "profitAndLoss": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "8.43"
+    },
+    "product": {
+      "securityId": "sb26493",
+      "symbol": "GERMANY30",
+      "displayName": "Germany 30"
+    },
+    "investingAmount": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "100.00"
+    },
+    "price": {
+      "currency": "EUR",
+      "decimals": 1,
+      "amount": "10348.7"
+    },
+    "leverage": 20,
+    "direction": "BUY",
+    "type": "CLOSE",
+    "dateCreated": 1461270787041
+  }
+}

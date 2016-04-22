@@ -1,0 +1,50 @@
+{
+  "req": {
+    "method": "POST",
+    "url": "https://api.getbux.com/core/13/users/me/trades",
+    "data": {
+      "boostEffect": "5",
+      "direction": "BUY",
+      "homeCurrency": "BUX",
+      "productId": "sb27701",
+      "source": "PRODUCTS_CURATED",
+      "tradeSize": "10"
+    }
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:28:54 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "34587b20-567a-4baa-a481-46cb0bb24a98",
+    "positionId": "e2305701-95b6-4713-8bca-e971b15234e2",
+    "product": {
+      "securityId": "sb27701",
+      "symbol": "GoPro",
+      "displayName": "GoPro"
+    },
+    "investingAmount": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "10.00"
+    },
+    "price": {
+      "currency": "USD",
+      "decimals": 2,
+      "amount": "13.63"
+    },
+    "leverage": 5,
+    "direction": "BUY",
+    "type": "OPEN",
+    "dateCreated": 1461259734537
+  }
+}

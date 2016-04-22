@@ -1,0 +1,42 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:28:49 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
+    "nickname": "burningtree",
+    "countryCode": "GB",
+    "homeCurrency": "GBP",
+    "homeCurrencyDecimals": 2,
+    "conversionStatus": "STARTED",
+    "accountType": "FUN_BUX",
+    "level": 1,
+    "title": "Rookie Trader",
+    "acceptedTnCVersion": "1.0",
+    "currentTnCVersion": "1.0",
+    "deviceSettings": {
+      "androidId": "47c80373c8ddcd08",
+      "activeClientId": "8473622941",
+      "gpsAdId": "575eca25-40c4-4a96-8623-4ab2352bb21d"
+    },
+    "orientation": "INTERNATIONAL",
+    "language": "en",
+    "userLevel": "ROOKIE",
+    "deleted": false,
+    "topTraderInCategories": []
+  }
+}

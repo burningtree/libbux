@@ -1,0 +1,38 @@
+baseUrl: 'https://api.getbux.com'
+appBaseUrl: 'core/13'
+interval: 1
+headers:
+  'X-App-Version': 1.36-2697
+  'Accept-Language': en
+  'User-Agent': okhttp/3.2.0
+
+examples:
+  product: 'sb28205'
+  position: '26af15b3-c7ac-4d41-9002-1af67492fd43'
+
+endpoints:
+  'products/search': {}
+  'products/@product': {}
+  'users/me': {}
+  'users/me/profile': {}
+  'users/me/trades':
+    GET: {}
+    POST: { data: { boostEffect: '5', direction: 'BUY', homeCurrency: 'BUX', productId: 'sb27701', source: 'PRODUCTS_CURATED', tradeSize: '10' }}
+  'users/me/friends': {}
+  'users/me/education': {}
+  'users/me/notifications': {}
+  'users/me/socialfeed':
+    GET: { query: { f: PUBLIC }}
+  'users/me/feeschedule': {}
+  'users/me/tradeconfigurations/@product': {}
+  'users/me/news': {}
+  'users/me/portfolio': {}
+  'users/me/portfolio/performance': {}
+  'users/me/portfolio/positions/@position':
+    GET: {}
+    DELETE: {}
+  'users/me/portfolio/positions/@position/automaticExecutionTracker':
+    PUT: { data: { lowerLimit: -0.33 }}
+  '/auth/3/authorize':
+    POST: {}
+

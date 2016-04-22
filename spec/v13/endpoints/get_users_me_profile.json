@@ -1,0 +1,92 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/profile"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:28:50 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
+    "nickname": "burningtree",
+    "avatarUrl": "https://s3-eu-west-1.amazonaws.com/bux-avatars-live/babac175-5687-41a3-aaab-6295fecfbbe3/c895ff66-8281-4c8c-b232-5a2b74e3bfe5_avatar-640x384.jpg",
+    "accountType": "FUN_BUX",
+    "countryCode": "GB",
+    "level": 1,
+    "title": "Rookie Trader",
+    "tradingStats": {
+      "totalTrades": 436,
+      "tradesProfit": 201,
+      "tradesLoss": 9,
+      "tradesUp": 182,
+      "tradesDown": 44,
+      "battlesWon": 15,
+      "bestTrade": {
+        "id": "05661c1e-e0e1-4ef7-8aa9-59e116139112",
+        "dateCreated": 1456822108743,
+        "product": {
+          "securityId": "sb26977",
+          "symbol": "Arcelormittal",
+          "category": "STOCKS",
+          "displayName": "Arcelormittal"
+        },
+        "investingAmount": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "200.00"
+        },
+        "direction": "SELL",
+        "type": "CLOSE",
+        "profitAndLoss": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "95.64"
+        },
+        "profitAndLossPercentage": "0.4782"
+      },
+      "worstTrade": {
+        "id": "4aee4a27-d05a-4eff-847d-0ba7390cb17c",
+        "dateCreated": 1455020974633,
+        "product": {
+          "securityId": "sb26494",
+          "symbol": "SPAIN35",
+          "category": "INDICES",
+          "displayName": "Spain 35"
+        },
+        "investingAmount": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "100.00"
+        },
+        "direction": "SELL",
+        "type": "CLOSE",
+        "profitAndLoss": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "-100.00"
+        },
+        "profitAndLossPercentage": "-1.0000"
+      },
+      "mostPopularTrade": {
+        "product": {
+          "securityId": "sb26500",
+          "symbol": "GOLD",
+          "displayName": "Gold"
+        },
+        "direction": "BUY",
+        "type": "OPEN"
+      },
+      "lastRequested": "2016-04-21T13:36:18.278Z"
+    }
+  }
+}

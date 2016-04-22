@@ -1,0 +1,164 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/feeschedule"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:30:38 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "FeeSchedule1",
+    "feeSchedules": [
+      {
+        "productCategory": "STOCKS",
+        "minimumAmount": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "0.25"
+        },
+        "feeBrackets": [
+          {
+            "percentage": "0.0015",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "5000.00"
+            }
+          },
+          {
+            "percentage": "0.0012",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "12500.00",
+              "low": "5000.01"
+            }
+          },
+          {
+            "percentage": "0.0010",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "low": "12500.01"
+            }
+          }
+        ]
+      },
+      {
+        "productCategory": "INDICES",
+        "minimumAmount": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "0.25"
+        },
+        "feeBrackets": [
+          {
+            "percentage": "0.0006",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "5000.00"
+            }
+          },
+          {
+            "percentage": "0.0005",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "12500.00",
+              "low": "5000.01"
+            }
+          },
+          {
+            "percentage": "0.0005",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "low": "12500.01"
+            }
+          }
+        ]
+      },
+      {
+        "productCategory": "FOREX",
+        "minimumAmount": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "0.25"
+        },
+        "feeBrackets": [
+          {
+            "percentage": "0.0005",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "5000.00"
+            }
+          },
+          {
+            "percentage": "0.0004",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "12500.00",
+              "low": "5000.01"
+            }
+          },
+          {
+            "percentage": "0.0004",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "low": "12500.01"
+            }
+          }
+        ]
+      },
+      {
+        "productCategory": "COMMODITIES",
+        "minimumAmount": {
+          "currency": "BUX",
+          "decimals": 2,
+          "amount": "0.25"
+        },
+        "feeBrackets": [
+          {
+            "percentage": "0.0010",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "5000.00"
+            }
+          },
+          {
+            "percentage": "0.0008",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "high": "12500.00",
+              "low": "5000.01"
+            }
+          },
+          {
+            "percentage": "0.0008",
+            "range": {
+              "currency": "BUX",
+              "decimals": 2,
+              "low": "12500.01"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

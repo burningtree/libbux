@@ -1,0 +1,35 @@
+{
+  "name": "libbux",
+  "version": "0.1.0",
+  "description": "Un-official Javascript/Node.js library for BUX trading platform.",
+  "main": "lib/bux.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burningtree/libbux.git"
+  },
+  "author": "Jan Stránský <jan.stransky@arnal.cz>",
+  "license": "MIT",
+  "keywords": [
+    "finance",
+    "trading",
+    "market"
+  ],
+  "bugs": {
+    "url": "https://github.com/burningtree/libbux/issues"
+  },
+  "homepage": "https://github.com/burningtree/libbux#readme",
+  "devDependencies": {
+    "async": "^2.0.0-rc.3",
+    "coffee-script": "^1.10.0",
+    "hapi": "^13.3.0",
+    "js-yaml": "^3.6.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "superagent": "^1.8.3"
+  }
+}

@@ -1,0 +1,7 @@
+env: 
+  browser: true
+  node: true
+
+rules:
+  quote-props: false
+  quotes: [2, "single"]

@@ -1,0 +1,109 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/friends"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:28:55 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": [
+    {
+      "id": "b2fc7594-2575-4789-bc71-0d4c8ab233bc",
+      "nickname": "artijn",
+      "title": "Rookie Trader",
+      "countryCode": "NL",
+      "accountType": "FUN_BUX",
+      "friendSince": 1455804051608
+    },
+    {
+      "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+      "nickname": "burnedtree",
+      "title": "Rookie Trader",
+      "countryCode": "AT",
+      "accountType": "SERIOUS_BUX",
+      "friendSince": 1456936881435
+    },
+    {
+      "id": "fb8ac84d-e793-45a6-88d9-c25d2a20fd4c",
+      "nickname": "elvis112",
+      "title": "Rookie Trader",
+      "countryCode": "GB",
+      "accountType": "SERIOUS_BUX",
+      "friendSince": 1456707814247
+    },
+    {
+      "id": "e343984c-79ac-4465-9a14-50291946fd03",
+      "nickname": "furgill",
+      "title": "Rookie Trader",
+      "countryCode": "NL",
+      "accountType": "FUN_BUX",
+      "friendSince": 1456399103472
+    },
+    {
+      "id": "e4633ec0-3b81-47f9-87c8-186baebd4d4c",
+      "nickname": "joshiyoshi",
+      "title": "Rookie Trader",
+      "countryCode": "GB",
+      "accountType": "FUN_BUX",
+      "friendSince": 1456399099189
+    },
+    {
+      "id": "d1467fbb-8753-4ee0-8ef4-0299ebb60418",
+      "nickname": "magicmike",
+      "title": "Early Adopter",
+      "countryCode": "GB",
+      "accountType": "SERIOUS_BUX",
+      "friendSince": 1457505416067
+    },
+    {
+      "id": "707189f1-f239-4173-a06b-95c907160820",
+      "nickname": "non3",
+      "title": "Rookie Trader",
+      "countryCode": "GB",
+      "accountType": "FUN_BUX",
+      "friendSince": 1456399101532
+    },
+    {
+      "id": "7db3ebba-7936-48e1-97cb-c3f583ca4d6d",
+      "nickname": "planktonjnr",
+      "title": "Rookie Trader",
+      "countryCode": "GB",
+      "accountType": "SERIOUS_BUX",
+      "friendSince": 1455582999872
+    },
+    {
+      "id": "00e31031-717f-4aa5-b04d-916c313ce5b2",
+      "nickname": "radusaaa",
+      "title": "Rookie Trader",
+      "countryCode": "GB",
+      "accountType": "FUN_BUX",
+      "friendSince": 1453889332831
+    },
+    {
+      "id": "a1c92fb8-4616-40d5-a7e5-35ee27892d28",
+      "nickname": "taru",
+      "title": "Rookie Trader",
+      "countryCode": "GB",
+      "accountType": "SERIOUS_BUX",
+      "friendSince": 1456935147235
+    },
+    {
+      "id": "cb70b189-3d7d-4ef2-b992-8c6fd6f2dfdb",
+      "nickname": "theodorus7",
+      "title": "Experienced Trader",
+      "countryCode": "NL",
+      "accountType": "FUN_BUX",
+      "friendSince": 1456752667027
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+#!/usr/bin/env coffee
+
+fs = require 'fs'
+yaml = require 'js-yaml'
+Path = require 'path'
+request = require 'superagent'
+async = require 'async'
+
+mockDir = process.argv[2]
+if !mockDir then throw Error 'specify mockDir'
+
+configFile = Path.resolve(__dirname, mockDir, 'endpoints.yaml')
+conf = yaml.load(fs.readFileSync(configFile))
+outputPath = Path.resolve(__dirname, mockDir)
+accessToken = JSON.parse(fs.readFileSync(Path.join(process.env.HOME, '.bux-config.json'))).account.access_token
+
+exception = (str) ->
+  console.log str
+  process.exit 1
+
+setup = () ->
+  # check output dir
+  if not fs.existsSync(outputPath)
+    return exception "outputPath not found: #{outputPath}"
+
+makeRequest = (method, url, config, callback) ->
+  if config and config.query
+    url = [ url, require('querystring').stringify(config.query) ].join('?')
+
+  r = request[method.toLowerCase()] url
+  r.set 'Authorization', 'Bearer '+accessToken
+  for hk, hv of conf.headers
+    r.set hk, hv
+
+  if method in [ 'POST', 'PUT' ] and config.data
+    r.send config.data
+
+  r.end (err, res) ->
+    callback null, res
+
+processEndpoint = (endpoint, ec, callback) ->
+  url = [ conf.baseUrl, conf.appBaseUrl, endpoint ].join('/')
+  methods = []
+  for m in [ 'GET', 'POST', 'PUT', 'DELETE' ]
+    if ec[m] then methods.push m
+  if methods.length == 0 then methods.push 'GET'
+
+  endpointOutput =
+    url: endpoint
+    methods: {}
+
+  async.eachSeries methods, (method, next) ->
+    outputFileFn = method.toLowerCase() + '_' + endpoint.replace(/\//g,'_')+'.json'
+    outputFile = Path.join outputPath, 'endpoints', outputFileFn
+
+    outputFileUrl = endpoint.replace /(\@([a-z]+))/gi, ->
+      if !conf.examples[arguments[2]]
+        return exception "Example not found: #{arguments[2]}"
+      return conf.examples[arguments[2]]
+
+    outputUrl = [ conf.baseUrl, conf.appBaseUrl, outputFileUrl ].join('/')
+
+    mc = ec[method]
+    console.log "Process #{method} #{url}"
+    console.log "  rendered url: #{outputUrl}"
+    console.log "  filename: #{outputFileFn}"
+
+    if fs.existsSync(outputFile)
+      console.log "  file exists, skipping .."
+      return next()
+
+    makeRequest method, outputUrl, mc, (err, res) ->
+
+      output = JSON.parse(JSON.stringify(res))
+      output.json = res.body
+      output.text = undefined
+
+      outputText = JSON.stringify(output, null, 2)
+      console.log "  have output: #{outputText.length}"
+
+      fs.writeFileSync(outputFile, outputText)
+      console.log "  writed: #{outputFile}"
+
+      console.log "Waiting #{conf.interval}s .."
+
+      endpointOutput.methods[method] =
+        url: [ conf.appBaseUrl, outputFileUrl ].join('/')
+
+      setTimeout next, conf.interval*1000
+  , ->
+    callback null, endpointOutput
+
+generateMocks = () ->
+
+  setup()
+
+  async.eachSeries Object.keys(conf.endpoints), (endpoint, next) ->
+    processEndpoint endpoint, conf.endpoints[endpoint], (err, res) ->
+      next()
+  , ->
+    console.log 'Done'
+
+generateMocks()

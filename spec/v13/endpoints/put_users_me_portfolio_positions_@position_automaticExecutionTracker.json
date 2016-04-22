@@ -1,0 +1,25 @@
+{
+  "req": {
+    "method": "PUT",
+    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/26af15b3-c7ac-4d41-9002-1af67492fd43/automaticExecutionTracker",
+    "data": {
+      "lowerLimit": -0.33
+    }
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 20:27:35 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "lowerLimit": "-0.33"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/notifications"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:28:57 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": [
+    {
+      "id": "news",
+      "badge": 0
+    },
+    {
+      "id": "breakingNews",
+      "badge": 0
+    },
+    {
+      "id": "battles",
+      "badge": 0,
+      "items": []
+    },
+    {
+      "id": "battleInvitations",
+      "badge": 0
+    },
+    {
+      "id": "groups",
+      "badge": 0,
+      "items": []
+    },
+    {
+      "id": "friends",
+      "badge": 0
+    },
+    {
+      "id": "newFriends",
+      "badge": 0
+    }
+  ]
+}

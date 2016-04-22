@@ -1,0 +1,8 @@
+#!/usr/bin/env coffee
+
+BUXMockServer = require './mock-server.coffee'
+
+server = new BUXMockServer(process.argv[2], process.argv[3])
+server.start (env) ->
+  console.log "BUX mock server running at: #{env.info.uri}"
+

@@ -1,0 +1,14 @@
+{
+  "req": {
+    "method": "POST",
+    "url": "https://api.getbux.com/auth/3/authorize",
+    "data": {
+    }
+  },
+  "header": {
+  },
+  "status": 200,
+  "json": {
+    "access_token": "xxxxx"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/tradeconfigurations/sb28205"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 17:37:29 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "product": {
+      "securityId": "sb28205"
+    },
+    "homeCurrency": "BUX",
+    "tradeDirections": [
+      "BUY",
+      "SELL"
+    ],
+    "tradeSizes": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      120,
+      140,
+      160,
+      180,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      600,
+      700,
+      800
+    ],
+    "boostEffects": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "preferredTradeSize": 10,
+    "preferredBoostEffect": 5,
+    "homeCurrencyDecimals": 2
+  }
+}

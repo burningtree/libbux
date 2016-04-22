@@ -1,0 +1,54 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/news"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 21 Apr 2016 21:17:48 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "countryCode": "GB",
+    "headlines": [
+      {
+        "id": "589e48e8-47f1-49ee-9a2c-cae8d99bc8d5",
+        "title": "APP GUIDE: Quarterly figures... What can I do with them?",
+        "author": "BUX Team",
+        "imageUrl": "https://s3-eu-central-1.amazonaws.com/bux-newsimages-live/589e48e8-47f1-49ee-9a2c-cae8d99bc8d5_9fca66ad-6f90-44ab-bec9-427d6b8471f7.jpg"
+      },
+      {
+        "id": "7224cb26-c1d2-4ff1-8437-6c5c86df3b80",
+        "title": "Can we expect grand earnings from Google?",
+        "author": "Yasin Ebrahim",
+        "imageUrl": "https://s3-eu-central-1.amazonaws.com/bux-newsimages-live/7224cb26-c1d2-4ff1-8437-6c5c86df3b80_f6485976-3659-4032-8965-e6e72135714b.jpg"
+      },
+      {
+        "id": "00bd16ee-ed9f-4d6f-aef9-827572797752",
+        "title": "McDonald's report for lunch tomorrow",
+        "author": "Kimberley Bailey",
+        "imageUrl": "https://s3-eu-central-1.amazonaws.com/bux-newsimages-live/00bd16ee-ed9f-4d6f-aef9-827572797752_caf0e416-d799-464a-8b9d-d2cdb7e8e8aa.jpg"
+      },
+      {
+        "id": "ab8d37ae-352f-4a75-bd39-41741112d3c6",
+        "title": "Worth putting your bucks in Starbucks?",
+        "author": "Kimberley Bailey",
+        "imageUrl": "https://s3-eu-central-1.amazonaws.com/bux-newsimages-live/ab8d37ae-352f-4a75-bd39-41741112d3c6_bb84078d-dac3-40e5-aa9a-5749eca040c0.jpg"
+      },
+      {
+        "id": "17b9a15b-3c7f-41b4-8c9e-ff435512450d",
+        "title": "Have we forgiven Volkswagen for cheating?",
+        "author": "Ben Brown",
+        "imageUrl": "https://s3-eu-central-1.amazonaws.com/bux-newsimages-live/17b9a15b-3c7f-41b4-8c9e-ff435512450d_27103c26-b466-4690-97b6-cd04f2f767ef.jpg"
+      }
+    ]
+  }
+}
