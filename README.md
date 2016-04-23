@@ -1,31 +1,39 @@
 # libbux
 [![Dependency Status](https://david-dm.org/burningtree/libbux.svg)](https://david-dm.org/burningtree/libbux)
 
-Un-official Javascript/Node.js library for [BUX](http://getbux.com) trading platform.
+Un-official Javascript/Node.js library for [BUX](http://getbux.com) trading platform. Let's rock the world of finance!
 
-This is EXPERIMENTAL version. Use at your own risk.
+It uses official REST & WebSockets APIs which are used for a BUX mobile applications. For these APIs, there is no public documentation and thus no official support from the BUX team. Keep in mind that any change in the interface may (temporarily) break this library.
+
+Current version: **<span bux-data="version">0.1.0</span>**    
+**This is EXPERIMENTAL version. Use at your own risk.**
 
 ## Table of contents
 * [Installation](#installation)
-* [Getting started](#getting-started)
-* [User guide](#user-guide)
-  * [Why use it?](#why-use-it)
+* [Getting Started](#getting-started)
+* [BUX Functionality](#bux-functionality)
+* [User Guide](#user-guide)
+  * [Why Use It?](#why-use-it)
   * [Authentication](#authentication)
-  * [Understanding data](#understanding-data)
-  * [Making trades](#making-trades)
+  * [Understanding Data](#understanding-data)
+  * [Making Trades](#making-trades)
   * [Configuration](#configuration)
   * [Symbols](#symbols)
-* [API Reference](#api-reference)
+* **[API Reference](#api-reference)**
+* [Related Projects](#related-projects)
 
 ## Installation
 
+Requires [Node.js](https://nodejs.org/en/) v0.12 or higher.
 ```
 $ npm install libbux
 ```
 
-## Getting started
+## Getting Started
 
-#### Minimal example - [minimal.js](/examples/minimal.js)
+#### Example: Show my profits
+
+Source: [examples/minimal.js](/examples/minimal.js)
 ```js
 // Load library and get api interface
 var BUX = require('libbux');
@@ -58,9 +66,32 @@ bux.login(account, function(err, data) {
 
 ```
 
-## User guide
+## BUX Functionality
 
-### Why use it?
+### Implemented
+* Authentication - Login
+* User - Profile, Friends
+* Products - List, Detail
+* Trading - Open position, Close position
+* Trading Fees - List
+* Positions - List, Detail, History
+* Portfolio - Performance
+* News - List
+* Social Feed - List
+
+### TODO
+* Real-time Data (WebSockets) - Un/Subscribe
+* Portfolio - Cash Balance
+* Trading - Alerts, Auto-Close
+* Groups / Battles - List, Feed, Post, Detail, Create
+* Products - Search
+* User - Settings, Notifications, Invitations, Pincode operations
+* Users - Detail, List?
+* Transactions - List, Payment, Withdrawal
+
+## User Guide
+
+### Why Use It?
 TODO
 
 ### Authentication
@@ -90,10 +121,10 @@ var bux = BUX.api({ access_token: 'MY_TOKEN' });
 // TODO
 ```
 
-### Understanding data
+### Understanding Data
 TODO
 
-### Making trades
+### Making Trades
 TODO
 
 ### Configuration
@@ -168,6 +199,9 @@ bux.exec('get', 'users/me', function(err, me) {
   console.log(me.nickname);
 });
 ```
+
+## Related Projects
+* [bitbar-bux](https://github.com/burningtree/bitbar-bux) - BUX Plugin for BitBar, application for customizing OS X Menu Bar
 
 ## TODO
 * documentation
