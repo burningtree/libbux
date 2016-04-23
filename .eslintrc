@@ -5,3 +5,6 @@ env:
 rules:
   quote-props: false
   quotes: [2, "single"]
+
+ecmaFeatures:
+  blockBindings: true
