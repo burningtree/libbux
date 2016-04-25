@@ -1,5 +1,5 @@
 # libBUX
-[![Dependency Status](https://david-dm.org/burningtree/libbux.svg)](https://david-dm.org/burningtree/libbux)
+[![Build Status](https://travis-ci.org/burningtree/libbux.svg?branch=master)](https://travis-ci.org/burningtree/libbux) [![Dependency Status](https://david-dm.org/burningtree/libbux.svg)](https://david-dm.org/burningtree/libbux)
 
 Un-official Javascript/Node.js library for [BUX](http://getbux.com) trading platform. Let's rock the world of finance!
 
