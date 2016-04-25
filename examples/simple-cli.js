@@ -21,7 +21,14 @@ methods.product = function(arg) {
 };
 
 methods.portfolio = function() {
-  bux.get('users/me/portfolio', function(err, output) {
+  bux.portfolio(function(err, output) {
+    if(err) { throw Error(err); }
+    console.log(JSON.stringify(output, null, 2));
+  });
+}
+
+methods.notifications = function() {
+  bux.notifications(function(err, output) {
     if(err) { throw Error(err); }
     console.log(JSON.stringify(output, null, 2));
   });

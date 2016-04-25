@@ -70,7 +70,7 @@ bux.login(account, function(err, data) {
 
 ### Implemented
 * Authentication - Login
-* User - Profile, Friends
+* User - Profile, Friends, Notifications
 * Products - List, Detail
 * Trading - Open position, Close position
 * Trading Fees - List
@@ -85,7 +85,7 @@ bux.login(account, function(err, data) {
 * Trading - Alerts, Auto-Close
 * Groups / Battles - List, Feed, Post, Detail, Create
 * Products - Search
-* User - Settings, Notifications, Invitations, Pincode operations
+* User - Settings, Invitations, Pincode operations
 * Users - Detail, List?
 * Transactions - List, Payment, Withdrawal
 
@@ -150,6 +150,7 @@ TODO
 * **me** ``(callback)`` - Basic info about account
 * **profile** `(callback)` - Your profile
 * **friends** `(callback)` - Friends list
+* **notifications** `(callback)` - List of pending notifications
 * **news** `(callback)` - News articles
 * **feed** `(callback)` - Social feed
 * **product** `(productId, callback)` - Product detail
@@ -217,6 +218,7 @@ Available events:
 * `battle.created`
 * `battle.finished`
 * `group.followed`
+* `notification`
 
 ## Related Projects
 * [bitbar-bux](https://github.com/burningtree/bitbar-bux) - BUX Plugin for BitBar, application for customizing OS X Menu Bar
