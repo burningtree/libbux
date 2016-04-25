@@ -1,31 +1,29 @@
+// --------------------------------------------------------
+// Create '.bux-config.json' file in your $HOME directory:
+// { "account": { "access_token": "YOUR_TOKEN" }}
+// --------------------------------------------------------
+var token = JSON.parse(require('fs').readFileSync(process.env.HOME + '/.bux-config.json')).account.access_token;
+
 var BUX = require('..');
+var bux = new BUX.api({ access_token: token });
 
+// enable debugging
 process.env.DEBUG = 'libbux:*'
-
-var bux = new BUX.api();
 
 auth = { email: 'USERNAME', password: 'PASSWORD' }
 methods = {};
 
 methods.product = function(arg) {
-  bux.login(auth, function(err) {
+  bux.product(arg, function(err, output) {
     if(err) { throw Error(err); }
-
-    bux.product(arg, function(err, output) {
-      if(err) { throw Error(err); }
-      console.log(JSON.stringify(output, null, 2));
-    });
+    console.log(JSON.stringify(output, null, 2));
   });
 };
 
 methods.portfolio = function() {
-  bux.login(auth, function(err) {
+  bux.get('users/me/portfolio', function(err, output) {
     if(err) { throw Error(err); }
-
-    bux.get('users/me/portfolio', function(err, output) {
-      if(err) { throw Error(err); }
-      console.log(JSON.stringify(output, null, 2));
-    });
+    console.log(JSON.stringify(output, null, 2));
   });
 }
 

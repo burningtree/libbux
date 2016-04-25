@@ -11,6 +11,8 @@ var qs = require('querystring');
 // --------------------------------------------------------
 var token = JSON.parse(require('fs').readFileSync(process.env.HOME + '/.bux-config.json')).account.access_token;
 
+var BUX = require('..');
+
 const stockCurrencies = {
   STU: 'EUR',
   NYQ: 'USD',
@@ -118,8 +120,7 @@ function fixLength(str, len) {
   return str + ',' + (" ").repeat(diff);
 }
 
-var BUX = require('..');
-var bux = new BUX.api({ access_token: token, server: 'localhost:7878' });
+var bux = new BUX.api({ access_token: token });
 
 var output = {}
 

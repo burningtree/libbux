@@ -78,9 +78,9 @@ bux.login(account, function(err, data) {
 * Portfolio - Performance
 * News - List
 * Social Feed - List
+* Real-time Data (WebSockets) - Un/Subscribe
 
 ### TODO
-* Real-time Data (WebSockets) - Un/Subscribe
 * Portfolio - Cash Balance
 * Trading - Alerts, Auto-Close
 * Groups / Battles - List, Feed, Post, Detail, Create
@@ -160,7 +160,10 @@ TODO
 * **performance** `(callback)` - Basic performance info
 * **trades** `(callback)` - Trading history
 * **[open](#open-trade-callback)** `(trade, callback)` - Open position
-* **close** `(positionId, cb)` - Close position
+* **close** `(positionId, callback)` - Close position
+* **[subscribe](#subscribe-eventsarray-callback)** `(eventsArray, callback, [onReady])` - Subscribe for Realtime data
+* **subscribeProducts** `(productsArray, callback, [onReady])` - Subscribe for Product price changes
+* **unsubscribe** `(eventsArray)` - Unsubscribe
 
 #### Internal methods
 * **[exec](#exec-method-endpoint-data-callback)** (method, endpoint, data, callback) - Execute BUX API call
@@ -199,6 +202,21 @@ bux.exec('get', 'users/me', function(err, me) {
   console.log(me.nickname);
 });
 ```
+
+### subscribe (eventsArray, callback)
+Subscribe to Realtime data, for example:
+```js
+bux.subscribe([ 'portfolio.performance' ], function(res, type, data) {
+  console.log('Got message: type=%s, data=%s', type, data);
+});
+```
+Available events:
+* `performance`
+* `product.{securityId}` - (for example `product.sb33927`)
+* `position.opened`
+* `battle.created`
+* `battle.finished`
+* `group.followed`
 
 ## Related Projects
 * [bitbar-bux](https://github.com/burningtree/bitbar-bux) - BUX Plugin for BitBar, application for customizing OS X Menu Bar
