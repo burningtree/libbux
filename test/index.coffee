@@ -8,7 +8,8 @@ fs = require 'fs'
 specVersion = 'v13'
 
 spec = yaml.load fs.readFileSync(Path.resolve(__dirname, "../spec/#{specVersion}/endpoints.yaml"))
-token = JSON.parse(fs.readFileSync(process.env.HOME + '/.bux-config.json')).account.access_token;
+#token = JSON.parse(fs.readFileSync(process.env.HOME + '/.bux-config.json')).account.access_token;
+token = 'TEST-TOKEN'
 
 bux = null
 mockServerPort = 7890
