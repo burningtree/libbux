@@ -24,7 +24,7 @@ Current version: **<span bux-data="version">0.2.1</span>**
 
 ## Installation
 
-Requires [Node.js](https://nodejs.org/en/) v0.12 or higher.
+Requires [Node.js](https://nodejs.org/en/) v4.0 or higher.
 ```
 $ npm install libbux
 ```
