@@ -3,8 +3,12 @@ env:
   node: true
 
 rules:
-  quote-props: false
+  quote-props: 0
   quotes: [2, "single"]
+  strict: 1
+  camelcase: 1
+  no-use-before-define: 1
+  no-shadow: 1
 
 ecmaFeatures:
   blockBindings: true

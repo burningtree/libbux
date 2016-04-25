@@ -75,13 +75,12 @@ bux.login(account, function(err, data) {
 * Trading - Open position, Close position
 * Trading Fees - List
 * Positions - List, Detail, History
-* Portfolio - Performance
+* Portfolio - Cash Balance, Performance
 * News - List
 * Social Feed - List
 * Real-time Data (WebSockets) - Un/Subscribe
 
 ### TODO
-* Portfolio - Cash Balance
 * Trading - Alerts, Auto-Close
 * Groups / Battles - List, Feed, Post, Detail, Create
 * Products - Search
@@ -148,6 +147,7 @@ TODO
 
 * **[login](#login-account-callback)** `(account, callback)` - Login
 * **me** ``(callback)`` - Basic info about account
+* **balance** ``(callback)`` - Cash balance
 * **profile** `(callback)` - Your profile
 * **friends** `(callback)` - Friends list
 * **notifications** `(callback)` - List of pending notifications

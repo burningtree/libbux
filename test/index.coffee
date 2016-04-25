@@ -25,11 +25,13 @@ describe 'libbux', ->
     server.start (env) ->
 
   describe 'main', ->
+
     it 'api load', ->
       bux = getBUX()
       assert.equal bux.version(), BUX.version
 
   describe 'internal methods', ->
+
     it 'version', ->
       assert.equal bux.version(), BUX.version
 
@@ -55,11 +57,13 @@ describe 'libbux', ->
       assert.equal bux.findProductBySymbol(spec.examples.product_symbol), spec.examples.product
 
   describe 'public methods', ->
+
     it 'exec', (done) ->
       bux.exec 'get', 'users/me', (err, data) ->
         assert.equal err, null
         assert.equal data.nickname, 'burningtree'
         done()
+
     it 'login', (done) ->
       bux.login { 'email': 'xxx@example.org', 'password': 'PASSWORD' }, (err, data) ->
         assert.equal err, null
@@ -136,6 +140,12 @@ describe 'libbux', ->
       bux.performance (err, data) ->
         assert.equal err, null
         assert.equal data.accountValue.amount, spec.examples.performance_account_amount
+        done()
+
+    it 'balance', (done) ->
+      bux.balance (err, data) ->
+        assert.equal err, null
+        assert.equal data.availableCashForWithdrawal.amount, 0
         done()
 
     it 'trades', (done) ->

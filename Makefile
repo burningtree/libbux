@@ -2,7 +2,7 @@ NODE = node
 SED = sed
 VERSION = $(shell cat package.json | jq -r .version)
 
-all: version test
+all: version lint test
 
 test: .
 	mocha --compilers coffee:coffee-script/register
@@ -14,12 +14,8 @@ version:
 	@perl -p -i -e "s/BUXVersion = '([\d\.]+)'/BUXVersion = '$(VERSION)'/g" lib/bux.js
 	@echo Version $(VERSION) done.
 
-make-docs:
-	@echo "TODO"
+lint:
+	eslint -c .eslintrc ./lib/
 
-help:
-	@echo ""
-	@echo " Available commands:"
-	@echo "   all docs"
 
 .PHONY: all

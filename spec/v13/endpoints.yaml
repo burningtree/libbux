@@ -41,6 +41,7 @@ endpoints:
   'users/me/tradeconfigurations/@product': {}
   'users/me/news': {}
   'users/me/portfolio': {}
+  'users/me/portfolio/cashBalance': {}
   'users/me/portfolio/performance': {}
   'users/me/portfolio/positions/@position':
     GET: {}

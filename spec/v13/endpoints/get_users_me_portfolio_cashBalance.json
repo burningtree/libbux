@@ -1,0 +1,53 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/portfolio/cashBalance"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Mon, 25 Apr 2016 19:50:58 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "type": "FUN_BUX",
+    "cashBalance": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "1097.73"
+    },
+    "totalProfitAndLoss": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "-177.32"
+    },
+    "investedAmount": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "1240.00"
+    },
+    "ringFencedAmount": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "116.89"
+    },
+    "availableCashForTrading": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "980.84"
+    },
+    "availableCashForWithdrawal": {
+      "currency": "BUX",
+      "decimals": 2,
+      "amount": "0.00"
+    },
+    "blockedAmounts": []
+  }
+}
