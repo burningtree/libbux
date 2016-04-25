@@ -2,7 +2,10 @@ NODE = node
 SED = sed
 VERSION = $(shell cat package.json | jq -r .version)
 
-all: version
+all: version test
+
+test: .
+	mocha --compilers coffee:coffee-script/register
 
 version:
 	@echo Replacing version in README.md ..

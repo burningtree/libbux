@@ -15,7 +15,7 @@ class BUXMockServer
 
     loadMock = (method, fn) ->
       realFn = Path.join(workingPath, 'endpoints', method.toLowerCase() + '_' + fn.replace(/\//g,'_') + '.json')
-      console.log "Loading: #{realFn}"
+      #console.log "Loading: #{realFn}"
       return JSON.parse(fs.readFileSync(realFn))
 
     server = new Hapi.Server()
@@ -23,7 +23,7 @@ class BUXMockServer
 
     createHandler = (method, endpoint, endpointData, methodData) ->
       return (req, reply) ->
-        console.log "Hit endpoint: #{method} #{endpoint}"
+        #console.log "Hit endpoint: #{method} #{endpoint}"
 
         mock = loadMock method, endpoint
         reply(mock.json)
@@ -36,7 +36,7 @@ class BUXMockServer
       else
         path = util.format '/%s/%s', config.appBaseUrl, endpointPath
 
-      console.log "Loading endpoint: #{endpoint}, path = #{path}"
+      #console.log "Loading endpoint: #{endpoint}, path = #{path}"
       fn = endpoint.replace('/', '_')
 
       methods = []

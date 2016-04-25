@@ -166,10 +166,13 @@ TODO
 * **subscribeProducts** `(productsArray, callback, [onReady])` - Subscribe for Product price changes
 * **unsubscribe** `(eventsArray)` - Unsubscribe
 
+
 #### Internal methods
-* **[exec](#exec-method-endpoint-data-callback)** (method, endpoint, data, callback) - Execute BUX API call
-* **findSymbolByProduct** (productId)
-* **getEndpointUrl** (endpoint)
+* **[exec](#exec-method-endpoint-data-callback)** `(method, endpoint, data, callback)` - Execute BUX API call
+* **getSymbols** `()`
+* **setSymbols** `(symbolsObject)`
+* **findSymbolByProduct** `(productId)`
+* **getEndpointUrl** `(endpoint)`
 
 ### login (account, callback)
 Login to BUX, get your *access_token*.

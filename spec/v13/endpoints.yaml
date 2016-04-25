@@ -7,8 +7,22 @@ headers:
   'User-Agent': okhttp/3.2.0
 
 examples:
-  product: 'sb28205'
-  position: '26af15b3-c7ac-4d41-9002-1af67492fd43'
+  product: sb28205
+  position: 26af15b3-c7ac-4d41-9002-1af67492fd43
+
+  me_id: babac175-5687-41a3-aaab-6295fecfbbe3
+  friends_first: artijn
+  profile_totaltrades: 436
+  notifications_second_id: breakingNews
+  product_symbol: ATVI
+  products_first_security: sb29388
+  position_product_name: Germany 30
+  performance_account_amount: 2125.35
+  trades_first_created: 1461258840753
+  portfolio_firstposition_productname: Easyjet
+  fees_first_category: STOCKS
+  feed_first_type: social.position.opened
+  news_first_title: 'APP GUIDE: Quarterly figures... What can I do with them?'
 
 endpoints:
   'products/search': {}

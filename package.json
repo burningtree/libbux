@@ -4,7 +4,7 @@
   "description": "Un-official Javascript/Node.js library for BUX trading platform.",
   "main": "lib/bux.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers coffee:coffee-script/register"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/burningtree/libbux#readme",
   "devDependencies": {
     "async": "^2.0.0-rc.3",
+    "chai": "^3.5.0",
     "coffee-script": "^1.10.0",
     "hapi": "^13.3.0",
     "js-yaml": "^3.6.0",
