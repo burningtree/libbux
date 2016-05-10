@@ -4,41 +4,33 @@
 // --------------------------------------------------------
 var token = JSON.parse(require('fs').readFileSync(process.env.HOME + '/.bux-config.json')).account.access_token;
 
-var BUX = require('..');
-var bux = new BUX.api({ access_token: token });
-
 // enable debugging
 process.env.DEBUG = 'libbux:*'
+
+// initialize BUX
+var BUX = require('..');
+var bux = new BUX.api({ access_token: token });
 
 auth = { email: 'USERNAME', password: 'PASSWORD' }
 methods = {};
 
-methods.product = function(arg) {
-  bux.product(arg, function(err, output) {
+var runAPI = function(method, arg) {
+  // process arguments
+  var args = Array.prototype.slice.call(arguments)
+    .filter(function(x) { return x !== undefined })
+    .map(function(x) { if(x.match(/^\{/)) { return JSON.parse(x); }; return x; });
+
+  // set method
+  var method = args.shift();
+
+  // callback handler
+  args.push(function(err, output) {
     if(err) { throw Error(err); }
     console.log(JSON.stringify(output, null, 2));
   });
+
+  // call api
+  bux[method].apply(bux, args);
 };
 
-methods.portfolio = function() {
-  bux.portfolio(function(err, output) {
-    if(err) { throw Error(err); }
-    console.log(JSON.stringify(output, null, 2));
-  });
-}
-
-methods.notifications = function() {
-  bux.notifications(function(err, output) {
-    if(err) { throw Error(err); }
-    console.log(JSON.stringify(output, null, 2));
-  });
-}
-
-methods.login = function() {
-  bux.login(auth, function(err, output) {
-    if(err) { throw Error(err); }
-    console.log(JSON.stringify(output, null, 2));
-  });
-}
-
-methods[process.argv[2]](process.argv[3])
+runAPI(process.argv[2], process.argv[3], process.argv[4], process.argv[5]);
