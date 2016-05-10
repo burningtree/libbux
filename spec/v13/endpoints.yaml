@@ -8,10 +8,15 @@ headers:
 
 examples:
   product: sb28205
-  position: 26af15b3-c7ac-4d41-9002-1af67492fd43
+  position: 9febd1c5-cb33-4d01-89f4-0e2c85497982
+  group: bdd092cf-9b10-45c9-8273-7c500c736af9
+  publicGroup: f5e7665b-6b78-487e-9b3f-7c33a06c275d
+  user: 93db03c7-cedb-41a9-9e51-3925be427b69
+  message: 167c12dd-16cf-11e6-b4c2-363465656139
+  lastReadFeedItemId: 8ec1e2e9-0ab8-11e6-821d-363465656139
 
-  me_id: babac175-5687-41a3-aaab-6295fecfbbe3
-  friends_first: artijn
+  username: buxlib
+  friends_first: burningtree
   profile_totaltrades: 436
   notifications_second_id: breakingNews
   product_symbol: ATVI
@@ -19,35 +24,46 @@ examples:
   position_product_name: Germany 30
   performance_account_amount: 2125.35
   trades_first_created: 1461258840753
-  portfolio_firstposition_productname: Easyjet
   fees_first_category: STOCKS
   feed_first_type: social.position.opened
-  news_first_title: 'APP GUIDE: Quarterly figures... What can I do with them?'
 
 endpoints:
+  '/auth/3/authorize': { POST: {}}
   'products/search': {}
   'products/@product': {}
   'users/me': {}
   'users/me/profile': {}
-  'users/me/trades':
-    GET: {}
-    POST: { data: { boostEffect: '5', direction: 'BUY', homeCurrency: 'BUX', productId: 'sb27701', source: 'PRODUCTS_CURATED', tradeSize: '10' }}
+  'users/me/trades': { GET: {}, POST: { data: { boostEffect: '5', direction: 'BUY', homeCurrency: 'BUX', productId: 'sb27701', source: 'PRODUCTS_CURATED', tradeSize: '10' }}}
   'users/me/friends': {}
   'users/me/education': {}
   'users/me/notifications': {}
-  'users/me/socialfeed':
-    GET: { query: { f: PUBLIC }}
+  'users/me/socialfeed': { GET: { query: { f: PUBLIC }}}
   'users/me/feeschedule': {}
   'users/me/tradeconfigurations/@product': {}
   'users/me/news': {}
   'users/me/portfolio': {}
   'users/me/portfolio/cashBalance': {}
   'users/me/portfolio/performance': {}
-  'users/me/portfolio/positions/@position':
-    GET: {}
-    DELETE: {}
-  'users/me/portfolio/positions/@position/automaticExecutionTracker':
-    PUT: { data: { lowerLimit: -0.33 }}
-  '/auth/3/authorize':
-    POST: {}
+  'users/me/portfolio/positions/@position': { GET: {}, DELETE: {}}
+  'users/me/portfolio/positions/@position/automaticExecutionTracker': { GET: {}, PUT: { data: { lowerLimit: -0.33 }}}
+  'users/me/portfolio/positions/@position/alertTracker': { GET: {}, PUT: { data: { upperLimit: 150 }}}
+  'users/me/groups': {}
+  'users/me/groups/@publicGroup': { DELETE: {}}
+  'users/me/groups/@group/settings': { PUT: { data: { muteUntil: 31536000000000 }}}
+  'users/me/groups/@group/feed/cursor': {}
+  'users/me/groups/@group/feed/cursor/@lastReadFeedItemId': { PUT: {}}
+  'users/me/groups/allowed': {}
+  'users/me/groups/@group/role': {}
+  'groups/@group': {}
+  'groups/@group/feed': {}
+  'groups/@group/feed/chat': { POST: { data: { message: 'Test message' }}}
+  'groups/@group/feed/chat/@message': { DELETE: {}}
+  #'groups/@group/feed/media/image': { POST: {}}
+  #'groups/@group/feed/media/image/@groupImage': { DELETE: {}}
+  'groups/@group/members/@user/portfolio': {}
+  #'groups/@group/members/@user': { DELETE: {}}
+  #'groups/@group/members': { PUT: {}}
+  'groups/@publicGroup/follow': { PUT: {}}
+  #'groups/@group/avatar': { POST: {}}
+  'groups/@group/followerspreview': {}
 

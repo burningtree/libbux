@@ -5,7 +5,7 @@
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 17:37:29 GMT",
+    "date": "Tue, 10 May 2016 16:00:53 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -45,11 +45,7 @@
       300,
       350,
       400,
-      450,
-      500,
-      600,
-      700,
-      800
+      450
     ],
     "boostEffects": [
       1,
@@ -58,8 +54,6 @@
       4,
       5
     ],
-    "preferredTradeSize": 10,
-    "preferredBoostEffect": 5,
     "homeCurrencyDecimals": 2
   }
 }

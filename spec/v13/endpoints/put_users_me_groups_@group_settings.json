@@ -1,11 +1,14 @@
 {
   "req": {
-    "method": "GET",
-    "url": "https://api.getbux.com/core/13/users/me/portfolio/performance"
+    "method": "PUT",
+    "url": "https://api.getbux.com/core/13/users/me/groups/bdd092cf-9b10-45c9-8273-7c500c736af9/settings",
+    "data": {
+      "muteUntil": 31536000000000
+    }
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Tue, 10 May 2016 16:00:58 GMT",
+    "date": "Tue, 10 May 2016 23:26:00 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -17,12 +20,7 @@
   },
   "status": 200,
   "json": {
-    "accountValue": {
-      "currency": "BUX",
-      "decimals": 2,
-      "amount": "999.78"
-    },
-    "performance": "0.0030",
-    "suggestFunding": false
+    "muteUntil": 31536000000000,
+    "muted": true
   }
 }

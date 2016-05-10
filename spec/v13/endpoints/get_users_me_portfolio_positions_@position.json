@@ -1,11 +1,11 @@
 {
   "req": {
     "method": "GET",
-    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/26af15b3-c7ac-4d41-9002-1af67492fd43"
+    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/9febd1c5-cb33-4d01-89f4-0e2c85497982"
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 20:27:57 GMT",
+    "date": "Tue, 10 May 2016 16:00:59 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -17,7 +17,7 @@
   },
   "status": 200,
   "json": {
-    "id": "26af15b3-c7ac-4d41-9002-1af67492fd43",
+    "id": "9febd1c5-cb33-4d01-89f4-0e2c85497982",
     "product": {
       "securityId": "sb26493",
       "symbol": "GERMANY30",
@@ -102,40 +102,37 @@
         ]
       },
       "category": "INDICES",
-      "productMarketStatus": "CLOSED"
+      "productMarketStatus": "OPEN"
     },
     "investedAmount": {
       "currency": "BUX",
       "decimals": 2,
-      "amount": "100.00"
+      "amount": "10.00"
     },
     "profitAndLoss": {
       "currency": "BUX",
       "decimals": 2,
-      "amount": "3.16"
+      "amount": "0.03"
     },
-    "type": "SHORT",
+    "type": "LONG",
     "currentPrice": {
       "currency": "EUR",
       "decimals": 1,
-      "amount": "10376.1"
+      "amount": "10049.5"
     },
-    "openingsDate": 1461266736176,
-    "leverage": 20,
+    "openingsDate": 1462895821016,
+    "leverage": 25,
     "tradePrice": {
       "currency": "EUR",
       "decimals": 1,
-      "amount": "10392.5"
+      "amount": "10048.3"
     },
-    "tradeUnits": "0.19244647",
-    "automaticExecutionTracker": {
-      "lowerLimit": "-0.33"
-    },
+    "tradeUnits": "0.02487983",
     "cost": {
       "openingFee": {
         "currency": "BUX",
         "decimals": 2,
-        "amount": "-1.20"
+        "amount": "-0.25"
       }
     }
   }

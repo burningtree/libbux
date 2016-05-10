@@ -5,7 +5,7 @@
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 17:28:47 GMT",
+    "date": "Tue, 10 May 2016 16:00:43 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -27,18 +27,18 @@
     "currentPrice": {
       "currency": "USD",
       "decimals": 3,
-      "amount": "35.115"
+      "amount": "36.425"
     },
     "closingPrice": {
       "currency": "USD",
       "decimals": 3,
-      "amount": "35.225"
+      "amount": "37.155"
     },
     "dayRange": {
       "currency": "USD",
       "decimals": 3,
-      "high": "35.430",
-      "low": "34.960"
+      "high": "37.005",
+      "low": "36.260"
     },
     "yearRange": {
       "currency": "USD",

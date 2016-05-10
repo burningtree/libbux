@@ -1,0 +1,71 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/9febd1c5-cb33-4d01-89f4-0e2c85497982/automaticExecutionTracker"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 16:01:00 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "allowedLowerLimitValues": [
+      "-0.01",
+      "-0.02",
+      "-0.03",
+      "-0.04",
+      "-0.05",
+      "-0.06",
+      "-0.07",
+      "-0.08",
+      "-0.09",
+      "-0.10",
+      "-0.15",
+      "-0.20",
+      "-0.25",
+      "-0.30",
+      "-0.35",
+      "-0.40",
+      "-0.45",
+      "-0.50"
+    ],
+    "allowedUpperLimitValues": [
+      "0.01",
+      "0.02",
+      "0.03",
+      "0.04",
+      "0.05",
+      "0.06",
+      "0.07",
+      "0.08",
+      "0.09",
+      "0.10",
+      "0.15",
+      "0.20",
+      "0.25",
+      "0.30",
+      "0.35",
+      "0.40",
+      "0.45",
+      "0.50",
+      "0.55",
+      "0.60",
+      "0.65",
+      "0.70",
+      "0.75",
+      "0.80",
+      "0.85",
+      "0.90",
+      "0.95",
+      "1.00"
+    ]
+  }
+}

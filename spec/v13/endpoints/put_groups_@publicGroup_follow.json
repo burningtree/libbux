@@ -1,0 +1,17 @@
+{
+  "req": {
+    "method": "PUT",
+    "url": "https://api.getbux.com/core/13/groups/f5e7665b-6b78-487e-9b3f-7c33a06c275d/follow"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 17:07:50 GMT",
+    "content-length": "0",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store"
+  },
+  "status": 200,
+  "json": {}
+}

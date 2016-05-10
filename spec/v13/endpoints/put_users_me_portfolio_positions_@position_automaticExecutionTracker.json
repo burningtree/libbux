@@ -1,14 +1,14 @@
 {
   "req": {
     "method": "PUT",
-    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/26af15b3-c7ac-4d41-9002-1af67492fd43/automaticExecutionTracker",
+    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/90ff8dd6-0b68-4418-ab2e-958f7d7eac60/automaticExecutionTracker",
     "data": {
       "lowerLimit": -0.33
     }
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 20:27:35 GMT",
+    "date": "Tue, 10 May 2016 13:17:32 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",

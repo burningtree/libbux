@@ -5,7 +5,7 @@
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 17:28:57 GMT",
+    "date": "Tue, 10 May 2016 16:00:50 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -27,8 +27,7 @@
     },
     {
       "id": "battles",
-      "badge": 0,
-      "items": []
+      "badge": 0
     },
     {
       "id": "battleInvitations",
@@ -36,8 +35,7 @@
     },
     {
       "id": "groups",
-      "badge": 0,
-      "items": []
+      "badge": 0
     },
     {
       "id": "friends",

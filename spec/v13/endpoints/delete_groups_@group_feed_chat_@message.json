@@ -1,0 +1,40 @@
+{
+  "req": {
+    "method": "DELETE",
+    "url": "https://api.getbux.com/core/13/groups/bdd092cf-9b10-45c9-8273-7c500c736af9/feed/chat/167c12dd-16cf-11e6-b4c2-363465656139"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 16:52:33 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "t": "groups.feed.chat",
+    "id": "167c12dd-16cf-11e6-b4c2-363465656139",
+    "v": 1,
+    "body": {
+      "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+      "groupType": "PRIVATE",
+      "user": {
+        "id": "93db03c7-cedb-41a9-9e51-3925be427b69",
+        "nickname": "buxlib",
+        "title": "Experienced Trader",
+        "accountType": "FUN_BUX"
+      },
+      "time": 1462898937265,
+      "muted": false,
+      "groupName": "sheltER™",
+      "deleted": true,
+      "deletedByUserId": "93db03c7-cedb-41a9-9e51-3925be427b69",
+      "message": "helou"
+    }
+  }
+}

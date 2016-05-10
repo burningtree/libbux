@@ -1,0 +1,24 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/groups/allowed"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 16:01:05 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 403,
+  "json": {
+    "message": "User id '93db03c7-cedb-41a9-9e51-3925be427b69' is not allowed to perform this action on a group",
+    "developerMessage": "User id '93db03c7-cedb-41a9-9e51-3925be427b69' is not allowed to perform this action on a group",
+    "errorCode": "CORE_038"
+  }
+}

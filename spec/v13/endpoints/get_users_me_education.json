@@ -5,7 +5,7 @@
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 17:28:56 GMT",
+    "date": "Tue, 10 May 2016 16:00:49 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -17,7 +17,76 @@
   },
   "status": 200,
   "json": {
-    "firstTime": false,
-    "pages": []
+    "firstTime": true,
+    "pages": [
+      {
+        "id": "market_market",
+        "notify": true
+      },
+      {
+        "id": "market_favourites",
+        "notify": true
+      },
+      {
+        "id": "market_all",
+        "notify": true
+      },
+      {
+        "id": "market_trade",
+        "notify": true
+      },
+      {
+        "id": "market_item",
+        "notify": true
+      },
+      {
+        "id": "battle_battle",
+        "notify": true
+      },
+      {
+        "id": "battle_create",
+        "notify": true
+      },
+      {
+        "id": "battle_list",
+        "notify": true
+      },
+      {
+        "id": "portfolio_positions",
+        "notify": true
+      },
+      {
+        "id": "portfolio_cash",
+        "notify": true
+      },
+      {
+        "id": "portfolio_promos",
+        "notify": true
+      },
+      {
+        "id": "portfolio_alert_auto_close",
+        "notify": true
+      },
+      {
+        "id": "social_create",
+        "notify": true
+      },
+      {
+        "id": "social_activity",
+        "notify": true
+      },
+      {
+        "id": "social_explore",
+        "notify": true
+      },
+      {
+        "id": "group_details",
+        "notify": true
+      },
+      {
+        "id": "channel_details",
+        "notify": true
+      }
+    ]
   }
 }

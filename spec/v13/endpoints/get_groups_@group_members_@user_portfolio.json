@@ -1,0 +1,37 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/groups/bdd092cf-9b10-45c9-8273-7c500c736af9/members/93db03c7-cedb-41a9-9e51-3925be427b69/portfolio"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 16:01:09 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "positionCount": 1,
+    "investedPercentage": "0.0100",
+    "positions": [
+      {
+        "product": {
+          "securityId": "sb26493",
+          "symbol": "GERMANY30",
+          "category": "INDICES",
+          "displayName": "Germany 30"
+        },
+        "leverage": 25,
+        "type": "LONG",
+        "profitAndLossPercentage": "0.0050",
+        "investedPercentage": "1.0000"
+      }
+    ]
+  }
+}

@@ -61,7 +61,7 @@ describe 'libbux', ->
     it 'exec', (done) ->
       bux.exec 'get', 'users/me', (err, data) ->
         assert.equal err, null
-        assert.equal data.nickname, 'burningtree'
+        assert.equal data.nickname, spec.examples.username
         done()
 
     it 'login', (done) ->
@@ -73,13 +73,13 @@ describe 'libbux', ->
     it 'me', (done) ->
       bux.me (err, data) ->
         assert.equal err, null
-        assert.equal data.id, spec.examples.me_id
+        assert.equal data.id, spec.examples.user
         done()
 
     it 'profile', (done) ->
       bux.profile (err, data) ->
         assert.equal err, null
-        assert.equal data.tradingStats.totalTrades, spec.examples.profile_totaltrades
+        assert.isAbove data.tradingStats.totalTrades, 0
         done()
 
     it 'friends', (done) ->
@@ -97,7 +97,7 @@ describe 'libbux', ->
     it 'news', (done) ->
       bux.news (err, data) ->
         assert.equal err, null
-        assert.equal data.headlines[0].title, spec.examples.news_first_title
+        assert.isAbove data.headlines.length, 0
         done()
 
     it 'feed', (done) ->
@@ -127,7 +127,7 @@ describe 'libbux', ->
     it 'portfolio', (done) ->
       bux.portfolio (err, data) ->
         assert.equal err, null
-        assert.equal data.positions[0].product.displayName, spec.examples.portfolio_firstposition_productname
+        assert.equal data.positions[0].product.displayName, spec.examples.position_product_name
         done()
 
     it 'position', (done) ->
@@ -139,7 +139,7 @@ describe 'libbux', ->
     it 'performance', (done) ->
       bux.performance (err, data) ->
         assert.equal err, null
-        assert.equal data.accountValue.amount, spec.examples.performance_account_amount
+        assert.isAbove data.accountValue.amount, 0
         done()
 
     it 'balance', (done) ->
@@ -151,7 +151,7 @@ describe 'libbux', ->
     it 'trades', (done) ->
       bux.trades (err, data) ->
         assert.equal err, null
-        assert.equal data[0].dateCreated, spec.examples.trades_first_created
+        assert.equal data[0].type, 'OPEN'
         done()
 
     it 'open', (done) ->
@@ -176,4 +176,86 @@ describe 'libbux', ->
         assert.equal data.positionId, spec.examples.position
         assert.equal data.type, 'CLOSE'
         done()
+
+    it 'groups', (done) ->
+      bux.groups (err, data) ->
+        assert.equal err, null
+        assert.equal data.participating[0].id, spec.examples.group
+        done()
+
+    it 'group', (done) ->
+      bux.group spec.examples.group, (err, data) ->
+        assert.equal err, null
+        assert.equal data.type, 'PRIVATE'
+        done()
+
+    it 'groupFollow', (done) ->
+      bux.groupFollow spec.examples.publicGroup, (err, data) ->
+        assert.equal err, null
+        done()
+
+    it 'groupUnfollow', (done) ->
+      bux.groupUnfollow spec.examples.publicGroup, (err, data) ->
+        assert.equal err, null
+        done()
+
+    it 'groupFeed', (done) ->
+      bux.groupFeed spec.examples.group, (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.totalItemCount, 0
+        done()
+
+    it 'groupFeedCursor', (done) ->
+      bux.groupFeedCursor spec.examples.group, (err, data) ->
+        assert.equal err, null
+        assert.isOk data.lastReadFeedItemId
+        done()
+
+    it 'groupFeedCursorUpdate', (done) ->
+      bux.groupFeedCursorUpdate spec.examples.group, spec.examples.lastReadFeedItemId, (err, data) ->
+        assert.equal err, null
+        assert.equal data.lastReadFeedItemId, spec.examples.lastReadFeedItemId
+        done()
+
+    it 'groupFeedAdd', (done) ->
+      bux.groupFeedAdd spec.examples.group, 'Test message', (err, data) ->
+        assert.equal err, null
+        done()
+
+    it 'groupFeedDelete', (done) ->
+      bux.groupFeedDelete spec.examples.group, spec.examples.messageId, (err, data) ->
+        assert.equal err, null
+        assert.equal data.body.deleted, true
+        done()
+
+    it 'groupRole', (done) ->
+      bux.groupRole spec.examples.group, (err, data) ->
+        assert.equal err, null
+        assert.equal data.role, 'MEMBER'
+        done()
+
+    it 'groupMemberPortfolio', (done) ->
+      bux.groupMemberPortfolio spec.examples.group, spec.examples.user, (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.positionCount, 0
+        done()
+
+    it 'groupFollowersPreview', (done) ->
+      bux.groupFollowersPreview spec.examples.group, (err, data) ->
+        assert.equal err, null
+        assert.equal data.errorCode, 'CORE_038'
+        done()
+
+    it 'groupSettings', (done) ->
+      bux.groupSettings spec.examples.group, spec.endpoints['users/me/groups/@group/settings'].PUT.data, (err, data) ->
+        assert.equal err, null
+        assert.equal data.muted, true
+        done()
+
+    it 'allowedGroups', (done) ->
+      bux.allowedGroups (err, data) ->
+        assert.equal err, null
+        assert.equal data.errorCode, 'CORE_038'
+        done()
+
 

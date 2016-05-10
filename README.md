@@ -164,8 +164,21 @@ TODO
 * **close** `(positionId, callback)` - Close position
 * **[subscribe](#subscribe-eventsarray-callback)** `(eventsArray, callback, [onReady])` - Subscribe for Realtime data
 * **subscribeProducts** `(productsArray, callback, [onReady])` - Subscribe for Product price changes
-* **unsubscribe** `(eventsArray)` - Unsubscribe
-
+* **unsubscribe** `(eventsArray, callback)` - Unsubscribe
+* **groups** `(callback)` - Your groups
+* **group** `(groupId, callback)` - Group details
+* **groupFollow** `(groupId, callback)` - Follow group
+* **groupUnfollow** `(groupId, callback)` - Un-Follow group
+* **groupFeed** `(groupId, callback)` - Group feed items
+* **groupFeedCursor** `(groupId, callback)` - Group feed cursor
+* **groupFeedCursorUpdate** `(groupId, lastReadFeedItemId, callback)` - Set last read feed item
+* **groupFeedAdd** `(groupId, message, callback)` - Post message to group
+* **groupFeedDelete** `(groupId, messageId, callback)` - Delete message
+* **groupRole** `(groupId, callback)` - User group role
+* **groupMemberPortfolio** `(groupId, memberId, callback)` - Group member portfolio
+* **groupFollowersPreview** `(groupId)` - Group followers overview (only public groups)
+* **groupSettings** `(groupId, settings, callback)` - Update group settings (notifications)
+* **allowedGroups** `(callback)` - Get number of allowed groups
 
 #### Internal methods
 * **[exec](#exec-method-endpoint-data-callback)** `(method, endpoint, data, callback)` - Execute BUX API call

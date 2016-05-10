@@ -1,0 +1,20 @@
+{
+  "req": {
+    "method": "POST",
+    "url": "https://api.getbux.com/core/13/groups/bdd092cf-9b10-45c9-8273-7c500c736af9/feed/chat",
+    "data": {
+      "message": "Test message"
+    }
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 16:40:13 GMT",
+    "content-length": "0",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store"
+  },
+  "status": 200,
+  "json": {}
+}

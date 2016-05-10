@@ -5,7 +5,7 @@
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 20:47:05 GMT",
+    "date": "Tue, 10 May 2016 16:00:42 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -28,18 +28,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "30.39"
+        "amount": "30.72"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "30.70"
+        "amount": "30.14"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "30.41",
-        "low": "29.96"
+        "high": "30.81",
+        "low": "30.30"
       },
       "yearRange": {
         "currency": "EUR",
@@ -103,18 +103,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "19.178"
+        "amount": "18.023"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "18.975"
+        "amount": "17.943"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "19.190",
-        "low": "18.890"
+        "high": "18.173",
+        "low": "17.953"
       },
       "yearRange": {
         "currency": "EUR",
@@ -178,35 +178,30 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "106.73"
+        "amount": "113.98"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "107.43"
+        "amount": "114.25"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "107.28",
-        "low": "104.45"
+        "high": "116.50",
+        "low": "113.75"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "108.75",
+        "high": "118.30",
         "low": "62.51"
       },
       "openingHours": {
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -253,18 +248,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 4,
-        "amount": "5.3585"
+        "amount": "4.8760"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 4,
-        "amount": "5.2455"
+        "amount": "4.8300"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 4,
-        "high": "5.3785",
-        "low": "5.2420"
+        "high": "4.9580",
+        "low": "4.8405"
       },
       "yearRange": {
         "currency": "EUR",
@@ -328,18 +323,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1900.0"
+        "amount": "1906.5"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1932.5"
+        "amount": "1914.5"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "1933.0",
-        "low": "1890.5"
+        "high": "1932.0",
+        "low": "1902.0"
       },
       "yearRange": {
         "currency": "GBP",
@@ -403,24 +398,24 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 4,
-        "amount": "7.9835"
+        "amount": "7.4675"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 4,
-        "amount": "8.3170"
+        "amount": "7.2850"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 4,
-        "high": "8.3040",
-        "low": "7.9655"
+        "high": "7.6145",
+        "low": "7.3220"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 4,
         "high": "10.0900",
-        "low": "7.9655"
+        "low": "7.1900"
       },
       "openingHours": {
         "timezone": "Europe/Amsterdam",
@@ -460,7 +455,7 @@
         ]
       },
       "category": "STOCKS",
-      "favorite": true,
+      "favorite": false,
       "productMarketStatus": "CLOSED",
       "tags": [
         "EU_STOCKS",
@@ -478,18 +473,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "58.17"
+        "amount": "55.50"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "57.60"
+        "amount": "54.40"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "58.17",
-        "low": "56.90"
+        "high": "55.82",
+        "low": "55.07"
       },
       "yearRange": {
         "currency": "EUR",
@@ -552,18 +547,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "19.043"
+        "amount": "19.377"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "19.810"
+        "amount": "19.252"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "19.420",
-        "low": "18.858"
+        "high": "19.640",
+        "low": "19.235"
       },
       "yearRange": {
         "currency": "EUR",
@@ -627,18 +622,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "64.74"
+        "amount": "61.95"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "64.69"
+        "amount": "61.46"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "65.09",
-        "low": "64.22"
+        "high": "62.10",
+        "low": "61.16"
       },
       "yearRange": {
         "currency": "EUR",
@@ -702,18 +697,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "155.50"
+        "amount": "141.43"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "155.43"
+        "amount": "140.82"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "155.98",
-        "low": "153.82"
+        "high": "143.18",
+        "low": "140.85"
       },
       "yearRange": {
         "currency": "EUR",
@@ -725,12 +720,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -777,18 +767,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "13.90"
+        "amount": "13.29"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "14.27"
+        "amount": "12.92"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "14.27",
-        "low": "13.76"
+        "high": "13.33",
+        "low": "13.01"
       },
       "yearRange": {
         "currency": "EUR",
@@ -852,18 +842,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "5.070"
+        "amount": "4.169"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "5.331"
+        "amount": "4.084"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "5.440",
-        "low": "5.014"
+        "high": "4.261",
+        "low": "4.063"
       },
       "yearRange": {
         "currency": "EUR",
@@ -927,18 +917,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "85.19"
+        "amount": "81.79"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "84.72"
+        "amount": "81.29"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "87.25",
-        "low": "85.01"
+        "high": "82.92",
+        "low": "81.19"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1002,18 +992,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "4156.0"
+        "amount": "3927.0"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "4145.0"
+        "amount": "3947.8"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "4162.3",
-        "low": "4091.8"
+        "high": "3986.8",
+        "low": "3918.0"
       },
       "yearRange": {
         "currency": "GBP",
@@ -1077,18 +1067,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "443.10"
+        "amount": "426.65"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "442.85"
+        "amount": "426.70"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "445.15",
-        "low": "440.20"
+        "high": "430.85",
+        "low": "423.75"
       },
       "yearRange": {
         "currency": "GBP",
@@ -1152,18 +1142,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "171.93"
+        "amount": "163.05"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "171.38"
+        "amount": "158.53"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "173.83",
-        "low": "170.33"
+        "high": "163.93",
+        "low": "160.07"
       },
       "yearRange": {
         "currency": "GBP",
@@ -1227,18 +1217,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "4170.3"
+        "amount": "4237.0"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "4269.8"
+        "amount": "4215.3"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "4258.0",
-        "low": "4135.5"
+        "high": "4259.0",
+        "low": "4203.3"
       },
       "yearRange": {
         "currency": "GBP",
@@ -1302,18 +1292,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "71.19"
+        "amount": "69.01"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "71.29"
+        "amount": "68.69"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "71.37",
-        "low": "70.51"
+        "high": "69.57",
+        "low": "68.54"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1325,12 +1315,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -1377,18 +1362,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "110.53"
+        "amount": "100.03"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "109.75"
+        "amount": "100.03"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "110.57",
-        "low": "108.55"
+        "high": "101.78",
+        "low": "99.41"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1400,12 +1385,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -1452,18 +1432,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "80.70"
+        "amount": "80.12"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "81.99"
+        "amount": "79.69"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "81.87",
-        "low": "79.94"
+        "high": "81.15",
+        "low": "79.81"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1475,12 +1455,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -1527,35 +1502,30 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "84.28"
+        "amount": "78.01"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "84.39"
+        "amount": "76.41"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "85.07",
-        "low": "83.25"
+        "high": "78.25",
+        "low": "76.06"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "114.25",
+        "high": "108.55",
         "low": "66.00"
       },
       "openingHours": {
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -1602,18 +1572,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "37.11"
+        "amount": "35.24"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "36.56"
+        "amount": "35.77"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "37.14",
-        "low": "36.26"
+        "high": "36.24",
+        "low": "34.62"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1677,23 +1647,23 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "368.28"
+        "amount": "357.23"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "364.30"
+        "amount": "352.42"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "369.98",
-        "low": "365.53"
+        "high": "359.50",
+        "low": "352.30"
       },
       "yearRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "487.50",
+        "high": "467.31",
         "low": "249.44"
       },
       "openingHours": {
@@ -1752,18 +1722,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "434.92"
+        "amount": "440.13"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "438.17"
+        "amount": "440.15"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "438.78",
-        "low": "432.65"
+        "high": "445.90",
+        "low": "438.08"
       },
       "yearRange": {
         "currency": "GBP",
@@ -1827,18 +1797,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "26.513"
+        "amount": "24.348"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "26.373"
+        "amount": "24.025"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "26.743",
-        "low": "26.245"
+        "high": "24.773",
+        "low": "24.233"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1901,18 +1871,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "63.90"
+        "amount": "61.03"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "64.60"
+        "amount": "61.00"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "64.68",
-        "low": "62.90"
+        "high": "61.90",
+        "low": "60.72"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1975,18 +1945,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 4,
-        "amount": "8.2995"
+        "amount": "7.0405"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 4,
-        "amount": "8.2850"
+        "amount": "6.9825"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 4,
-        "high": "8.4380",
-        "low": "8.1250"
+        "high": "7.1510",
+        "low": "7.0035"
       },
       "yearRange": {
         "currency": "EUR",
@@ -1998,12 +1968,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -2050,18 +2015,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "66.83"
+        "amount": "60.09"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "66.39"
+        "amount": "59.68"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "66.94",
-        "low": "65.85"
+        "high": "60.57",
+        "low": "59.59"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2073,12 +2038,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -2125,18 +2085,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "16.72"
+        "amount": "15.00"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "16.48"
+        "amount": "14.65"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "17.02",
-        "low": "16.45"
+        "high": "15.30",
+        "low": "14.84"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2148,12 +2108,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -2200,18 +2155,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "74.51"
+        "amount": "76.14"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "74.14"
+        "amount": "75.43"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "74.86",
-        "low": "73.72"
+        "high": "76.19",
+        "low": "75.37"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2223,12 +2178,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -2275,18 +2225,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "26.053"
+        "amount": "25.752"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "25.987"
+        "amount": "25.668"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "26.123",
-        "low": "25.822"
+        "high": "26.078",
+        "low": "25.743"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2298,12 +2248,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -2350,18 +2295,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "15.945"
+        "amount": "15.610"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "16.108"
+        "amount": "15.450"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "16.100",
-        "low": "15.763"
+        "high": "15.775",
+        "low": "15.540"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2373,12 +2318,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -2425,18 +2365,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "4.754"
+        "amount": "4.156"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "4.780"
+        "amount": "4.172"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "4.885",
-        "low": "4.694"
+        "high": "4.265",
+        "low": "4.145"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2500,18 +2440,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1920.3"
+        "amount": "1889.8"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1953.3"
+        "amount": "1892.5"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "1949.5",
-        "low": "1895.8"
+        "high": "1910.5",
+        "low": "1879.0"
       },
       "yearRange": {
         "currency": "GBP",
@@ -2575,18 +2515,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "418.15"
+        "amount": "418.25"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "415.90"
+        "amount": "418.65"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "418.85",
-        "low": "410.75"
+        "high": "424.75",
+        "low": "416.20"
       },
       "yearRange": {
         "currency": "GBP",
@@ -2650,18 +2590,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "52.22"
+        "amount": "52.66"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "52.82"
+        "amount": "51.62"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "52.97",
-        "low": "51.79"
+        "high": "52.81",
+        "low": "51.91"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2725,18 +2665,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "9.356"
+        "amount": "8.482"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "9.163"
+        "amount": "8.383"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "9.439",
-        "low": "9.059"
+        "high": "8.557",
+        "low": "8.400"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2748,12 +2688,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -2800,24 +2735,24 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "1447.50"
+        "amount": "1509.50"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "1474.00"
+        "amount": "1466.50"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "1470.00",
-        "low": "1436.50"
+        "high": "1527.00",
+        "low": "1448.00"
       },
       "yearRange": {
         "currency": "GBP",
         "decimals": 2,
         "high": "1927.00",
-        "low": "1432.50"
+        "low": "1413.50"
       },
       "openingHours": {
         "timezone": "Europe/London",
@@ -2875,18 +2810,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "18.97"
+        "amount": "16.12"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "18.99"
+        "amount": "15.70"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "19.41",
-        "low": "18.77"
+        "high": "16.42",
+        "low": "15.74"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2950,18 +2885,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "79.34"
+        "amount": "75.54"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "79.44"
+        "amount": "76.05"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "79.57",
-        "low": "78.28"
+        "high": "76.59",
+        "low": "75.38"
       },
       "yearRange": {
         "currency": "EUR",
@@ -2973,12 +2908,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -3025,18 +2955,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "65.53"
+        "amount": "64.26"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "65.85"
+        "amount": "64.72"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "65.84",
-        "low": "64.66"
+        "high": "65.38",
+        "low": "64.18"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3048,12 +2978,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -3100,18 +3025,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1504.0"
+        "amount": "1470.3"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1495.3"
+        "amount": "1465.8"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "1504.8",
-        "low": "1476.8"
+        "high": "1481.0",
+        "low": "1460.3"
       },
       "yearRange": {
         "currency": "GBP",
@@ -3175,18 +3100,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "58.16"
+        "amount": "57.14"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "58.17"
+        "amount": "56.21"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "58.54",
-        "low": "57.62"
+        "high": "57.53",
+        "low": "56.50"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3250,18 +3175,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "166.53"
+        "amount": "133.40"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "169.85"
+        "amount": "132.38"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "176.33",
-        "low": "165.00"
+        "high": "136.63",
+        "low": "129.40"
       },
       "yearRange": {
         "currency": "GBP",
@@ -3325,18 +3250,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "29.53"
+        "amount": "28.48"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "29.90"
+        "amount": "28.13"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "29.90",
-        "low": "29.14"
+        "high": "28.71",
+        "low": "28.34"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3399,18 +3324,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "12.615"
+        "amount": "12.095"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "12.553"
+        "amount": "12.093"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "12.780",
-        "low": "12.573"
+        "high": "12.198",
+        "low": "11.950"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3422,12 +3347,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -3474,18 +3394,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "11.433"
+        "amount": "10.473"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "11.215"
+        "amount": "10.190"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "11.493",
-        "low": "11.205"
+        "high": "10.765",
+        "low": "10.228"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3549,18 +3469,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "78.75"
+        "amount": "77.84"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "79.95"
+        "amount": "77.57"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "79.85",
-        "low": "78.01"
+        "high": "78.44",
+        "low": "77.46"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3572,12 +3492,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -3624,18 +3539,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "82.17"
+        "amount": "83.17"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "83.28"
+        "amount": "82.88"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "83.45",
-        "low": "80.98"
+        "high": "84.28",
+        "low": "82.91"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3699,18 +3614,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "103.48"
+        "amount": "102.23"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "104.13"
+        "amount": "101.63"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "103.98",
-        "low": "101.75"
+        "high": "103.53",
+        "low": "102.03"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3722,12 +3637,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -3774,18 +3684,18 @@
       "currentPrice": {
         "currency": "SEK",
         "decimals": 2,
-        "amount": "303.15"
+        "amount": "270.15"
       },
       "closingPrice": {
         "currency": "SEK",
         "decimals": 2,
-        "amount": "303.15"
+        "amount": "272.55"
       },
       "dayRange": {
         "currency": "SEK",
         "decimals": 2,
-        "high": "305.20",
-        "low": "300.65"
+        "high": "274.45",
+        "low": "269.40"
       },
       "yearRange": {
         "currency": "SEK",
@@ -3848,23 +3758,23 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "472.5"
+        "amount": "432.4"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "466.4"
+        "amount": "429.9"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "476.8",
-        "low": "470.3"
+        "high": "437.5",
+        "low": "430.4"
       },
       "yearRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "674.6",
+        "high": "639.2",
         "low": "414.0"
       },
       "openingHours": {
@@ -3923,18 +3833,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "22.04"
+        "amount": "22.60"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "21.71"
+        "amount": "22.04"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "22.91",
-        "low": "21.85"
+        "high": "23.01",
+        "low": "22.22"
       },
       "yearRange": {
         "currency": "EUR",
@@ -3946,12 +3856,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -3998,18 +3903,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "362.25"
+        "amount": "362.45"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "362.15"
+        "amount": "362.95"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "363.75",
-        "low": "359.35"
+        "high": "368.55",
+        "low": "362.15"
       },
       "yearRange": {
         "currency": "GBP",
@@ -4073,18 +3978,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "41.85"
+        "amount": "41.40"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "42.86"
+        "amount": "41.50"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "42.85",
-        "low": "41.70"
+        "high": "41.99",
+        "low": "41.34"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4147,18 +4052,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "3.455"
+        "amount": "3.454"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "3.545"
+        "amount": "3.407"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "3.555",
-        "low": "3.453"
+        "high": "3.479",
+        "low": "3.432"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4222,18 +4127,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 3,
-        "amount": "68.795"
+        "amount": "65.405"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 3,
-        "amount": "67.990"
+        "amount": "64.445"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 3,
-        "high": "68.820",
-        "low": "67.870"
+        "high": "65.685",
+        "low": "64.460"
       },
       "yearRange": {
         "currency": "GBP",
@@ -4297,18 +4202,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "13.888"
+        "amount": "12.638"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "14.083"
+        "amount": "12.478"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "14.090",
-        "low": "13.800"
+        "high": "12.840",
+        "low": "12.470"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4320,12 +4225,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -4372,18 +4272,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "45.63"
+        "amount": "44.18"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "46.14"
+        "amount": "44.06"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "46.57",
-        "low": "45.36"
+        "high": "44.73",
+        "low": "43.60"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4395,12 +4295,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -4447,18 +4342,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "136.45"
+        "amount": "127.38"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "136.50"
+        "amount": "126.63"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "136.93",
-        "low": "135.00"
+        "high": "127.93",
+        "low": "126.07"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4470,12 +4365,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -4522,23 +4412,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "165.28"
+        "amount": "160.85"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "168.13"
+        "amount": "160.15"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "167.78",
-        "low": "163.60"
+        "high": "163.28",
+        "low": "160.48"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "179.55",
+        "high": "178.95",
         "low": "140.40"
       },
       "openingHours": {
@@ -4596,18 +4486,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "152.23"
+        "amount": "148.68"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "154.50"
+        "amount": "145.45"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "154.25",
-        "low": "151.57"
+        "high": "150.60",
+        "low": "148.35"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4670,18 +4560,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "434.95"
+        "amount": "418.45"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "437.90"
+        "amount": "418.80"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "440.30",
-        "low": "433.70"
+        "high": "421.90",
+        "low": "416.80"
       },
       "yearRange": {
         "currency": "GBP",
@@ -4745,18 +4635,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "78.54"
+        "amount": "80.02"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "78.98"
+        "amount": "80.22"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "78.81",
-        "low": "77.27"
+        "high": "81.00",
+        "low": "79.66"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4768,12 +4658,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -4820,18 +4705,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "30.60"
+        "amount": "29.71"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "30.51"
+        "amount": "29.38"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "30.68",
-        "low": "30.23"
+        "high": "30.11",
+        "low": "29.53"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4895,18 +4780,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "98.60"
+        "amount": "96.74"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "103.57"
+        "amount": "96.78"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "99.73",
-        "low": "95.86"
+        "high": "98.03",
+        "low": "96.61"
       },
       "yearRange": {
         "currency": "EUR",
@@ -4969,18 +4854,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "14.11"
+        "amount": "13.85"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "14.23"
+        "amount": "13.39"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "14.39",
-        "low": "13.96"
+        "high": "13.90",
+        "low": "13.53"
       },
       "yearRange": {
         "currency": "EUR",
@@ -5043,23 +4928,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "23.48"
+        "amount": "22.07"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "23.27"
+        "amount": "21.74"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "23.50",
-        "low": "23.14"
+        "high": "22.13",
+        "low": "21.78"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "29.33",
+        "high": "28.74",
         "low": "16.52"
       },
       "openingHours": {
@@ -5118,23 +5003,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "25.220"
+        "amount": "23.398"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "25.197"
+        "amount": "23.170"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "25.373",
-        "low": "24.923"
+        "high": "23.595",
+        "low": "23.273"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "28.000",
+        "high": "26.100",
         "low": "20.480"
       },
       "openingHours": {
@@ -5193,18 +5078,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "48.58"
+        "amount": "46.95"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "49.13"
+        "amount": "47.24"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "49.33",
-        "low": "48.31"
+        "high": "47.74",
+        "low": "46.49"
       },
       "yearRange": {
         "currency": "EUR",
@@ -5268,18 +5153,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "15.163"
+        "amount": "14.942"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "15.648"
+        "amount": "14.858"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "15.583",
-        "low": "15.020"
+        "high": "15.080",
+        "low": "14.910"
       },
       "yearRange": {
         "currency": "EUR",
@@ -5343,18 +5228,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "87.59"
+        "amount": "82.26"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "89.14"
+        "amount": "80.56"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "90.56",
-        "low": "87.56"
+        "high": "82.89",
+        "low": "81.49"
       },
       "yearRange": {
         "currency": "EUR",
@@ -5417,18 +5302,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "2411.3"
+        "amount": "1994.8"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "2423.5"
+        "amount": "1966.3"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "2487.8",
-        "low": "2363.8"
+        "high": "2018.3",
+        "low": "1938.8"
       },
       "yearRange": {
         "currency": "GBP",
@@ -5492,18 +5377,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "254.45"
+        "amount": "214.80"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "249.75"
+        "amount": "212.85"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "257.15",
-        "low": "250.75"
+        "high": "217.10",
+        "low": "213.20"
       },
       "yearRange": {
         "currency": "GBP",
@@ -5567,18 +5452,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "691.8"
+        "amount": "649.3"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "684.3"
+        "amount": "640.3"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "691.8",
-        "low": "678.8"
+        "high": "656.8",
+        "low": "644.3"
       },
       "yearRange": {
         "currency": "GBP",
@@ -5642,18 +5527,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "12.70"
+        "amount": "11.85"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "12.56"
+        "amount": "11.59"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "13.00",
-        "low": "12.34"
+        "high": "11.94",
+        "low": "11.63"
       },
       "yearRange": {
         "currency": "EUR",
@@ -5665,12 +5550,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -5717,18 +5597,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "4256.3"
+        "amount": "4215.0"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "4263.5"
+        "amount": "4221.8"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "4261.0",
-        "low": "4245.3"
+        "high": "4230.3",
+        "low": "4205.0"
       },
       "yearRange": {
         "currency": "GBP",
@@ -5792,23 +5672,23 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "289.55"
+        "amount": "264.50"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "292.45"
+        "amount": "264.40"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "293.95",
-        "low": "288.25"
+        "high": "267.35",
+        "low": "264.40"
       },
       "yearRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "293.95",
+        "high": "294.40",
         "low": "221.30"
       },
       "openingHours": {
@@ -5867,18 +5747,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "71.22"
+        "amount": "68.82"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "71.13"
+        "amount": "68.84"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "71.80",
-        "low": "70.04"
+        "high": "69.46",
+        "low": "68.33"
       },
       "yearRange": {
         "currency": "EUR",
@@ -5890,12 +5770,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -5942,18 +5817,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "11.880"
+        "amount": "10.940"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "12.095"
+        "amount": "10.805"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "12.280",
-        "low": "11.785"
+        "high": "11.030",
+        "low": "10.788"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6017,18 +5892,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "96.62"
+        "amount": "94.41"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "96.35"
+        "amount": "93.00"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "96.70",
-        "low": "95.35"
+        "high": "94.43",
+        "low": "93.60"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6040,12 +5915,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -6092,24 +5962,24 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "342.60"
+        "amount": "321.60"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "346.05"
+        "amount": "320.10"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "347.75",
-        "low": "340.95"
+        "high": "324.70",
+        "low": "320.10"
       },
       "yearRange": {
         "currency": "GBP",
         "decimals": 2,
         "high": "487.15",
-        "low": "314.85"
+        "low": "313.95"
       },
       "openingHours": {
         "timezone": "Europe/London",
@@ -6167,18 +6037,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "10.028"
+        "amount": "9.343"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "9.958"
+        "amount": "9.189"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "10.035",
-        "low": "9.894"
+        "high": "9.446",
+        "low": "9.267"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6241,23 +6111,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "7.936"
+        "amount": "7.981"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "7.933"
+        "amount": "7.981"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "7.940",
-        "low": "7.922"
+        "high": "7.990",
+        "low": "7.977"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "8.960",
+        "high": "9.130",
         "low": "7.400"
       },
       "openingHours": {
@@ -6316,18 +6186,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "8.16"
+        "amount": "7.49"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "8.59"
+        "amount": "7.53"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "8.66",
-        "low": "8.11"
+        "high": "7.65",
+        "low": "7.47"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6391,23 +6261,23 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "185.38"
+        "amount": "159.80"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "182.43"
+        "amount": "157.78"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "186.25",
-        "low": "181.63"
+        "high": "160.28",
+        "low": "158.00"
       },
       "yearRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "240.45",
+        "high": "235.35",
         "low": "137.00"
       },
       "openingHours": {
@@ -6448,7 +6318,7 @@
         ]
       },
       "category": "STOCKS",
-      "favorite": true,
+      "favorite": false,
       "productMarketStatus": "CLOSED",
       "tags": [
         "EU_STOCKS",
@@ -6466,18 +6336,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "21.29"
+        "amount": "18.44"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "21.70"
+        "amount": "18.32"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "21.92",
-        "low": "20.97"
+        "high": "18.56",
+        "low": "17.31"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6489,12 +6359,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -6541,18 +6406,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "1005.50"
+        "amount": "1066.50"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "1026.00"
+        "amount": "1037.50"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "1025.00",
-        "low": "1002.50"
+        "high": "1069.50",
+        "low": "1038.00"
       },
       "yearRange": {
         "currency": "GBP",
@@ -6616,18 +6481,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "238.65"
+        "amount": "237.65"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "244.23"
+        "amount": "238.03"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "243.40",
-        "low": "237.13"
+        "high": "241.00",
+        "low": "237.38"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6691,18 +6556,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "40.64"
+        "amount": "39.58"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "41.47"
+        "amount": "39.22"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "41.40",
-        "low": "40.17"
+        "high": "40.12",
+        "low": "39.41"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6766,18 +6631,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "18.360"
+        "amount": "16.758"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "18.593"
+        "amount": "16.953"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "18.640",
-        "low": "18.208"
+        "high": "17.095",
+        "low": "16.740"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6840,18 +6705,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "231.30"
+        "amount": "221.98"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 2,
-        "amount": "232.93"
+        "amount": "218.83"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 2,
-        "high": "233.50",
-        "low": "230.25"
+        "high": "222.33",
+        "low": "219.38"
       },
       "yearRange": {
         "currency": "GBP",
@@ -6915,18 +6780,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "127.28"
+        "amount": "129.28"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "120.80"
+        "amount": "124.35"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "130.02",
-        "low": "122.13"
+        "high": "129.93",
+        "low": "126.23"
       },
       "yearRange": {
         "currency": "EUR",
@@ -6938,12 +6803,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -6990,18 +6850,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "47.83"
+        "amount": "46.38"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "47.74"
+        "amount": "46.10"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "49.19",
-        "low": "47.66"
+        "high": "46.83",
+        "low": "46.23"
       },
       "yearRange": {
         "currency": "EUR",
@@ -7065,18 +6925,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1235.5"
+        "amount": "1111.5"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1203.5"
+        "amount": "1097.0"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "1249.5",
-        "low": "1215.5"
+        "high": "1128.0",
+        "low": "1098.0"
       },
       "yearRange": {
         "currency": "GBP",
@@ -7140,18 +7000,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1651.0"
+        "amount": "1676.5"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "1670.5"
+        "amount": "1684.5"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "1683.0",
-        "low": "1636.5"
+        "high": "1697.5",
+        "low": "1670.0"
       },
       "yearRange": {
         "currency": "GBP",
@@ -7215,18 +7075,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "34.848"
+        "amount": "33.763"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "35.988"
+        "amount": "33.593"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "35.960",
-        "low": "34.735"
+        "high": "34.115",
+        "low": "33.685"
       },
       "yearRange": {
         "currency": "EUR",
@@ -7290,18 +7150,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "28.580"
+        "amount": "29.370"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 3,
-        "amount": "28.990"
+        "amount": "28.420"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 3,
-        "high": "29.040",
-        "low": "28.340"
+        "high": "29.380",
+        "low": "28.390"
       },
       "yearRange": {
         "currency": "EUR",
@@ -7313,12 +7173,7 @@
         "timezone": "Europe/Berlin",
         "weekDays": [
           [],
-          [
-            {
-              "start": "09:05",
-              "end": "17:29"
-            }
-          ],
+          [],
           [
             {
               "start": "09:05",
@@ -7365,18 +7220,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "28.77"
+        "amount": "24.87"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "29.26"
+        "amount": "25.60"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "29.48",
-        "low": "28.51"
+        "high": "25.18",
+        "low": "24.22"
       },
       "yearRange": {
         "currency": "USD",
@@ -7423,7 +7278,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7439,18 +7294,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "35.195"
+        "amount": "36.425"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "35.225"
+        "amount": "37.155"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "35.430",
-        "low": "34.960"
+        "high": "37.005",
+        "low": "36.260"
       },
       "yearRange": {
         "currency": "USD",
@@ -7497,7 +7352,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7513,18 +7368,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "10.405"
+        "amount": "9.475"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "10.595"
+        "amount": "9.475"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "10.665",
-        "low": "10.355"
+        "high": "9.615",
+        "low": "9.325"
       },
       "yearRange": {
         "currency": "USD",
@@ -7571,7 +7426,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7587,18 +7442,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "80.66"
+        "amount": "79.34"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "81.32"
+        "amount": "79.46"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "81.78",
-        "low": "80.21"
+        "high": "79.97",
+        "low": "79.16"
       },
       "yearRange": {
         "currency": "USD",
@@ -7645,7 +7500,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7661,24 +7516,24 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "630.83"
+        "amount": "699.54"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "632.96"
+        "amount": "679.46"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "637.71",
-        "low": "628.62"
+        "high": "701.26",
+        "low": "694.24"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "696.44",
-        "low": "386.15"
+        "high": "701.26",
+        "low": "418.36"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -7718,8 +7573,8 @@
         ]
       },
       "category": "STOCKS",
-      "favorite": true,
-      "productMarketStatus": "CLOSED",
+      "favorite": false,
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7735,18 +7590,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "164.40"
+        "amount": "156.86"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "162.92"
+        "amount": "155.32"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "164.41",
-        "low": "162.08"
+        "high": "157.06",
+        "low": "154.98"
       },
       "yearRange": {
         "currency": "USD",
@@ -7793,7 +7648,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7809,24 +7664,24 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "106.00"
+        "amount": "93.49"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "107.26"
+        "amount": "92.73"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "106.75",
-        "low": "105.53"
+        "high": "93.49",
+        "low": "92.12"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "134.54",
-        "low": "92.00"
+        "high": "132.97",
+        "low": "91.85"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -7867,7 +7722,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7883,18 +7738,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "37.86"
+        "amount": "39.31"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "38.70"
+        "amount": "38.85"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "38.53",
-        "low": "37.85"
+        "high": "39.38",
+        "low": "39.08"
       },
       "yearRange": {
         "currency": "USD",
@@ -7941,7 +7796,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -7957,18 +7812,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "192.76"
+        "amount": "168.21"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "193.57"
+        "amount": "169.13"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "195.81",
-        "low": "191.77"
+        "high": "170.04",
+        "low": "165.47"
       },
       "yearRange": {
         "currency": "USD",
@@ -8015,7 +7870,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8031,23 +7886,23 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "144.99"
+        "amount": "144.77"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "146.07"
+        "amount": "142.94"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "146.50",
-        "low": "144.67"
+        "high": "144.90",
+        "low": "143.28"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "148.57",
+        "high": "148.03",
         "low": "123.55"
       },
       "openingHours": {
@@ -8089,7 +7944,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8105,18 +7960,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "7.095"
+        "amount": "6.635"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "7.225"
+        "amount": "6.575"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "7.245",
-        "low": "7.075"
+        "high": "6.650",
+        "low": "6.535"
       },
       "yearRange": {
         "currency": "USD",
@@ -8163,7 +8018,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8179,18 +8034,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "14.905"
+        "amount": "14.300"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "14.935"
+        "amount": "13.995"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "15.135",
-        "low": "14.755"
+        "high": "14.300",
+        "low": "14.055"
       },
       "yearRange": {
         "currency": "USD",
@@ -8237,7 +8092,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8253,18 +8108,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "364.32"
+        "amount": "358.84"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "366.63"
+        "amount": "354.81"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "367.83",
-        "low": "362.37"
+        "high": "360.29",
+        "low": "356.43"
       },
       "yearRange": {
         "currency": "USD",
@@ -8311,7 +8166,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8327,18 +8182,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "130.69"
+        "amount": "134.86"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "130.58"
+        "amount": "132.10"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "132.64",
-        "low": "130.31"
+        "high": "135.16",
+        "low": "133.34"
       },
       "yearRange": {
         "currency": "USD",
@@ -8385,11 +8240,10 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
-      ],
-      "tracker": {}
+      ]
     },
     {
       "symbol": "Celgene",
@@ -8402,18 +8256,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "109.99"
+        "amount": "102.81"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "106.82"
+        "amount": "102.43"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "110.00",
-        "low": "106.59"
+        "high": "103.14",
+        "low": "101.79"
       },
       "yearRange": {
         "currency": "USD",
@@ -8460,7 +8314,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8476,18 +8330,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "101.47"
+        "amount": "101.02"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "101.69"
+        "amount": "100.40"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "102.80",
-        "low": "101.11"
+        "high": "101.30",
+        "low": "100.45"
       },
       "yearRange": {
         "currency": "USD",
@@ -8534,7 +8388,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8550,18 +8404,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "28.255"
+        "amount": "26.935"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "28.470"
+        "amount": "26.515"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "28.480",
-        "low": "28.165"
+        "high": "26.945",
+        "low": "26.515"
       },
       "yearRange": {
         "currency": "USD",
@@ -8608,7 +8462,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8624,18 +8478,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "43.65"
+        "amount": "45.78"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "44.33"
+        "amount": "45.24"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "44.14",
-        "low": "42.88"
+        "high": "45.84",
+        "low": "45.58"
       },
       "yearRange": {
         "currency": "USD",
@@ -8682,7 +8536,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8698,18 +8552,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "44.94"
+        "amount": "42.80"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "46.60"
+        "amount": "42.43"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "46.28",
-        "low": "44.73"
+        "high": "42.89",
+        "low": "42.48"
       },
       "yearRange": {
         "currency": "USD",
@@ -8756,7 +8610,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8772,18 +8626,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "25.295"
+        "amount": "25.605"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "25.005"
+        "amount": "24.915"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "25.335",
-        "low": "24.825"
+        "high": "25.625",
+        "low": "24.860"
       },
       "yearRange": {
         "currency": "USD",
@@ -8830,7 +8684,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8846,18 +8700,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "24.69"
+        "amount": "24.10"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "24.69"
+        "amount": "24.01"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "24.87",
-        "low": "24.62"
+        "high": "24.19",
+        "low": "23.95"
       },
       "yearRange": {
         "currency": "USD",
@@ -8903,8 +8757,8 @@
         ]
       },
       "category": "STOCKS",
-      "favorite": true,
-      "productMarketStatus": "CLOSED",
+      "favorite": false,
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8920,18 +8774,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "108.22"
+        "amount": "114.31"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "108.36"
+        "amount": "112.56"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "108.77",
-        "low": "107.03"
+        "high": "115.34",
+        "low": "113.04"
       },
       "yearRange": {
         "currency": "USD",
@@ -8978,7 +8832,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -8994,18 +8848,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "86.87"
+        "amount": "89.62"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "86.77"
+        "amount": "88.48"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "87.84",
-        "low": "86.57"
+        "high": "89.78",
+        "low": "88.95"
       },
       "yearRange": {
         "currency": "USD",
@@ -9052,7 +8906,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9068,23 +8922,23 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "113.41"
+        "amount": "120.07"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "112.47"
+        "amount": "119.25"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "114.03",
-        "low": "112.32"
+        "high": "120.38",
+        "low": "119.01"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "117.59",
+        "high": "120.79",
         "low": "72.00"
       },
       "openingHours": {
@@ -9126,7 +8980,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9142,18 +8996,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "13.655"
+        "amount": "13.455"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "13.645"
+        "amount": "13.315"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "13.875",
-        "low": "13.565"
+        "high": "13.515",
+        "low": "13.385"
       },
       "yearRange": {
         "currency": "USD",
@@ -9200,7 +9054,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9216,18 +9070,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "43.69"
+        "amount": "43.35"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "44.54"
+        "amount": "42.95"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "44.47",
-        "low": "43.57"
+        "high": "43.53",
+        "low": "43.17"
       },
       "yearRange": {
         "currency": "USD",
@@ -9274,7 +9128,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9290,18 +9144,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "42.18"
+        "amount": "40.00"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "42.72"
+        "amount": "39.45"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "43.18",
-        "low": "42.13"
+        "high": "40.22",
+        "low": "39.33"
       },
       "yearRange": {
         "currency": "USD",
@@ -9348,7 +9202,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9364,18 +9218,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "17.44"
+        "amount": "13.75"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "17.65"
+        "amount": "13.85"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "18.28",
-        "low": "17.12"
+        "high": "13.86",
+        "low": "13.45"
       },
       "yearRange": {
         "currency": "USD",
@@ -9422,7 +9276,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9438,18 +9292,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "42.24"
+        "amount": "40.75"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "42.93"
+        "amount": "40.41"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "43.04",
-        "low": "42.21"
+        "high": "40.83",
+        "low": "40.24"
       },
       "yearRange": {
         "currency": "USD",
@@ -9496,7 +9350,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9512,18 +9366,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "30.95"
+        "amount": "30.38"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "31.19"
+        "amount": "29.86"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "31.28",
-        "low": "30.86"
+        "high": "30.38",
+        "low": "30.02"
       },
       "yearRange": {
         "currency": "USD",
@@ -9570,7 +9424,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9586,18 +9440,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "32.61"
+        "amount": "31.18"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "32.17"
+        "amount": "30.79"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "33.42",
-        "low": "32.47"
+        "high": "31.34",
+        "low": "30.97"
       },
       "yearRange": {
         "currency": "USD",
@@ -9644,7 +9498,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9660,18 +9514,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "165.42"
+        "amount": "161.09"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "167.24"
+        "amount": "157.39"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "168.82",
-        "low": "165.03"
+        "high": "161.13",
+        "low": "158.44"
       },
       "yearRange": {
         "currency": "USD",
@@ -9718,7 +9572,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9734,18 +9588,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "780.63"
+        "amount": "738.13"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "775.08"
+        "amount": "729.28"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "781.72",
-        "low": "771.69"
+        "high": "738.13",
+        "low": "732.35"
       },
       "yearRange": {
         "currency": "USD",
@@ -9791,8 +9645,8 @@
         ]
       },
       "category": "STOCKS",
-      "favorite": true,
-      "productMarketStatus": "CLOSED",
+      "favorite": false,
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9808,18 +9662,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "13.58"
+        "amount": "9.89"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "13.42"
+        "amount": "9.77"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "13.82",
-        "low": "13.33"
+        "high": "9.90",
+        "low": "9.43"
       },
       "yearRange": {
         "currency": "USD",
@@ -9866,7 +9720,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9882,18 +9736,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "40.35"
+        "amount": "39.05"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "40.38"
+        "amount": "38.67"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "41.57",
-        "low": "40.28"
+        "high": "39.24",
+        "low": "38.61"
       },
       "yearRange": {
         "currency": "USD",
@@ -9940,7 +9794,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -9956,18 +9810,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "48.04"
+        "amount": "46.01"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "47.00"
+        "amount": "45.86"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "48.07",
-        "low": "46.36"
+        "high": "46.33",
+        "low": "45.90"
       },
       "yearRange": {
         "currency": "USD",
@@ -10014,7 +9868,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10030,18 +9884,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "86.82"
+        "amount": "85.91"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "86.41"
+        "amount": "86.07"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "87.15",
-        "low": "86.08"
+        "high": "86.12",
+        "low": "84.82"
       },
       "yearRange": {
         "currency": "USD",
@@ -10088,7 +9942,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10104,18 +9958,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "12.63"
+        "amount": "11.67"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "12.80"
+        "amount": "11.43"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "12.84",
-        "low": "12.59"
+        "high": "11.70",
+        "low": "11.42"
       },
       "yearRange": {
         "currency": "USD",
@@ -10162,7 +10016,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10178,18 +10032,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "149.34"
+        "amount": "149.65"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "146.24"
+        "amount": "147.32"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "150.10",
-        "low": "146.57"
+        "high": "149.67",
+        "low": "147.90"
       },
       "yearRange": {
         "currency": "USD",
@@ -10236,7 +10090,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10252,24 +10106,24 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "144.85"
+        "amount": "141.89"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "139.51"
+        "amount": "141.76"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "144.98",
-        "low": "139.89"
+        "high": "142.28",
+        "low": "139.37"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
         "high": "242.30",
-        "low": "130.00"
+        "low": "129.13"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -10310,7 +10164,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10326,18 +10180,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "31.99"
+        "amount": "29.97"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "32.03"
+        "amount": "29.78"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "32.06",
-        "low": "31.82"
+        "high": "29.99",
+        "low": "29.82"
       },
       "yearRange": {
         "currency": "USD",
@@ -10384,7 +10238,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10400,18 +10254,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "63.63"
+        "amount": "62.11"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "64.26"
+        "amount": "61.20"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "64.66",
-        "low": "63.34"
+        "high": "62.15",
+        "low": "61.36"
       },
       "yearRange": {
         "currency": "USD",
@@ -10458,7 +10312,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10474,18 +10328,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "76.72"
+        "amount": "85.66"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "77.89"
+        "amount": "84.16"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "77.71",
-        "low": "76.65"
+        "high": "85.70",
+        "low": "84.23"
       },
       "yearRange": {
         "currency": "USD",
@@ -10532,7 +10386,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10548,18 +10402,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "37.74"
+        "amount": "37.50"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "38.21"
+        "amount": "37.35"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "38.02",
-        "low": "37.50"
+        "high": "38.14",
+        "low": "36.46"
       },
       "yearRange": {
         "currency": "USD",
@@ -10606,7 +10460,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10622,18 +10476,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "120.37"
+        "amount": "127.25"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "117.46"
+        "amount": "121.57"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "121.93",
-        "low": "117.47"
+        "high": "127.29",
+        "low": "121.89"
       },
       "yearRange": {
         "currency": "USD",
@@ -10680,7 +10534,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10696,23 +10550,23 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "126.07"
+        "amount": "131.86"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "128.54"
+        "amount": "130.78"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "128.54",
-        "low": "125.60"
+        "high": "131.97",
+        "low": "130.83"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "129.80",
+        "high": "131.97",
         "low": "87.62"
       },
       "openingHours": {
@@ -10753,8 +10607,8 @@
         ]
       },
       "category": "STOCKS",
-      "favorite": true,
-      "productMarketStatus": "CLOSED",
+      "favorite": false,
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10770,18 +10624,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "56.61"
+        "amount": "54.46"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "56.60"
+        "amount": "54.11"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "57.03",
-        "low": "56.31"
+        "high": "54.72",
+        "low": "54.39"
       },
       "yearRange": {
         "currency": "USD",
@@ -10828,7 +10682,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10844,18 +10698,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "55.90"
+        "amount": "50.68"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "55.61"
+        "amount": "50.08"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "56.22",
-        "low": "55.42"
+        "high": "50.68",
+        "low": "50.19"
       },
       "yearRange": {
         "currency": "USD",
@@ -10902,7 +10756,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10918,18 +10772,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "94.16"
+        "amount": "89.11"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "93.35"
+        "amount": "89.00"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "94.58",
-        "low": "93.55"
+        "high": "89.74",
+        "low": "88.79"
       },
       "yearRange": {
         "currency": "USD",
@@ -10976,7 +10830,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -10992,18 +10846,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "124.52"
+        "amount": "153.57"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "126.83"
+        "amount": "148.86"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "126.48",
-        "low": "124.32"
+        "high": "153.88",
+        "low": "152.30"
       },
       "yearRange": {
         "currency": "USD",
@@ -11050,7 +10904,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11066,18 +10920,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "27.265"
+        "amount": "26.675"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "27.425"
+        "amount": "26.095"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "27.745",
-        "low": "27.150"
+        "high": "26.785",
+        "low": "26.280"
       },
       "yearRange": {
         "currency": "USD",
@@ -11124,7 +10978,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11140,18 +10994,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "60.08"
+        "amount": "59.13"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "59.64"
+        "amount": "58.72"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "60.49",
-        "low": "59.72"
+        "high": "59.99",
+        "low": "58.79"
       },
       "yearRange": {
         "currency": "USD",
@@ -11198,7 +11052,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11214,24 +11068,24 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "94.97"
+        "amount": "91.90"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "96.89"
+        "amount": "90.51"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "97.20",
-        "low": "94.79"
+        "high": "92.48",
+        "low": "91.13"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
         "high": "133.27",
-        "low": "78.89"
+        "low": "79.95"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -11272,7 +11126,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11288,18 +11142,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "36.425"
+        "amount": "35.785"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "36.465"
+        "amount": "35.245"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "36.635",
-        "low": "36.260"
+        "high": "36.015",
+        "low": "35.155"
       },
       "yearRange": {
         "currency": "USD",
@@ -11346,7 +11200,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11362,18 +11216,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "40.97"
+        "amount": "39.92"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "41.15"
+        "amount": "39.35"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "41.28",
-        "low": "40.89"
+        "high": "39.92",
+        "low": "39.59"
       },
       "yearRange": {
         "currency": "USD",
@@ -11420,7 +11274,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11436,18 +11290,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "40.11"
+        "amount": "39.89"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "40.11"
+        "amount": "39.60"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "40.55",
-        "low": "40.02"
+        "high": "39.99",
+        "low": "39.24"
       },
       "yearRange": {
         "currency": "USD",
@@ -11494,7 +11348,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11510,23 +11364,23 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "101.05"
+        "amount": "106.37"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "102.43"
+        "amount": "105.23"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "101.64",
-        "low": "100.42"
+        "high": "106.64",
+        "low": "105.62"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "105.77",
+        "high": "106.64",
         "low": "77.01"
       },
       "openingHours": {
@@ -11568,7 +11422,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11584,18 +11438,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "33.22"
+        "amount": "33.60"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "33.22"
+        "amount": "33.82"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "33.47",
-        "low": "33.06"
+        "high": "33.81",
+        "low": "33.49"
       },
       "yearRange": {
         "currency": "USD",
@@ -11642,7 +11496,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11658,18 +11512,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "96.44"
+        "amount": "101.54"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "98.02"
+        "amount": "100.24"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "97.26",
-        "low": "95.95"
+        "high": "101.68",
+        "low": "100.52"
       },
       "yearRange": {
         "currency": "USD",
@@ -11716,7 +11570,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11732,18 +11586,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "1339.32"
+        "amount": "1259.96"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "1350.67"
+        "amount": "1244.73"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "1356.72",
-        "low": "1337.77"
+        "high": "1274.47",
+        "low": "1252.16"
       },
       "yearRange": {
         "currency": "USD",
@@ -11790,7 +11644,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11806,18 +11660,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "80.85"
+        "amount": "82.50"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "81.51"
+        "amount": "82.07"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "81.32",
-        "low": "80.57"
+        "high": "82.68",
+        "low": "82.35"
       },
       "yearRange": {
         "currency": "USD",
@@ -11864,7 +11718,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11880,18 +11734,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "51.68"
+        "amount": "51.72"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "52.11"
+        "amount": "51.16"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "51.80",
-        "low": "50.74"
+        "high": "51.72",
+        "low": "50.97"
       },
       "yearRange": {
         "currency": "USD",
@@ -11938,7 +11792,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -11954,18 +11808,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "94.10"
+        "amount": "90.31"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "94.89"
+        "amount": "90.28"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "95.89",
-        "low": "93.82"
+        "high": "90.38",
+        "low": "87.74"
       },
       "yearRange": {
         "currency": "USD",
@@ -12012,7 +11866,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12028,18 +11882,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "77.26"
+        "amount": "75.66"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "76.15"
+        "amount": "74.63"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "77.81",
-        "low": "76.60"
+        "high": "75.94",
+        "low": "74.85"
       },
       "yearRange": {
         "currency": "USD",
@@ -12086,7 +11940,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12102,18 +11956,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "80.29"
+        "amount": "74.14"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "81.10"
+        "amount": "72.72"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "81.96",
-        "low": "80.16"
+        "high": "74.53",
+        "low": "73.28"
       },
       "yearRange": {
         "currency": "USD",
@@ -12160,7 +12014,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12176,18 +12030,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "29.135"
+        "amount": "27.995"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "29.095"
+        "amount": "27.265"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "29.465",
-        "low": "29.015"
+        "high": "28.005",
+        "low": "27.360"
       },
       "yearRange": {
         "currency": "USD",
@@ -12234,7 +12088,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12250,18 +12104,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "60.51"
+        "amount": "57.41"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "60.90"
+        "amount": "56.61"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "61.10",
-        "low": "60.49"
+        "high": "57.47",
+        "low": "56.71"
       },
       "yearRange": {
         "currency": "USD",
@@ -12308,7 +12162,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12324,18 +12178,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "248.24"
+        "amount": "207.31"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "249.96"
+        "amount": "208.90"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "250.68",
-        "low": "246.95"
+        "high": "209.31",
+        "low": "205.07"
       },
       "yearRange": {
         "currency": "USD",
@@ -12382,7 +12236,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12398,18 +12252,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "75.46"
+        "amount": "74.71"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "74.82"
+        "amount": "74.13"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "76.57",
-        "low": "74.58"
+        "high": "75.05",
+        "low": "74.16"
       },
       "yearRange": {
         "currency": "USD",
@@ -12456,7 +12310,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12472,18 +12326,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "30.32"
+        "amount": "29.74"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "30.15"
+        "amount": "29.40"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "30.62",
-        "low": "30.20"
+        "high": "29.76",
+        "low": "29.47"
       },
       "yearRange": {
         "currency": "USD",
@@ -12530,7 +12384,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12546,18 +12400,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "63.76"
+        "amount": "65.58"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "64.44"
+        "amount": "63.04"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "64.72",
-        "low": "63.39"
+        "high": "65.88",
+        "low": "63.66"
       },
       "yearRange": {
         "currency": "USD",
@@ -12604,7 +12458,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12620,24 +12474,24 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "17.49"
+        "amount": "14.57"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "17.42"
+        "amount": "14.20"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "17.77",
-        "low": "17.43"
+        "high": "14.60",
+        "low": "14.16"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "52.54",
-        "low": "13.91"
+        "high": "38.82",
+        "low": "13.90"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -12678,7 +12532,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12694,24 +12548,24 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "47.00"
+        "amount": "38.89"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "43.86"
+        "amount": "38.67"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "47.72",
-        "low": "46.19"
+        "high": "39.65",
+        "low": "38.78"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
         "high": "105.89",
-        "low": "40.02"
+        "low": "38.33"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -12752,7 +12606,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12768,18 +12622,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "49.94"
+        "amount": "51.54"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "51.74"
+        "amount": "51.03"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "50.61",
-        "low": "49.47"
+        "high": "51.55",
+        "low": "51.31"
       },
       "yearRange": {
         "currency": "USD",
@@ -12826,7 +12680,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12842,18 +12696,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "68.50"
+        "amount": "68.91"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "69.24"
+        "amount": "68.88"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "69.68",
-        "low": "68.24"
+        "high": "69.15",
+        "low": "68.65"
       },
       "yearRange": {
         "currency": "USD",
@@ -12900,7 +12754,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12916,18 +12770,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "102.92"
+        "amount": "106.29"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "103.31"
+        "amount": "105.28"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "104.12",
-        "low": "102.66"
+        "high": "106.49",
+        "low": "105.75"
       },
       "yearRange": {
         "currency": "USD",
@@ -12974,7 +12828,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -12990,18 +12844,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "80.93"
+        "amount": "78.82"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "81.34"
+        "amount": "78.07"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "81.68",
-        "low": "80.68"
+        "high": "79.08",
+        "low": "78.57"
       },
       "yearRange": {
         "currency": "USD",
@@ -13047,8 +12901,8 @@
         ]
       },
       "category": "STOCKS",
-      "favorite": true,
-      "productMarketStatus": "CLOSED",
+      "favorite": false,
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -13064,18 +12918,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "29.49"
+        "amount": "30.37"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "30.76"
+        "amount": "30.30"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "30.58",
-        "low": "29.40"
+        "high": "30.40",
+        "low": "29.77"
       },
       "yearRange": {
         "currency": "USD",
@@ -13122,7 +12976,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -13138,18 +12992,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "11.155"
+        "amount": "9.425"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "11.195"
+        "amount": "9.355"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "11.275",
-        "low": "11.155"
+        "high": "9.435",
+        "low": "9.335"
       },
       "yearRange": {
         "currency": "USD",
@@ -13196,7 +13050,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -13212,23 +13066,23 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "37.665"
+        "amount": "37.495"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "37.885"
+        "amount": "37.165"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "38.115",
-        "low": "37.355"
+        "high": "37.555",
+        "low": "37.145"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "45.100",
+        "high": "45.070",
         "low": "26.150"
       },
       "openingHours": {
@@ -13270,7 +13124,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -13286,18 +13140,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "81.68"
+        "amount": "82.53"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "82.55"
+        "amount": "81.85"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "85.84",
-        "low": "80.77"
+        "high": "82.64",
+        "low": "81.64"
       },
       "yearRange": {
         "currency": "USD",
@@ -13344,7 +13198,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -13360,18 +13214,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "2.525"
+        "amount": "2.535"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "2.485"
+        "amount": "2.545"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "2.535",
-        "low": "2.445"
+        "high": "2.545",
+        "low": "2.525"
       },
       "yearRange": {
         "currency": "USD",
@@ -13418,7 +13272,7 @@
       },
       "category": "STOCKS",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "US_STOCKS"
       ]
@@ -13434,18 +13288,18 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 1,
-        "amount": "3498.0"
+        "amount": "3363.5"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 1,
-        "amount": "3498.0"
+        "amount": "3363.0"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 1,
-        "high": "0.0",
-        "low": "0.0"
+        "high": "3363.5",
+        "low": "3363.5"
       },
       "yearRange": {
         "currency": "EUR",
@@ -13508,23 +13362,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 1,
-        "amount": "10362.4"
+        "amount": "10049.5"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 1,
-        "amount": "10405.5"
+        "amount": "9991.1"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 1,
-        "high": "10407.4",
-        "low": "10346.7"
+        "high": "10108.8",
+        "low": "9952.2"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 1,
-        "high": "12050.7",
+        "high": "11920.3",
         "low": "8699.3"
       },
       "openingHours": {
@@ -13606,7 +13460,7 @@
         ]
       },
       "category": "INDICES",
-      "favorite": true,
+      "favorite": false,
       "productMarketStatus": "OPEN",
       "tags": [
         "INDICES"
@@ -13623,23 +13477,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 1,
-        "amount": "4550.9"
+        "amount": "4335.8"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 1,
-        "amount": "4569.1"
+        "amount": "4307.4"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 1,
-        "high": "4569.9",
-        "low": "4544.3"
+        "high": "4375.5",
+        "low": "4293.6"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 1,
-        "high": "5283.7",
+        "high": "5217.8",
         "low": "3892.5"
       },
       "openingHours": {
@@ -13738,23 +13592,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "452.05"
+        "amount": "436.70"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 2,
-        "amount": "456.93"
+        "amount": "432.00"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "459.03",
-        "low": "451.48"
+        "high": "440.43",
+        "low": "433.30"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 2,
-        "high": "510.55",
+        "high": "506.05",
         "low": "378.53"
       },
       "openingHours": {
@@ -13795,8 +13649,8 @@
         ]
       },
       "category": "INDICES",
-      "favorite": true,
-      "productMarketStatus": "CLOSED",
+      "favorite": false,
+      "productMarketStatus": "OPEN",
       "tags": [
         "INDICES"
       ]
@@ -13812,23 +13666,23 @@
       "currentPrice": {
         "currency": "EUR",
         "decimals": 0,
-        "amount": "9166"
+        "amount": "8777"
       },
       "closingPrice": {
         "currency": "EUR",
         "decimals": 0,
-        "amount": "9162"
+        "amount": "8677"
       },
       "dayRange": {
         "currency": "EUR",
         "decimals": 0,
-        "high": "9221",
-        "low": "9122"
+        "high": "8837",
+        "low": "8715"
       },
       "yearRange": {
         "currency": "EUR",
         "decimals": 0,
-        "high": "11685",
+        "high": "11613",
         "low": "7746"
       },
       "openingHours": {
@@ -13870,7 +13724,7 @@
       },
       "category": "INDICES",
       "favorite": false,
-      "productMarketStatus": "CLOSED",
+      "productMarketStatus": "OPEN",
       "tags": [
         "INDICES"
       ]
@@ -13886,23 +13740,23 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "6340.5"
+        "amount": "6160.5"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 1,
-        "amount": "6361.3"
+        "amount": "6120.8"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "6367.8",
-        "low": "6333.5"
+        "high": "6180.8",
+        "low": "6104.0"
       },
       "yearRange": {
         "currency": "GBP",
         "decimals": 1,
-        "high": "7122.7",
+        "high": "7083.7",
         "low": "5499.5"
       },
       "openingHours": {
@@ -14001,18 +13855,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "2087.18"
+        "amount": "2077.88"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "2091.68"
+        "amount": "2058.63"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "2094.93",
-        "low": "2085.18"
+        "high": "2078.13",
+        "low": "2053.13"
       },
       "yearRange": {
         "currency": "USD",
@@ -14116,18 +13970,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "4500.70"
+        "amount": "4384.63"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "4541.83"
+        "amount": "4340.00"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "4550.83",
-        "low": "4495.58"
+        "high": "4385.13",
+        "low": "4328.63"
       },
       "yearRange": {
         "currency": "USD",
@@ -14214,12 +14068,11 @@
         ]
       },
       "category": "INDICES",
-      "favorite": true,
+      "favorite": false,
       "productMarketStatus": "OPEN",
       "tags": [
         "INDICES"
-      ],
-      "tracker": {}
+      ]
     },
     {
       "symbol": "WALLSTREET",
@@ -14232,18 +14085,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 0,
-        "amount": "17965"
+        "amount": "17896"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 0,
-        "amount": "17989"
+        "amount": "17705"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 0,
-        "high": "18023",
-        "low": "17947"
+        "high": "17899",
+        "low": "17673"
       },
       "yearRange": {
         "currency": "USD",
@@ -14347,24 +14200,24 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 1,
-        "amount": "1248.5"
+        "amount": "1259.1"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 1,
-        "amount": "1249.4"
+        "amount": "1264.9"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 1,
-        "high": "1251.0",
-        "low": "1246.7"
+        "high": "1268.1",
+        "low": "1256.9"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 1,
-        "high": "1270.1",
-        "low": "1246.7"
+        "high": "1287.6",
+        "low": "1256.9"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -14425,7 +14278,7 @@
         ]
       },
       "category": "COMMODITIES",
-      "favorite": true,
+      "favorite": false,
       "productMarketStatus": "OPEN",
       "tags": [
         "COMMODITIES"
@@ -14442,18 +14295,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "16.991"
+        "amount": "17.043"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 3,
-        "amount": "17.060"
+        "amount": "17.054"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 3,
-        "high": "17.071",
-        "low": "16.932"
+        "high": "17.146",
+        "low": "16.896"
       },
       "yearRange": {
         "currency": "USD",
@@ -14537,18 +14390,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 1,
-        "amount": "1025.5"
+        "amount": "1045.0"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 1,
-        "amount": "1028.4"
+        "amount": "1044.9"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 1,
-        "high": "1028.4",
-        "low": "1021.8"
+        "high": "1053.0",
+        "low": "1039.7"
       },
       "yearRange": {
         "currency": "USD",
@@ -14619,8 +14472,7 @@
       "productMarketStatus": "OPEN",
       "tags": [
         "COMMODITIES"
-      ],
-      "tracker": {}
+      ]
     },
     {
       "symbol": "US Oil 19 May 16",
@@ -14633,23 +14485,23 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "43.38"
+        "amount": "44.39"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 2,
-        "amount": "43.57"
+        "amount": "43.69"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "43.65",
-        "low": "43.10"
+        "high": "44.58",
+        "low": "43.04"
       },
       "yearRange": {
         "currency": "USD",
         "decimals": 2,
-        "high": "44.49",
+        "high": "46.78",
         "low": "39.00"
       },
       "openingHours": {
@@ -14728,24 +14580,24 @@
       "currentPrice": {
         "currency": "CAD",
         "decimals": 4,
-        "amount": "1.4365"
+        "amount": "1.4751"
       },
       "closingPrice": {
         "currency": "CAD",
         "decimals": 4,
-        "amount": "1.4376"
+        "amount": "1.4765"
       },
       "dayRange": {
         "currency": "CAD",
         "decimals": 4,
-        "high": "1.4381",
-        "low": "1.4359"
+        "high": "1.4779",
+        "low": "1.4716"
       },
       "yearRange": {
         "currency": "CAD",
         "decimals": 4,
         "high": "1.6106",
-        "low": "1.3001"
+        "low": "1.3429"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -14823,18 +14675,18 @@
       "currentPrice": {
         "currency": "CHF",
         "decimals": 5,
-        "amount": "1.10054"
+        "amount": "1.10957"
       },
       "closingPrice": {
         "currency": "CHF",
         "decimals": 5,
-        "amount": "1.10026"
+        "amount": "1.10573"
       },
       "dayRange": {
         "currency": "CHF",
         "decimals": 5,
-        "high": "1.10070",
-        "low": "1.09992"
+        "high": "1.11037",
+        "low": "1.10508"
       },
       "yearRange": {
         "currency": "USD",
@@ -14918,18 +14770,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 5,
-        "amount": "1.12878"
+        "amount": "1.13845"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 5,
-        "amount": "1.12942"
+        "amount": "1.13881"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 5,
-        "high": "1.12966",
-        "low": "1.12843"
+        "high": "1.14099",
+        "low": "1.13586"
       },
       "yearRange": {
         "currency": "USD",
@@ -15013,18 +14865,18 @@
       "currentPrice": {
         "currency": "GBP",
         "decimals": 5,
-        "amount": "0.78821"
+        "amount": "0.78780"
       },
       "closingPrice": {
         "currency": "GBP",
         "decimals": 5,
-        "amount": "0.78842"
+        "amount": "0.79014"
       },
       "dayRange": {
         "currency": "GBP",
         "decimals": 5,
-        "high": "0.78845",
-        "low": "0.78784"
+        "high": "0.79045",
+        "low": "0.78708"
       },
       "yearRange": {
         "currency": "GBP",
@@ -15108,24 +14960,24 @@
       "currentPrice": {
         "currency": "JPY",
         "decimals": 3,
-        "amount": "123.586"
+        "amount": "124.355"
       },
       "closingPrice": {
         "currency": "JPY",
         "decimals": 3,
-        "amount": "123.701"
+        "amount": "123.517"
       },
       "dayRange": {
         "currency": "JPY",
         "decimals": 3,
-        "high": "123.730",
-        "low": "123.517"
+        "high": "124.436",
+        "low": "123.268"
       },
       "yearRange": {
         "currency": "JPY",
         "decimals": 3,
         "high": "141.053",
-        "low": "121.715"
+        "low": "121.615"
       },
       "openingHours": {
         "timezone": "America/New_York",
@@ -15203,23 +15055,23 @@
       "currentPrice": {
         "currency": "CAD",
         "decimals": 4,
-        "amount": "1.8224"
+        "amount": "1.8724"
       },
       "closingPrice": {
         "currency": "CAD",
         "decimals": 4,
-        "amount": "1.8234"
+        "amount": "1.8687"
       },
       "dayRange": {
         "currency": "CAD",
         "decimals": 4,
-        "high": "1.8244",
-        "low": "1.8220"
+        "high": "1.8750",
+        "low": "1.8654"
       },
       "yearRange": {
         "currency": "CAD",
         "decimals": 4,
-        "high": "1.8244",
+        "high": "2.0974",
         "low": "1.8108"
       },
       "openingHours": {
@@ -15298,18 +15150,18 @@
       "currentPrice": {
         "currency": "CHF",
         "decimals": 5,
-        "amount": "1.39627"
+        "amount": "1.40840"
       },
       "closingPrice": {
         "currency": "CHF",
         "decimals": 5,
-        "amount": "1.39557"
+        "amount": "1.39937"
       },
       "dayRange": {
         "currency": "CHF",
         "decimals": 5,
-        "high": "1.39694",
-        "low": "1.39531"
+        "high": "1.40938",
+        "low": "1.39855"
       },
       "yearRange": {
         "currency": "CHF",
@@ -15393,18 +15245,18 @@
       "currentPrice": {
         "currency": "JPY",
         "decimals": 2,
-        "amount": "156.79"
+        "amount": "157.85"
       },
       "closingPrice": {
         "currency": "JPY",
         "decimals": 2,
-        "amount": "156.90"
+        "amount": "156.32"
       },
       "dayRange": {
         "currency": "JPY",
         "decimals": 2,
-        "high": "156.99",
-        "low": "156.73"
+        "high": "157.92",
+        "low": "156.03"
       },
       "yearRange": {
         "currency": "JPY",
@@ -15488,18 +15340,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 5,
-        "amount": "1.43204"
+        "amount": "1.44513"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 5,
-        "amount": "1.43255"
+        "amount": "1.44128"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 5,
-        "high": "1.43330",
-        "low": "1.43192"
+        "high": "1.44783",
+        "low": "1.43893"
       },
       "yearRange": {
         "currency": "USD",
@@ -15583,18 +15435,18 @@
       "currentPrice": {
         "currency": "CAD",
         "decimals": 5,
-        "amount": "1.27258"
+        "amount": "1.29572"
       },
       "closingPrice": {
         "currency": "CAD",
         "decimals": 5,
-        "amount": "1.27282"
+        "amount": "1.29653"
       },
       "dayRange": {
         "currency": "CAD",
         "decimals": 5,
-        "high": "1.27336",
-        "low": "1.27182"
+        "high": "1.29803",
+        "low": "1.29183"
       },
       "yearRange": {
         "currency": "CAD",
@@ -15678,18 +15530,18 @@
       "currentPrice": {
         "currency": "CHF",
         "decimals": 5,
-        "amount": "0.97501"
+        "amount": "0.97460"
       },
       "closingPrice": {
         "currency": "CHF",
         "decimals": 5,
-        "amount": "0.97420"
+        "amount": "0.97096"
       },
       "dayRange": {
         "currency": "CHF",
         "decimals": 5,
-        "high": "0.97525",
-        "low": "0.97375"
+        "high": "0.97543",
+        "low": "0.96990"
       },
       "yearRange": {
         "currency": "CHF",
@@ -15773,18 +15625,18 @@
       "currentPrice": {
         "currency": "JPY",
         "decimals": 3,
-        "amount": "109.489"
+        "amount": "109.232"
       },
       "closingPrice": {
         "currency": "JPY",
         "decimals": 3,
-        "amount": "109.526"
+        "amount": "108.461"
       },
       "dayRange": {
         "currency": "JPY",
         "decimals": 3,
-        "high": "109.542",
-        "low": "109.398"
+        "high": "109.280",
+        "low": "108.276"
       },
       "yearRange": {
         "currency": "JPY",
@@ -15868,18 +15720,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 5,
-        "amount": "0.77378"
+        "amount": "0.73502"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 5,
-        "amount": "0.77447"
+        "amount": "0.73204"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 5,
-        "high": "0.77467",
-        "low": "0.77345"
+        "high": "0.73744",
+        "low": "0.73002"
       },
       "yearRange": {
         "currency": "USD",
@@ -15963,23 +15815,23 @@
       "currentPrice": {
         "currency": "AUD",
         "decimals": 4,
-        "amount": "1.4588"
+        "amount": "1.5489"
       },
       "closingPrice": {
         "currency": "AUD",
         "decimals": 4,
-        "amount": "1.4584"
+        "amount": "1.5557"
       },
       "dayRange": {
         "currency": "AUD",
         "decimals": 4,
-        "high": "1.4598",
-        "low": "1.4579"
+        "high": "1.5593",
+        "low": "1.5455"
       },
       "yearRange": {
         "currency": "AUD",
         "decimals": 4,
-        "high": "1.5203",
+        "high": "1.5594",
         "low": "1.4435"
       },
       "openingHours": {
@@ -16058,23 +15910,23 @@
       "currentPrice": {
         "currency": "AUD",
         "decimals": 4,
-        "amount": "1.8507"
+        "amount": "1.9661"
       },
       "closingPrice": {
         "currency": "AUD",
         "decimals": 4,
-        "amount": "1.8497"
+        "amount": "1.9689"
       },
       "dayRange": {
         "currency": "AUD",
         "decimals": 4,
-        "high": "1.8519",
-        "low": "1.8494"
+        "high": "1.9739",
+        "low": "1.9592"
       },
       "yearRange": {
         "currency": "AUD",
         "decimals": 4,
-        "high": "1.8907",
+        "high": "1.9739",
         "low": "1.8300"
       },
       "openingHours": {
@@ -16153,18 +16005,18 @@
       "currentPrice": {
         "currency": "USD",
         "decimals": 4,
-        "amount": "0.6911"
+        "amount": "0.6745"
       },
       "closingPrice": {
         "currency": "USD",
         "decimals": 4,
-        "amount": "0.6911"
+        "amount": "0.6779"
       },
       "dayRange": {
         "currency": "USD",
         "decimals": 4,
-        "high": "0.6915",
-        "low": "0.6907"
+        "high": "0.6780",
+        "low": "0.6716"
       },
       "yearRange": {
         "currency": "USD",
@@ -16248,23 +16100,23 @@
       "currentPrice": {
         "currency": "NZD",
         "decimals": 4,
-        "amount": "1.6334"
+        "amount": "1.6878"
       },
       "closingPrice": {
         "currency": "NZD",
         "decimals": 4,
-        "amount": "1.6344"
+        "amount": "1.6799"
       },
       "dayRange": {
         "currency": "NZD",
         "decimals": 4,
-        "high": "1.6354",
-        "low": "1.6324"
+        "high": "1.6932",
+        "low": "1.6795"
       },
       "yearRange": {
         "currency": "NZD",
         "decimals": 4,
-        "high": "1.6831",
+        "high": "1.6932",
         "low": "1.6104"
       },
       "openingHours": {
@@ -16343,23 +16195,23 @@
       "currentPrice": {
         "currency": "NZD",
         "decimals": 4,
-        "amount": "2.0722"
+        "amount": "2.1424"
       },
       "closingPrice": {
         "currency": "NZD",
         "decimals": 4,
-        "amount": "2.0730"
+        "amount": "2.1260"
       },
       "dayRange": {
         "currency": "NZD",
         "decimals": 4,
-        "high": "2.0746",
-        "low": "2.0716"
+        "high": "2.1489",
+        "low": "2.1257"
       },
       "yearRange": {
         "currency": "NZD",
         "decimals": 4,
-        "high": "2.1100",
+        "high": "2.1489",
         "low": "2.0359"
       },
       "openingHours": {

@@ -5,7 +5,7 @@
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Mon, 25 Apr 2016 19:50:58 GMT",
+    "date": "Tue, 10 May 2016 16:00:57 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -21,27 +21,27 @@
     "cashBalance": {
       "currency": "BUX",
       "decimals": 2,
-      "amount": "1097.73"
+      "amount": "989.75"
     },
     "totalProfitAndLoss": {
       "currency": "BUX",
       "decimals": 2,
-      "amount": "-177.32"
+      "amount": "0.03"
     },
     "investedAmount": {
       "currency": "BUX",
       "decimals": 2,
-      "amount": "1240.00"
+      "amount": "10.00"
     },
     "ringFencedAmount": {
       "currency": "BUX",
       "decimals": 2,
-      "amount": "116.89"
+      "amount": "49.99"
     },
     "availableCashForTrading": {
       "currency": "BUX",
       "decimals": 2,
-      "amount": "980.84"
+      "amount": "939.76"
     },
     "availableCashForWithdrawal": {
       "currency": "BUX",

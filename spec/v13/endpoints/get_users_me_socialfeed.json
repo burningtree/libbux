@@ -5,7 +5,7 @@
   },
   "header": {
     "server": "nginx/1.8.0",
-    "date": "Thu, 21 Apr 2016 17:38:58 GMT",
+    "date": "Tue, 10 May 2016 16:00:51 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "close",
@@ -20,25 +20,165 @@
     "recentEvents": [
       {
         "t": "social.position.opened",
-        "id": "d5ea7171-07e7-11e6-9723-4afb09c889f3",
+        "id": "5c028cd9-16c8-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "dc714aa7-d96b-4128-8f47-535b69e972f3",
-            "nickname": "mattowenprice",
+            "id": "db21df24-6101-4569-b928-2a670c847c67",
+            "nickname": "kimmybojangles",
+            "title": "Early Adopter",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "INTERNATIONAL"
+          },
+          "time": 1462896047432,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb27694",
+              "symbol": "Walt Disney",
+              "category": "STOCKS",
+              "displayName": "Walt Disney"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "4cf455b2-16c8-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "d3fd754d-d2af-4b30-bf63-a19a9f4a4966",
+            "nickname": "timmy2",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX",
+            "countryCode": "GB",
+            "orientation": "INTERNATIONAL"
+          },
+          "time": 1462896022173,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb33927",
+              "symbol": "US Oil 19 May 16",
+              "category": "COMMODITIES",
+              "displayName": "US Oil 19 May 16"
+            }
+          },
+          "accountType": "SERIOUS_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "2d330f9e-16c8-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "89c76b1e-05b8-48e0-9e9b-d7a9c4148785",
+            "nickname": "oisinocall",
             "title": "Rookie Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461260298913,
+          "time": 1462895968897,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb33927",
+              "symbol": "US Oil 19 May 16",
+              "category": "COMMODITIES",
+              "displayName": "US Oil 19 May 16"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "0b9a4a3a-16c8-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "8db1eca9-f45f-4213-9b42-efd570553afe",
+            "nickname": "hammy_10",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895912531,
           "position": {
             "type": "LONG",
             "product": {
-              "securityId": "sb26497",
-              "symbol": "USTECH",
+              "securityId": "sb26998",
+              "symbol": "Amazon",
+              "category": "STOCKS",
+              "displayName": "Amazon"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "05810325-16c8-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "89c76b1e-05b8-48e0-9e9b-d7a9c4148785",
+            "nickname": "oisinocall",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895902299,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb27692",
+              "symbol": "Alibaba",
+              "category": "STOCKS",
+              "displayName": "Alibaba"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "d50ed227-16c7-11e6-b4c2-363465656139",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "93db03c7-cedb-41a9-9e51-3925be427b69",
+            "nickname": "buxlib",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895821020,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26493",
+              "symbol": "GERMANY30",
               "category": "INDICES",
-              "displayName": "US Tech 100"
+              "displayName": "Germany 30"
             }
           },
           "accountType": "FUN_BUX",
@@ -48,48 +188,48 @@
       },
       {
         "t": "social.position.opened",
-        "id": "c76b5abe-07e7-11e6-9723-4afb09c889f3",
+        "id": "a3cc5977-16c7-11e6-9f9f-aaa73b5bfbc7",
         "v": 1,
         "body": {
           "user": {
-            "id": "dc714aa7-d96b-4128-8f47-535b69e972f3",
-            "nickname": "mattowenprice",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
+            "id": "f98b7b5d-5275-46b6-add9-26b4997e9011",
+            "nickname": "tanvirkhan",
+            "title": "Experienced Trader",
+            "accountType": "SERIOUS_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461260274592,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26513",
-              "symbol": "AAPL",
-              "category": "STOCKS",
-              "displayName": "Apple"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "af503e14-07e7-11e6-821d-363465656139",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "5c887d15-3d73-48d9-bd31-e4ac910f450f",
-            "nickname": "harryorharrison",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461260234149,
+          "time": 1462895738376,
           "position": {
             "type": "SHORT",
+            "product": {
+              "securityId": "sb26512",
+              "symbol": "TWTR",
+              "category": "STOCKS",
+              "displayName": "Twitter"
+            }
+          },
+          "accountType": "SERIOUS_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "82253c00-16c7-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "7c3c2af6-fe5a-4a5f-af5b-a7609820625e",
+            "nickname": "htmadge",
+            "title": "Early Adopter",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895681916,
+          "position": {
+            "type": "LONG",
             "product": {
               "securityId": "sb26512",
               "symbol": "TWTR",
@@ -104,25 +244,25 @@
       },
       {
         "t": "social.position.opened",
-        "id": "a8a8c054-07e7-11e6-9723-4afb09c889f3",
+        "id": "6bca94b0-16c7-11e6-9f9f-aaa73b5bfbc7",
         "v": 1,
         "body": {
           "user": {
-            "id": "dc714aa7-d96b-4128-8f47-535b69e972f3",
-            "nickname": "mattowenprice",
+            "id": "c356965c-1bf2-497b-86b6-533b3817339e",
+            "nickname": "ewheeler",
             "title": "Rookie Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461260222985,
+          "time": 1462895644412,
           "position": {
             "type": "LONG",
             "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
+              "securityId": "sb26998",
+              "symbol": "Amazon",
               "category": "STOCKS",
-              "displayName": "Google"
+              "displayName": "Amazon"
             }
           },
           "accountType": "FUN_BUX",
@@ -132,74 +272,74 @@
       },
       {
         "t": "social.position.opened",
-        "id": "a26b4ebb-07e7-11e6-9723-4afb09c889f3",
+        "id": "5b319da5-16c7-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "27c3b7cf-1750-47f2-a887-5225a06087ad",
-            "nickname": "spexg4m3r",
+            "id": "aaf7c466-9d5f-42c1-a6b9-4563b0badc6c",
+            "nickname": "kami6h",
             "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
+            "accountType": "SERIOUS_BUX",
             "countryCode": "GB",
-            "orientation": "LOCAL"
+            "orientation": "INTERNATIONAL"
           },
-          "time": 1461260212516,
+          "time": 1462895616566,
           "position": {
             "type": "SHORT",
             "product": {
-              "securityId": "sb26512",
-              "symbol": "TWTR",
-              "category": "STOCKS",
-              "displayName": "Twitter"
+              "securityId": "sb28261",
+              "symbol": "GBP/JPY",
+              "category": "FOREX",
+              "displayName": "GBP/JPY"
             }
           },
-          "accountType": "FUN_BUX",
+          "accountType": "SERIOUS_BUX",
           "publicFeed": true,
           "topTraderFeed": false
         }
       },
       {
         "t": "social.position.opened",
-        "id": "97b797f9-07e7-11e6-9c71-ce9e90bc70d4",
+        "id": "451ed46b-16c7-11e6-9663-ce9e90bc70d4",
         "v": 1,
         "body": {
           "user": {
-            "id": "b4c44948-0113-47d7-b389-2e7bbe5112e7",
-            "nickname": "patarm",
+            "id": "d3fd754d-d2af-4b30-bf63-a19a9f4a4966",
+            "nickname": "timmy2",
             "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
+            "accountType": "SERIOUS_BUX",
             "countryCode": "GB",
-            "orientation": "LOCAL"
+            "orientation": "INTERNATIONAL"
           },
-          "time": 1461260194561,
+          "time": 1462895579533,
           "position": {
             "type": "LONG",
             "product": {
-              "securityId": "sb28220",
-              "symbol": "Coca-Cola",
-              "category": "STOCKS",
-              "displayName": "Coca-Cola"
+              "securityId": "sb33927",
+              "symbol": "US Oil 19 May 16",
+              "category": "COMMODITIES",
+              "displayName": "US Oil 19 May 16"
             }
           },
-          "accountType": "FUN_BUX",
+          "accountType": "SERIOUS_BUX",
           "publicFeed": true,
           "topTraderFeed": false
         }
       },
       {
         "t": "social.position.opened",
-        "id": "854d153a-07e7-11e6-805d-ca43adfcab47",
+        "id": "2c7f935a-16c7-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "f4d53f12-c4cb-4a49-ba64-b34c5b31e7a0",
-            "nickname": "billy_hoe09",
-            "title": "Rookie Trader",
+            "id": "80f6efbf-89c8-4c69-885d-26ee5f9f8f82",
+            "nickname": "handdan",
+            "title": "Experienced Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461260163664,
+          "time": 1462895538224,
           "position": {
             "type": "LONG",
             "product": {
@@ -215,57 +355,26 @@
         }
       },
       {
-        "t": "social.battle.created",
-        "id": "7f3ea30a-07e7-11e6-805d-ca43adfcab47",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "6287c4fe-9403-4f12-aaa0-9ff814f506fb",
-            "nickname": "damhuis95",
-            "title": "Rookie Trader",
-            "accountType": "SERIOUS_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461260153503,
-          "battle": {
-            "id": "5156c50d-988f-47ce-a78b-f595b4afb589",
-            "name": "trades. ",
-            "orientation": "LOCAL",
-            "status": "CREATED",
-            "startTime": 1461263753468,
-            "settings": {
-              "archetype": {
-                "name": "Blitz",
-                "iconId": "icon_battle_blitz"
-              }
-            }
-          },
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
         "t": "social.position.opened",
-        "id": "78e6a4f0-07e7-11e6-821d-363465656139",
+        "id": "06ceaec1-16c7-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "8903d5eb-70f1-4388-8e28-443d15c0e756",
-            "nickname": "afluffygingerx",
+            "id": "0ea0f245-2210-4352-9f1e-65326b3231d6",
+            "nickname": "madeofhannah",
             "title": "Rookie Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461260142860,
+          "time": 1462895474989,
           "position": {
-            "type": "LONG",
+            "type": "SHORT",
             "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
-              "category": "STOCKS",
-              "displayName": "Google"
+              "securityId": "sb26497",
+              "symbol": "USTECH",
+              "category": "INDICES",
+              "displayName": "US Tech 100"
             }
           },
           "accountType": "FUN_BUX",
@@ -275,18 +384,74 @@
       },
       {
         "t": "social.position.opened",
-        "id": "6e2384ce-07e7-11e6-9832-aaa73b5bfbc7",
+        "id": "ef323781-16c6-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "096d0ae9-0936-4e09-b34e-dda1f43bffd2",
-            "nickname": "jackw700",
+            "id": "cdc9e9d6-d82e-4a57-a0c4-011932395efa",
+            "nickname": "disco501",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "INTERNATIONAL"
+          },
+          "time": 1462895435376,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb34069",
+              "symbol": "GBP/NZD",
+              "category": "FOREX",
+              "displayName": "GBP/NZD"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "a3319528-16c6-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "0ea0f245-2210-4352-9f1e-65326b3231d6",
+            "nickname": "madeofhannah",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895307865,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb32391",
+              "symbol": "EUR/CHF",
+              "category": "FOREX",
+              "displayName": "EUR/CHF"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "63d7a085-16c6-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "a4e6f33f-b5fe-4b89-9795-97a2dc5f85d3",
+            "nickname": "dana2222",
             "title": "Experienced Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461260124804,
+          "time": 1462895201579,
           "position": {
             "type": "LONG",
             "product": {
@@ -303,429 +468,18 @@
       },
       {
         "t": "social.position.opened",
-        "id": "44ab37ac-07e7-11e6-a1d5-1afe63c45ee8",
+        "id": "61d14884-16c6-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "25cb7410-50f8-4bbd-8483-1310b90a5fd8",
-            "nickname": "goodey",
+            "id": "a349d449-1513-4987-ab95-da48d31f24ed",
+            "nickname": "kingshanny",
             "title": "Rookie Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461260055229,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26504",
-              "symbol": "EUR/GBP",
-              "category": "FOREX",
-              "displayName": "EUR/GBP"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "0de7bf23-07e7-11e6-89be-663431336134",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "f72a0a28-ea01-4b94-9046-9573412a762a",
-            "nickname": "pb13422",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259963351,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb28258",
-              "symbol": "EUR/CAD",
-              "category": "FOREX",
-              "displayName": "EUR/CAD"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "047428f2-07e7-11e6-821d-363465656139",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "ebe9b9aa-5c83-4ea6-a766-d8af3ae9b57c",
-            "nickname": "instabas",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259947494,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb28871",
-              "symbol": "Under Armour",
-              "category": "STOCKS",
-              "displayName": "Under Armour"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.group.followed",
-        "id": "fc1f220d-07e6-11e6-9832-aaa73b5bfbc7",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "6bae8adf-4ed2-4bae-9b4c-baf303868def",
-            "nickname": "dannyp123",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "NL",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259933515,
-          "group": {
-            "id": "584b1b9e-6fd2-474a-86c5-de2aaaebd94b",
-            "name": "NL25 (AEX) ANALYSIS",
-            "creator": {
-              "id": "4bda7ff8-115b-409a-be46-e9c45f837768",
-              "nickname": "adnilnart",
-              "title": "Early Adopter",
-              "accountType": "SERIOUS_BUX",
-              "countryCode": "NL"
-            },
-            "type": "PUBLIC",
-            "userGroupSettings": {
-              "muteUntil": 31536000000000,
-              "muted": true
-            },
-            "orientation": "INTERNATIONAL"
-          },
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.battle.created",
-        "id": "f326883f-07e6-11e6-9832-aaa73b5bfbc7",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "86d88e11-8d24-40f2-8cd6-0381a985200e",
-            "nickname": "peter_marlowe",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259918464,
-          "battle": {
-            "id": "c1d59de6-01b2-41e4-8029-128fc9a0f868",
-            "name": "The Street",
-            "orientation": "LOCAL",
-            "status": "CREATED",
-            "startTime": 1461263518428,
-            "settings": {
-              "archetype": {
-                "name": "Blitz",
-                "iconId": "icon_battle_blitz"
-              }
-            }
-          },
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "d47b944b-07e6-11e6-9c71-ce9e90bc70d4",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "e2c37406-0f48-472e-855d-0017ebb1a5ab",
-            "nickname": "flightofowls",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259867012,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26513",
-              "symbol": "AAPL",
-              "category": "STOCKS",
-              "displayName": "Apple"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "ce2851d7-07e6-11e6-9c71-ce9e90bc70d4",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "e2c37406-0f48-472e-855d-0017ebb1a5ab",
-            "nickname": "flightofowls",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259856400,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
-              "category": "STOCKS",
-              "displayName": "Google"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "cb84f723-07e6-11e6-a1d5-1afe63c45ee8",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "8bdffb87-2467-441d-b3e8-4efcb4886f38",
-            "nickname": "hdshaw",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259851974,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb33927",
-              "symbol": "US Oil 19 May 16",
-              "category": "COMMODITIES",
-              "displayName": "US Oil 19 May 16"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.battle.finished",
-        "id": "b7458de2-07e6-11e6-a1d5-1afe63c45ee8",
-        "v": 1,
-        "body": {
-          "winner": {
-            "id": "78e9b6b5-0154-4d91-b201-d22a2120f894",
-            "nickname": "_vu",
-            "title": "Experienced Trader",
-            "accountType": "SERIOUS_BUX",
-            "countryCode": "DE",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259818004,
-          "battle": {
-            "id": "4e917708-beb2-44ac-b918-fdcce870cf5e",
-            "name": "Dax ",
-            "status": "FINISHED",
-            "settings": {
-              "archetype": {
-                "name": "",
-                "iconId": ""
-              }
-            }
-          },
-          "publicFeed": true,
-          "user": {
-            "id": "78e9b6b5-0154-4d91-b201-d22a2120f894",
-            "nickname": "_vu",
-            "title": "Experienced Trader",
-            "accountType": "SERIOUS_BUX",
-            "countryCode": "DE",
-            "orientation": "INTERNATIONAL"
-          },
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "b6c7f93c-07e6-11e6-805d-ca43adfcab47",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "f8a0bfd5-1cbd-4081-a602-edc1852f5c82",
-            "nickname": "lekkerfrisjes",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "NL",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259817181,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb27002",
-              "symbol": "Netflix",
-              "category": "STOCKS",
-              "displayName": "Netflix"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "a915f629-07e6-11e6-a1d5-1afe63c45ee8",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "98998d26-7c0a-489a-9e14-4b4e5991d016",
-            "nickname": "madeby_ra",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "NL",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259794204,
-          "position": {
-            "type": "SHORT",
-            "product": {
-              "securityId": "sb26500",
-              "symbol": "GOLD",
-              "category": "COMMODITIES",
-              "displayName": "Gold"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "9389c1c7-07e6-11e6-821d-363465656139",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "ebe9b9aa-5c83-4ea6-a766-d8af3ae9b57c",
-            "nickname": "instabas",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259758053,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
-              "category": "STOCKS",
-              "displayName": "Google"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "8d8d50d7-07e6-11e6-9832-aaa73b5bfbc7",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "ff884fad-0e23-4ea9-9ffb-6c3ec4c19cd3",
-            "nickname": "tecmanuk",
-            "title": "Early Adopter",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259748010,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb28216",
-              "symbol": "Starbucks",
-              "category": "STOCKS",
-              "displayName": "Starbucks"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "8586435a-07e6-11e6-9723-4afb09c889f3",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
-            "nickname": "burningtree",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259734542,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb27701",
-              "symbol": "GoPro",
-              "category": "STOCKS",
-              "displayName": "GoPro"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "6d56dbd9-07e6-11e6-9c71-ce9e90bc70d4",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "949f4ce6-6932-4a4f-a6e3-09a8ab5f5551",
-            "nickname": "ibz1986",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259693966,
+          "time": 1462895198182,
           "position": {
             "type": "LONG",
             "product": {
@@ -742,90 +496,25 @@
       },
       {
         "t": "social.position.opened",
-        "id": "6c694752-07e6-11e6-9832-aaa73b5bfbc7",
+        "id": "607e1537-16c6-11e6-9f9f-aaa73b5bfbc7",
         "v": 1,
         "body": {
           "user": {
-            "id": "5428bcca-517a-49ac-83c6-010a0f9338bb",
-            "nickname": "ne0",
+            "id": "eaf78f9c-a89d-4f4f-83ac-97a92a946f4e",
+            "nickname": "mr_bigbux",
             "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "DE",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259692409,
-          "position": {
-            "type": "SHORT",
-            "product": {
-              "securityId": "sb28205",
-              "symbol": "Activision",
-              "category": "STOCKS",
-              "displayName": "Activision"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.battle.finished",
-        "id": "62851555-07e6-11e6-9723-4afb09c889f3",
-        "v": 1,
-        "body": {
-          "winner": {
-            "id": "de7bbc7b-3201-4c94-8083-6e9d02c83338",
-            "nickname": "missedisland",
-            "title": "Early Adopter",
-            "accountType": "FUN_BUX",
-            "countryCode": "NL",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259675814,
-          "battle": {
-            "id": "acd129d1-d9ab-408c-9773-84e470f38e9b",
-            "name": "Wallstreet Tanks",
-            "status": "FINISHED",
-            "settings": {
-              "archetype": {
-                "name": "",
-                "iconId": ""
-              }
-            }
-          },
-          "publicFeed": true,
-          "user": {
-            "id": "de7bbc7b-3201-4c94-8083-6e9d02c83338",
-            "nickname": "missedisland",
-            "title": "Early Adopter",
-            "accountType": "FUN_BUX",
-            "countryCode": "NL",
-            "orientation": "INTERNATIONAL"
-          },
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "5954c946-07e6-11e6-89be-663431336134",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "b46c181a-5401-4460-bec5-0fd1e4d08d1e",
-            "nickname": "stevebarbour",
-            "title": "Early Adopter",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461259660398,
+          "time": 1462895195959,
           "position": {
             "type": "LONG",
             "product": {
-              "securityId": "sb26999",
-              "symbol": "MSFT",
+              "securityId": "sb26998",
+              "symbol": "Amazon",
               "category": "STOCKS",
-              "displayName": "Microsoft"
+              "displayName": "Amazon"
             }
           },
           "accountType": "FUN_BUX",
@@ -835,26 +524,165 @@
       },
       {
         "t": "social.position.opened",
-        "id": "570226bc-07e6-11e6-9723-4afb09c889f3",
+        "id": "5d7feffe-16c6-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "cebfe5d6-aeb5-460c-a05f-7e3e61600444",
-            "nickname": "an0uk",
-            "title": "Early Adopter",
-            "accountType": "SERIOUS_BUX",
-            "countryCode": "NL",
-            "orientation": "INTERNATIONAL",
-            "admin": true
+            "id": "a349d449-1513-4987-ab95-da48d31f24ed",
+            "nickname": "kingshanny",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
           },
-          "time": 1461259656501,
+          "time": 1462895190938,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb33927",
+              "symbol": "US Oil 19 May 16",
+              "category": "COMMODITIES",
+              "displayName": "US Oil 19 May 16"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "534adf1c-16c6-11e6-9f9f-aaa73b5bfbc7",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "eaf78f9c-a89d-4f4f-83ac-97a92a946f4e",
+            "nickname": "mr_bigbux",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895173813,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb27693",
+              "symbol": "Abercrombie",
+              "category": "STOCKS",
+              "displayName": "Abercrombie"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "26f38da1-16c6-11e6-91a5-663431336134",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "b985bea6-7919-4649-92d4-9c696b3cb72f",
+            "nickname": "shackma",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895099421,
           "position": {
             "type": "SHORT",
             "product": {
-              "securityId": "sb28229",
-              "symbol": "McDonald's",
+              "securityId": "sb26998",
+              "symbol": "Amazon",
               "category": "STOCKS",
-              "displayName": "McDonald's"
+              "displayName": "Amazon"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "23c94f25-16c6-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "80f6efbf-89c8-4c69-885d-26ee5f9f8f82",
+            "nickname": "handdan",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895094111,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb28856",
+              "symbol": "IBM",
+              "category": "STOCKS",
+              "displayName": "IBM"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "1ab78830-16c6-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "cdc9e9d6-d82e-4a57-a0c4-011932395efa",
+            "nickname": "disco501",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "INTERNATIONAL"
+          },
+          "time": 1462895078895,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26495",
+              "symbol": "UK100",
+              "category": "INDICES",
+              "displayName": "UK 100"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "faaed941-16c5-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "731d992d-4213-41c3-a727-7b3762c6a717",
+            "nickname": "pippy1",
+            "title": "Experienced Trader",
+            "accountType": "SERIOUS_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462895025151,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26515",
+              "symbol": "TSLA",
+              "category": "STOCKS",
+              "displayName": "Tesla Motors"
             }
           },
           "accountType": "SERIOUS_BUX",
@@ -864,298 +692,46 @@
       },
       {
         "t": "social.position.opened",
-        "id": "5157a66a-07e6-11e6-89be-663431336134",
+        "id": "d6888c43-16c5-11e6-9663-ce9e90bc70d4",
         "v": 1,
         "body": {
           "user": {
-            "id": "b46c181a-5401-4460-bec5-0fd1e4d08d1e",
-            "nickname": "stevebarbour",
-            "title": "Early Adopter",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259646995,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26513",
-              "symbol": "AAPL",
-              "category": "STOCKS",
-              "displayName": "Apple"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "3bc16046-07e6-11e6-821d-363465656139",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "6b89cb9d-604e-4c72-b694-413c131992cc",
-            "nickname": "chandlerjay",
+            "id": "431734dc-71f4-499b-af49-f124054c9186",
+            "nickname": "mariorosario",
             "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259610778,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
-              "category": "STOCKS",
-              "displayName": "Google"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "235d0565-07e6-11e6-a1d5-1afe63c45ee8",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "d53b77fe-7bd6-4f36-bf93-d18c30202411",
-            "nickname": "odyssey",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
+            "accountType": "SERIOUS_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461259569855,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb28257",
-              "symbol": "EUR/JPY",
-              "category": "FOREX",
-              "displayName": "EUR/JPY"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "1c39a07e-07e6-11e6-9832-aaa73b5bfbc7",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "d2bf29ea-b256-412b-9d38-2d397376845d",
-            "nickname": "lgw",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259557879,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
-              "category": "STOCKS",
-              "displayName": "Google"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "0fa9fe46-07e6-11e6-821d-363465656139",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "5c887d15-3d73-48d9-bd31-e4ac910f450f",
-            "nickname": "harryorharrison",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259536805,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb27002",
-              "symbol": "Netflix",
-              "category": "STOCKS",
-              "displayName": "Netflix"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "078ad4ae-07e6-11e6-a1d5-1afe63c45ee8",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "3bc48a1f-b240-411b-8e3c-c3058aeb569f",
-            "nickname": "billy1",
-            "title": "Early Adopter",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259523179,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb27002",
-              "symbol": "Netflix",
-              "category": "STOCKS",
-              "displayName": "Netflix"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "efdb230e-07e5-11e6-a1d5-1afe63c45ee8",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "cb1e8391-a9a6-43f9-8cc6-dd573ab77658",
-            "nickname": "rich_tim",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "AT",
-            "orientation": "INTERNATIONAL"
-          },
-          "time": 1461259483440,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb28220",
-              "symbol": "Coca-Cola",
-              "category": "STOCKS",
-              "displayName": "Coca-Cola"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "e5b8886c-07e5-11e6-821d-363465656139",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "5c887d15-3d73-48d9-bd31-e4ac910f450f",
-            "nickname": "harryorharrison",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259466436,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26511",
-              "symbol": "FB",
-              "category": "STOCKS",
-              "displayName": "Facebook"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "d85b0e50-07e5-11e6-9832-aaa73b5bfbc7",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "d2bf29ea-b256-412b-9d38-2d397376845d",
-            "nickname": "lgw",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259444013,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26511",
-              "symbol": "FB",
-              "category": "STOCKS",
-              "displayName": "Facebook"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "cce2a739-07e5-11e6-a1d5-1afe63c45ee8",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "3bc48a1f-b240-411b-8e3c-c3058aeb569f",
-            "nickname": "billy1",
-            "title": "Early Adopter",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259424769,
+          "time": 1462894964502,
           "position": {
             "type": "SHORT",
             "product": {
-              "securityId": "sb27694",
-              "symbol": "Walt Disney",
+              "securityId": "sb26515",
+              "symbol": "TSLA",
               "category": "STOCKS",
-              "displayName": "Walt Disney"
+              "displayName": "Tesla Motors"
             }
           },
-          "accountType": "FUN_BUX",
+          "accountType": "SERIOUS_BUX",
           "publicFeed": true,
           "topTraderFeed": false
         }
       },
       {
         "t": "social.position.opened",
-        "id": "c5f5bcd0-07e5-11e6-a1d5-1afe63c45ee8",
+        "id": "c1334620-16c5-11e6-b4c2-363465656139",
         "v": 1,
         "body": {
           "user": {
-            "id": "d53b77fe-7bd6-4f36-bf93-d18c30202411",
-            "nickname": "odyssey",
-            "title": "Experienced Trader",
+            "id": "a3cbfbae-a376-4694-a0bc-8bc664710b53",
+            "nickname": "knimbus",
+            "title": "Rookie Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461259413150,
+          "time": 1462894928711,
           "position": {
             "type": "LONG",
             "product": {
@@ -1172,139 +748,188 @@
       },
       {
         "t": "social.position.opened",
-        "id": "c2badc98-07e5-11e6-9c71-ce9e90bc70d4",
+        "id": "b096311e-16c5-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "bc54b53b-b80c-456f-b4b5-efaa260083b7",
-            "nickname": "littlepunkerx",
-            "title": "Experienced Trader",
+            "id": "add83f07-6bc2-4898-9ddc-4e9e1eda5237",
+            "nickname": "orlandocloss",
+            "title": "Rookie Trader",
             "accountType": "FUN_BUX",
-            "countryCode": "NL",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894900838,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb33927",
+              "symbol": "US Oil 19 May 16",
+              "category": "COMMODITIES",
+              "displayName": "US Oil 19 May 16"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "abde4e3a-16c5-11e6-b4c2-363465656139",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "a3cbfbae-a376-4694-a0bc-8bc664710b53",
+            "nickname": "knimbus",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894892922,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26512",
+              "symbol": "TWTR",
+              "category": "STOCKS",
+              "displayName": "Twitter"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "a06f368b-16c5-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "c186fd5c-f29e-4840-9152-ecb406fc71e2",
+            "nickname": "monej005",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894873739,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26513",
+              "symbol": "AAPL",
+              "category": "STOCKS",
+              "displayName": "Apple"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "9c9641d4-16c5-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "d3fd754d-d2af-4b30-bf63-a19a9f4a4966",
+            "nickname": "timmy2",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX",
+            "countryCode": "GB",
             "orientation": "INTERNATIONAL"
           },
-          "time": 1461259407731,
+          "time": 1462894867284,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26497",
+              "symbol": "USTECH",
+              "category": "INDICES",
+              "displayName": "US Tech 100"
+            }
+          },
+          "accountType": "SERIOUS_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "9bdfe9ce-16c5-11e6-91a5-663431336134",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "139c0b77-84d6-42a9-ac4c-eb0a844c5c58",
+            "nickname": "crabbo",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "INTERNATIONAL"
+          },
+          "time": 1462894866089,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26496",
+              "symbol": "US500",
+              "category": "INDICES",
+              "displayName": "US 500"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "99c56ec4-16c5-11e6-9f9f-aaa73b5bfbc7",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "d0e503dd-a598-4972-aa88-978cbfb86bf1",
+            "nickname": "jed76",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894862560,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb27693",
+              "symbol": "Abercrombie",
+              "category": "STOCKS",
+              "displayName": "Abercrombie"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "8eef88dc-16c5-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "d17dfd27-44ea-4711-9f1d-9231340b7f47",
+            "nickname": "wedges24",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894844381,
           "position": {
             "type": "SHORT",
-            "product": {
-              "securityId": "sb26998",
-              "symbol": "Amazon",
-              "category": "STOCKS",
-              "displayName": "Amazon"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.group.followed",
-        "id": "c0365522-07e5-11e6-805d-ca43adfcab47",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "dec4193d-cbfa-48fb-b69d-8ed86afb1ba1",
-            "nickname": "mbellaesmee",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "NL",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259403507,
-          "group": {
-            "id": "2d2f324e-105c-45e0-9840-6d215ea6a2c1",
-            "name": "No BUX, No Glory",
-            "creator": {
-              "id": "af8bdbc2-fa29-4106-ba7c-6f21f7c7a374",
-              "nickname": "bigswingingnick",
-              "title": "Early Adopter",
-              "accountType": "SERIOUS_BUX",
-              "countryCode": "NL"
-            },
-            "type": "PUBLIC",
-            "userGroupSettings": {
-              "muteUntil": 31536000000000,
-              "muted": true
-            },
-            "orientation": "INTERNATIONAL"
-          },
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "b4204e3f-07e5-11e6-9723-4afb09c889f3",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "9c1d70fc-5e04-423f-ab7b-1831df2d9b7f",
-            "nickname": "charl13",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259383230,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26998",
-              "symbol": "Amazon",
-              "category": "STOCKS",
-              "displayName": "Amazon"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "990ba0c5-07e5-11e6-9723-4afb09c889f3",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "9c1d70fc-5e04-423f-ab7b-1831df2d9b7f",
-            "nickname": "charl13",
-            "title": "Experienced Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259337796,
-          "position": {
-            "type": "LONG",
-            "product": {
-              "securityId": "sb26998",
-              "symbol": "Amazon",
-              "category": "STOCKS",
-              "displayName": "Amazon"
-            }
-          },
-          "accountType": "FUN_BUX",
-          "publicFeed": true,
-          "topTraderFeed": false
-        }
-      },
-      {
-        "t": "social.position.opened",
-        "id": "97241c3e-07e5-11e6-9723-4afb09c889f3",
-        "v": 1,
-        "body": {
-          "user": {
-            "id": "9b1061a0-fcee-43a3-87a4-f8a3c987a495",
-            "nickname": "mikey_b1889",
-            "title": "Rookie Trader",
-            "accountType": "FUN_BUX",
-            "countryCode": "GB",
-            "orientation": "LOCAL"
-          },
-          "time": 1461259334601,
-          "position": {
-            "type": "LONG",
             "product": {
               "securityId": "sb26500",
               "symbol": "GOLD",
@@ -1318,61 +943,110 @@
         }
       },
       {
-        "t": "social.group.followed",
-        "id": "8be9a843-07e5-11e6-9723-4afb09c889f3",
+        "t": "social.position.opened",
+        "id": "65b41e14-16c5-11e6-b4c2-363465656139",
         "v": 1,
         "body": {
           "user": {
-            "id": "26868721-2f04-4f61-9892-96a06412e77b",
-            "nickname": "pedromanendez",
+            "id": "a3cbfbae-a376-4694-a0bc-8bc664710b53",
+            "nickname": "knimbus",
             "title": "Rookie Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461259315763,
-          "group": {
-            "id": "801ec549-5a25-47d9-a92b-9f469a685887",
-            "name": "The trading room",
-            "creator": {
-              "id": "d5dac06f-abed-4caf-86d2-b9bebc264b2a",
-              "nickname": "nichocolates",
-              "title": "Early Adopter",
-              "accountType": "SERIOUS_BUX",
-              "countryCode": "NL"
-            },
-            "type": "PUBLIC",
-            "userGroupSettings": {
-              "muteUntil": 31536000000000,
-              "muted": true
-            },
-            "orientation": "GLOBAL"
+          "time": 1462894775205,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb27693",
+              "symbol": "Abercrombie",
+              "category": "STOCKS",
+              "displayName": "Abercrombie"
+            }
           },
+          "accountType": "FUN_BUX",
           "publicFeed": true,
           "topTraderFeed": false
         }
       },
       {
         "t": "social.position.opened",
-        "id": "80b0e2bf-07e5-11e6-821d-363465656139",
+        "id": "325eca13-16c5-11e6-9663-ce9e90bc70d4",
         "v": 1,
         "body": {
           "user": {
-            "id": "ba3d4b26-e0b2-4751-8236-f67618b6132f",
-            "nickname": "craggy007123",
+            "id": "ef6fe6af-c0d3-413e-9d14-5a3ba85e4cc5",
+            "nickname": "krisd",
             "title": "Rookie Trader",
             "accountType": "FUN_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461259296936,
+          "time": 1462894689082,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb28261",
+              "symbol": "GBP/JPY",
+              "category": "FOREX",
+              "displayName": "GBP/JPY"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "2765573c-16c5-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "add83f07-6bc2-4898-9ddc-4e9e1eda5237",
+            "nickname": "orlandocloss",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894670670,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26515",
+              "symbol": "TSLA",
+              "category": "STOCKS",
+              "displayName": "Tesla Motors"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "11baecd8-16c5-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "add83f07-6bc2-4898-9ddc-4e9e1eda5237",
+            "nickname": "orlandocloss",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894634321,
           "position": {
             "type": "SHORT",
             "product": {
-              "securityId": "sb34068",
-              "symbol": "EUR/NZD",
+              "securityId": "sb28258",
+              "symbol": "EUR/CAD",
               "category": "FOREX",
-              "displayName": "EUR/NZD"
+              "displayName": "EUR/CAD"
             }
           },
           "accountType": "FUN_BUX",
@@ -1382,25 +1056,53 @@
       },
       {
         "t": "social.position.opened",
-        "id": "7d003725-07e5-11e6-805d-ca43adfcab47",
+        "id": "1178174c-16c5-11e6-9663-ce9e90bc70d4",
         "v": 1,
         "body": {
           "user": {
-            "id": "d7669b78-3d1b-4766-ad08-1a7c6e82a7b1",
-            "nickname": "erni2301",
+            "id": "89c76b1e-05b8-48e0-9e9b-d7a9c4148785",
+            "nickname": "oisinocall",
             "title": "Rookie Trader",
             "accountType": "FUN_BUX",
-            "countryCode": "DE",
-            "orientation": "INTERNATIONAL"
+            "countryCode": "GB",
+            "orientation": "LOCAL"
           },
-          "time": 1461259290745,
+          "time": 1462894633883,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb26503",
+              "symbol": "GBP/USD",
+              "category": "FOREX",
+              "displayName": "GBP/USD"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "091e7c86-16c5-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "89c76b1e-05b8-48e0-9e9b-d7a9c4148785",
+            "nickname": "oisinocall",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894619874,
           "position": {
             "type": "LONG",
             "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
-              "category": "STOCKS",
-              "displayName": "Google"
+              "securityId": "sb26504",
+              "symbol": "EUR/GBP",
+              "category": "FOREX",
+              "displayName": "EUR/GBP"
             }
           },
           "accountType": "FUN_BUX",
@@ -1410,25 +1112,25 @@
       },
       {
         "t": "social.position.opened",
-        "id": "7b47d8b9-07e5-11e6-9832-aaa73b5bfbc7",
+        "id": "03e73038-16c5-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "42b18c03-ad2c-4c62-b5a1-28b8f2c7c8df",
-            "nickname": "teesh",
-            "title": "Rookie Trader",
+            "id": "731d992d-4213-41c3-a727-7b3762c6a717",
+            "nickname": "pippy1",
+            "title": "Experienced Trader",
             "accountType": "SERIOUS_BUX",
             "countryCode": "GB",
             "orientation": "LOCAL"
           },
-          "time": 1461259287859,
+          "time": 1462894611123,
           "position": {
             "type": "LONG",
             "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
-              "category": "STOCKS",
-              "displayName": "Google"
+              "securityId": "sb26500",
+              "symbol": "GOLD",
+              "category": "COMMODITIES",
+              "displayName": "Gold"
             }
           },
           "accountType": "SERIOUS_BUX",
@@ -1438,28 +1140,283 @@
       },
       {
         "t": "social.position.opened",
-        "id": "7ad31e4d-07e5-11e6-9832-aaa73b5bfbc7",
+        "id": "01a2be80-16c5-11e6-887d-4afb09c889f3",
         "v": 1,
         "body": {
           "user": {
-            "id": "6bb44dad-5e82-4fb5-b60d-520360d88975",
-            "nickname": "russelrunner",
-            "title": "Experienced Trader",
-            "accountType": "SERIOUS_BUX",
-            "countryCode": "DE",
-            "orientation": "INTERNATIONAL"
+            "id": "c186fd5c-f29e-4840-9152-ecb406fc71e2",
+            "nickname": "monej005",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
           },
-          "time": 1461259287094,
+          "time": 1462894607319,
           "position": {
             "type": "LONG",
             "product": {
-              "securityId": "sb26514",
-              "symbol": "GOOG",
+              "securityId": "sb26998",
+              "symbol": "Amazon",
               "category": "STOCKS",
-              "displayName": "Google"
+              "displayName": "Amazon"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "00fb3466-16c5-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "89c76b1e-05b8-48e0-9e9b-d7a9c4148785",
+            "nickname": "oisinocall",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894606221,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb26502",
+              "symbol": "EUR/USD",
+              "category": "FOREX",
+              "displayName": "EUR/USD"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.battle.created",
+        "id": "f6128a22-16c4-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "a4e6f33f-b5fe-4b89-9795-97a2dc5f85d3",
+            "nickname": "dana2222",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894587919,
+          "battle": {
+            "id": "42bb59a2-1082-4d14-8b4e-2367e18e3a0c",
+            "name": "Punci",
+            "orientation": "LOCAL",
+            "status": "CREATED",
+            "startTime": 1462898187915,
+            "settings": {
+              "archetype": {
+                "name": "Blitz",
+                "iconId": "icon_battle_blitz"
+              }
+            }
+          },
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "e41b8ae3-16c4-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "89c76b1e-05b8-48e0-9e9b-d7a9c4148785",
+            "nickname": "oisinocall",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894557779,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb33927",
+              "symbol": "US Oil 19 May 16",
+              "category": "COMMODITIES",
+              "displayName": "US Oil 19 May 16"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "e36b26bf-16c4-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "bc9cd118-1f19-48c8-bbd9-4553d089dd7a",
+            "nickname": "wilkins",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX",
+            "countryCode": "GB",
+            "orientation": "INTERNATIONAL"
+          },
+          "time": 1462894556623,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26500",
+              "symbol": "GOLD",
+              "category": "COMMODITIES",
+              "displayName": "Gold"
             }
           },
           "accountType": "SERIOUS_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "5f9044b5-16c4-11e6-b4c2-363465656139",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "a3cbfbae-a376-4694-a0bc-8bc664710b53",
+            "nickname": "knimbus",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894335407,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26513",
+              "symbol": "AAPL",
+              "category": "STOCKS",
+              "displayName": "Apple"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "26957941-16c4-11e6-b4c2-363465656139",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "a3cbfbae-a376-4694-a0bc-8bc664710b53",
+            "nickname": "knimbus",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894239811,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb27694",
+              "symbol": "Walt Disney",
+              "category": "STOCKS",
+              "displayName": "Walt Disney"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "259f3339-16c4-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "a5b6e498-ae10-41d5-b573-e3db839a4718",
+            "nickname": "joshlewis",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894238197,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb28218",
+              "symbol": "LinkedIn",
+              "category": "STOCKS",
+              "displayName": "LinkedIn"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "20b0af78-16c4-11e6-9663-ce9e90bc70d4",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "cef23b73-8565-4572-9ebc-af5d25f3d8f6",
+            "nickname": "robjanstan",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894229923,
+          "position": {
+            "type": "LONG",
+            "product": {
+              "securityId": "sb26511",
+              "symbol": "FB",
+              "category": "STOCKS",
+              "displayName": "Facebook"
+            }
+          },
+          "accountType": "FUN_BUX",
+          "publicFeed": true,
+          "topTraderFeed": false
+        }
+      },
+      {
+        "t": "social.position.opened",
+        "id": "1c809a83-16c4-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "user": {
+            "id": "add83f07-6bc2-4898-9ddc-4e9e1eda5237",
+            "nickname": "orlandocloss",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462894222897,
+          "position": {
+            "type": "SHORT",
+            "product": {
+              "securityId": "sb33060",
+              "symbol": "Platinum",
+              "category": "COMMODITIES",
+              "displayName": "Platinum"
+            }
+          },
+          "accountType": "FUN_BUX",
           "publicFeed": true,
           "topTraderFeed": false
         }

@@ -1,0 +1,439 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/groups/bdd092cf-9b10-45c9-8273-7c500c736af9/feed"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 16:01:08 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "totalItemCount": 21,
+    "remainingItemCount": 0,
+    "latestEvents": [
+      {
+        "t": "groups.feed.joined",
+        "id": "9ce39cf4-025f-11e6-980a-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "00e31031-717f-4aa5-b04d-916c313ce5b2",
+            "nickname": "radusaaa",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB"
+          },
+          "time": 1460652035869,
+          "groupName": "× shelter",
+          "addedByUser": {
+            "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
+            "nickname": "burningtree",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          }
+        }
+      },
+      {
+        "t": "groups.feed.joined",
+        "id": "9ce3c407-025f-11e6-980a-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX",
+            "countryCode": "AT"
+          },
+          "time": 1460652035870,
+          "groupName": "× shelter",
+          "addedByUser": {
+            "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
+            "nickname": "burningtree",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          }
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "b3a5cefb-0571-11e6-9e37-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1460989658481,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Evropa roste, libra klesa"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "6bdcf4ea-0603-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "00e31031-717f-4aa5-b04d-916c313ce5b2",
+            "nickname": "radusaaa",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          },
+          "time": 1461052244569,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Tak na co mam vsadit?"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "028ed6af-0604-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
+            "nickname": "burningtree",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          },
+          "time": 1461052497393,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Kdyz ti to budu rikat tak to nema smysl, musis to pochopit sama "
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "1657956f-0614-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "00e31031-717f-4aa5-b04d-916c313ce5b2",
+            "nickname": "radusaaa",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          },
+          "time": 1461059402533,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Luis vuitton stoupa"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "557fa539-0639-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "00e31031-717f-4aa5-b04d-916c313ce5b2",
+            "nickname": "radusaaa",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          },
+          "time": 1461075399871,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "\nCo se s talo s netflixem:("
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "5593ba9f-063f-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461077976983,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Vysledky 1Q16, ale zas tak zly to nebylo takze se to asi postupne vrati... Ale bude to trvat par tydnu mesicu"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "718cae7d-063f-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "00e31031-717f-4aa5-b04d-916c313ce5b2",
+            "nickname": "radusaaa",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          },
+          "time": 1461078023913,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "No mam -25%:-D"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "85642d9c-063f-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461078057202,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Protoze to kleslo jen 10.70%"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "9138707a-063f-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461078077048,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Vcera po zavreni a vysledcich to bylo i -15%"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "b2604aac-063f-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461078132674,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Spis tesla me stve"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "52510114-0641-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
+            "nickname": "burningtree",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          },
+          "time": 1461078830506,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Ja mam.na funbux uctu netflix -54% :DD"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "f284538e-0644-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461080387768,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Ty si vsechno co roste hned ukoncis s mirnym plusem"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "00ef46d6-0645-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461080411957,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "To je nejvetsi chyba, to jsem taky zezacatku delal ale to se nesmi"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "11e13296-0645-11e6-bad0-1afe63c45ee8",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461080440386,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Kdyz mas +10% tak das autoclose treba na +5%"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "3240833a-08da-11e6-821d-363465656139",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461364392036,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "To byl zas konec tydne:-("
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "e4c21272-08dc-11e6-821d-363465656139",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461365550513,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Tr"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "ffee66e2-08dc-11e6-821d-363465656139",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461365596102,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Gffg"
+        }
+      },
+      {
+        "t": "groups.feed.chat",
+        "id": "8ec1e2e9-0ab8-11e6-821d-363465656139",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "e272568f-4cf8-445a-bda0-28b18bf5e665",
+            "nickname": "burnedtree",
+            "title": "Rookie Trader",
+            "accountType": "SERIOUS_BUX"
+          },
+          "time": 1461569846671,
+          "muted": false,
+          "groupName": "sheltER™",
+          "message": "Test"
+        }
+      },
+      {
+        "t": "groups.feed.joined",
+        "id": "5e9562af-16c7-11e6-b4c2-363465656139",
+        "v": 1,
+        "body": {
+          "groupId": "bdd092cf-9b10-45c9-8273-7c500c736af9",
+          "groupType": "PRIVATE",
+          "user": {
+            "id": "93db03c7-cedb-41a9-9e51-3925be427b69",
+            "nickname": "buxlib",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB"
+          },
+          "time": 1462895622253,
+          "groupName": "sheltER™",
+          "addedByUser": {
+            "id": "babac175-5687-41a3-aaab-6295fecfbbe3",
+            "nickname": "burningtree",
+            "title": "Rookie Trader",
+            "accountType": "FUN_BUX"
+          }
+        }
+      }
+    ]
+  }
+}
