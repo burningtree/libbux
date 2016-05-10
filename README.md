@@ -164,7 +164,7 @@ TODO
 * **close** `(positionId, callback)` - Close position
 * **[subscribe](#subscribe-eventsarray-callback)** `(eventsArray, callback, [onReady])` - Subscribe for Realtime data
 * **subscribeProducts** `(productsArray, callback, [onReady])` - Subscribe for Product price changes
-* **unsubscribe** `(eventsArray, callback)` - Unsubscribe
+* **unsubscribe** `(eventsArray)` - Unsubscribe
 * **groups** `(callback)` - Your groups
 * **group** `(groupId, callback)` - Group details
 * **groupFollow** `(groupId, callback)` - Follow group
@@ -176,7 +176,7 @@ TODO
 * **groupFeedDelete** `(groupId, messageId, callback)` - Delete message
 * **groupRole** `(groupId, callback)` - User group role
 * **groupMemberPortfolio** `(groupId, memberId, callback)` - Group member portfolio
-* **groupFollowersPreview** `(groupId)` - Group followers overview (only public groups)
+* **groupFollowersPreview** `(groupId, callback)` - Group followers overview (only public groups)
 * **groupSettings** `(groupId, settings, callback)` - Update group settings (notifications)
 * **allowedGroups** `(callback)` - Get number of allowed groups
 
