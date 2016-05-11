@@ -1,0 +1,83 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/battles/templates"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Wed, 11 May 2016 01:04:35 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "templates": [
+      {
+        "id": "1",
+        "settings": {
+          "minParticipants": 2,
+          "maxParticipants": 8,
+          "battleType": "PUBLIC",
+          "wagerType": "HONOR",
+          "countdown": 3600,
+          "duration": 172800,
+          "archetype": {
+            "name": "Blitz",
+            "iconId": "icon_battle_blitz"
+          }
+        }
+      },
+      {
+        "id": "2",
+        "settings": {
+          "minParticipants": 2,
+          "maxParticipants": 8,
+          "battleType": "PRIVATE",
+          "wagerType": "HONOR",
+          "countdown": 3600,
+          "duration": 172800,
+          "archetype": {
+            "name": "Blitz",
+            "iconId": "icon_battle_blitz"
+          }
+        }
+      },
+      {
+        "id": "3",
+        "settings": {
+          "minParticipants": 2,
+          "maxParticipants": 8,
+          "battleType": "PUBLIC",
+          "wagerType": "HONOR",
+          "countdown": 3600,
+          "duration": 432000,
+          "archetype": {
+            "name": "Burst",
+            "iconId": "icon_battle_burst"
+          }
+        }
+      },
+      {
+        "id": "4",
+        "settings": {
+          "minParticipants": 2,
+          "maxParticipants": 8,
+          "battleType": "PRIVATE",
+          "wagerType": "HONOR",
+          "countdown": 3600,
+          "duration": 432000,
+          "archetype": {
+            "name": "Burst",
+            "iconId": "icon_battle_burst"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -282,4 +282,3 @@ describe 'libbux', ->
         assert.equal data.errorCode, 'CORE_038'
         done()
 
-

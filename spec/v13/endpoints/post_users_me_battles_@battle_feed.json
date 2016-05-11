@@ -1,0 +1,20 @@
+{
+  "req": {
+    "method": "POST",
+    "url": "https://api.getbux.com/core/13/users/me/battles/87df3bef-6857-4fdf-be9a-e8cfa05202ea/feed",
+    "data": {
+      "message": "Test battle message"
+    }
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Wed, 11 May 2016 01:17:31 GMT",
+    "content-length": "0",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store"
+  },
+  "status": 200,
+  "json": {}
+}

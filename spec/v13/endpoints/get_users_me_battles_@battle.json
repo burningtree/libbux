@@ -1,0 +1,64 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/battles/40f952af-f9fa-4824-9ad7-85862816b263"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Wed, 11 May 2016 01:05:28 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "40f952af-f9fa-4824-9ad7-85862816b263",
+    "name": "TEST BTTLE",
+    "orientation": "LOCAL",
+    "settings": {
+      "minParticipants": 2,
+      "maxParticipants": 8,
+      "battleType": "PRIVATE",
+      "wagerType": "HONOR",
+      "countdown": 3600,
+      "duration": 172800,
+      "archetype": {
+        "name": "Blitz",
+        "iconId": "icon_battle_blitz"
+      }
+    },
+    "status": "CREATED",
+    "creationTime": 1462928099234,
+    "startTime": 1462931699234,
+    "endTime": 1463104499234,
+    "creator": {
+      "id": "93db03c7-cedb-41a9-9e51-3925be427b69",
+      "nickname": "buxlib",
+      "title": "Experienced Trader",
+      "accountType": "FUN_BUX",
+      "countryCode": "GB",
+      "orientation": "LOCAL"
+    },
+    "participants": [
+      {
+        "user": {
+          "id": "93db03c7-cedb-41a9-9e51-3925be427b69",
+          "nickname": "buxlib",
+          "title": "Experienced Trader",
+          "accountType": "FUN_BUX",
+          "countryCode": "GB",
+          "orientation": "LOCAL"
+        },
+        "creator": true,
+        "ranking": 1,
+        "numberOfTrades": 0,
+        "performance": "0"
+      }
+    ]
+  }
+}

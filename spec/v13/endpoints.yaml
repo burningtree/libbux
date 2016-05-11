@@ -14,6 +14,7 @@ examples:
   user: 93db03c7-cedb-41a9-9e51-3925be427b69
   message: 167c12dd-16cf-11e6-b4c2-363465656139
   lastReadFeedItemId: 8ec1e2e9-0ab8-11e6-821d-363465656139
+  battle: 87df3bef-6857-4fdf-be9a-e8cfa05202ea
 
   username: buxlib
   friends_first: burningtree
@@ -48,6 +49,15 @@ endpoints:
   'users/me/portfolio/positions/@position': { GET: {}, DELETE: {}}
   'users/me/portfolio/positions/@position/automaticExecutionTracker': { GET: {}, DELETE: {}, PUT: { data: { lowerLimit: -0.33 }}}
   'users/me/portfolio/positions/@position/alertTracker': { GET: {}, DELETE: {}, PUT: { data: { upperLimit: 150 }}}
+  'users/me/battles/allowed': {}
+  'users/me/battles/templates': {}
+  'users/me/battles/@battle': {}
+  #'users/me/battles/@battle': { DELETE: {}, PUT: {}}
+  'users/me/battles/@battle/feed': { GET: {}, POST: { data: { message: 'Test battle message' }}}
+  'users/me/battles/@battle/userBattleSettings': { GET: {}, PUT: { data: { muteUntil: 31536000000000 }}}
+  #'users/me/notifications/battles/@battle': { DELETE: {}}
+  #'users/me/battles/invitations': {}
+  #'battles': {}
   'users/me/groups': {}
   'users/me/groups/@publicGroup': { DELETE: {}}
   'users/me/groups/@group/settings': { PUT: { data: { muteUntil: 31536000000000 }}}

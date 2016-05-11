@@ -1,0 +1,67 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/battles/87df3bef-6857-4fdf-be9a-e8cfa05202ea/feed"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Wed, 11 May 2016 01:17:30 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "recentEvents": [
+      {
+        "t": "battles.chat",
+        "id": "ebc9ed59-1715-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "battleId": "87df3bef-6857-4fdf-be9a-e8cfa05202ea",
+          "user": {
+            "id": "93db03c7-cedb-41a9-9e51-3925be427b69",
+            "nickname": "buxlib",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462929359901,
+          "message": "Ehlo",
+          "battleName": "tst",
+          "participantIds": [
+            "93db03c7-cedb-41a9-9e51-3925be427b69"
+          ]
+        }
+      },
+      {
+        "t": "battles.chat",
+        "id": "a5f3d0ba-1715-11e6-887d-4afb09c889f3",
+        "v": 1,
+        "body": {
+          "battleId": "87df3bef-6857-4fdf-be9a-e8cfa05202ea",
+          "user": {
+            "id": "93db03c7-cedb-41a9-9e51-3925be427b69",
+            "nickname": "buxlib",
+            "title": "Experienced Trader",
+            "accountType": "FUN_BUX",
+            "countryCode": "GB",
+            "orientation": "LOCAL"
+          },
+          "time": 1462929242735,
+          "message": "Test",
+          "battleName": "tst",
+          "participantIds": [
+            "93db03c7-cedb-41a9-9e51-3925be427b69"
+          ]
+        }
+      }
+    ]
+  }
+}

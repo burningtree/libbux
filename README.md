@@ -72,18 +72,17 @@ bux.login(account, function(err, data) {
 * Authentication - Login
 * User - Profile, Friends, Notifications
 * Products - List, Detail
-* Trading - Open position, Close position
+* Trading - Open position, Close position, Alerts, Auto-Close
 * Trading Fees - List
 * Positions - List, Detail, History
 * Portfolio - Cash Balance, Performance
 * News - List
 * Social Feed - List
 * Groups - List, Feed, Un/Follow, Post, Detail
+* Battles - List, Feed, Post, Detail, Create
 * Real-time Data (WebSockets) - Un/Subscribe
 
 ### TODO
-* Trading - Alerts, Auto-Close
-* Battles - List, Feed, Post, Detail, Create
 * Groups - Post image, Delete image, Add member, Remove member, Change avatar
 * Products - Search
 * User - Settings, Invitations, Pincode operations
@@ -187,6 +186,12 @@ TODO
 * **groupFollowersPreview** `(groupId, callback)` - Group followers overview (only public groups)
 * **[groupSettings](#groupSettings-groupid-settings-callback)** `(groupId, settings, callback)` - Update group settings (notifications)
 * **allowedGroups** `(callback)` - Get number of allowed groups
+* **battles** `(callback)` - List of your battles
+* **battle** `(battleId, callback)` - Battle info
+* **[battleCreate](#battleCreate-options-callback)** `(options, callback)` - Create new battle
+* **battleFeed** `(battleId, callback)` - Battle feed
+* **battleFeedAdd** `(battleId, message, callback)` - Post message to battle
+* **battleSettings** `(battleId, settings, callback)` - Group settings
 
 #### Internal methods
 * **[exec](#exec-method-endpoint-data-callback)** `(method, endpoint, data, callback)` - Execute BUX API call
@@ -212,8 +217,8 @@ Login to BUX, get your *access_token*.
 *options* object properties:
 ```js
 {
-  "upperLimit": 0.8,    # 8%
-  "lowerLimit": -0.10,   # -10%
+  "upperLimit": 0.8,     // 8%
+  "lowerLimit": -0.10,   // -10%
 }
 ```
 
@@ -262,6 +267,17 @@ Available events:
 ```js
 {
   "muteUntil": 31536000000000
+}
+```
+
+### battleCreate (options, callback)
+
+*options* object properties:
+```js
+{
+  "battleName": "Battle name",
+  "orientation": "LOCAL",
+  "templateId": "2"
 }
 ```
 
