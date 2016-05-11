@@ -136,6 +136,30 @@ describe 'libbux', ->
         assert.equal data.product.displayName, spec.examples.position_product_name
         done()
 
+    it 'alert', (done) ->
+      opts = spec.endpoints['users/me/portfolio/positions/@position/alertTracker'].PUT.data
+      bux.alert spec.examples.position, opts, (err, data) ->
+        assert.equal err, null
+        assert.equal data.upperLimit, opts.upperLimit
+        done()
+
+    it 'alertDelete', (done) ->
+      bux.alertDelete spec.examples.position, (err, data) ->
+        assert.equal err, null
+        done()
+
+    it 'autoclose', (done) ->
+      opts = spec.endpoints['users/me/portfolio/positions/@position/automaticExecutionTracker'].PUT.data
+      bux.autoclose spec.examples.position, opts, (err, data) ->
+        assert.equal err, null
+        assert.equal data.upperLimit, opts.upperLimit
+        done()
+
+    it 'autocloseDelete', (done) ->
+      bux.autocloseDelete spec.examples.position, (err, data) ->
+        assert.equal err, null
+        done()
+
     it 'performance', (done) ->
       bux.performance (err, data) ->
         assert.equal err, null

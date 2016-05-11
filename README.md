@@ -78,11 +78,13 @@ bux.login(account, function(err, data) {
 * Portfolio - Cash Balance, Performance
 * News - List
 * Social Feed - List
+* Groups - List, Feed, Un/Follow, Post, Detail
 * Real-time Data (WebSockets) - Un/Subscribe
 
 ### TODO
 * Trading - Alerts, Auto-Close
-* Groups / Battles - List, Feed, Post, Detail, Create
+* Battles - List, Feed, Post, Detail, Create
+* Groups - Post image, Delete image, Add member, Remove member, Change avatar
 * Products - Search
 * User - Settings, Invitations, Pincode operations
 * Users - Detail, List?
@@ -153,18 +155,24 @@ TODO
 * **notifications** `(callback)` - List of pending notifications
 * **news** `(callback)` - News articles
 * **feed** `(callback)` - Social feed
-* **product** `(productId, callback)` - Product detail
 * **products** `(callback)` - Products list
+* **product** `(productId, callback)` - Product detail
+* **productAlert** `(productId, amount, callback)` - Set product alert
+* **productAlertDelete** `(productId, callback)` - Remove product alert
 * **fees** `(callback)` - Trading fees
 * **portfolio** `(callback)` - Opened positions
 * **position** `(positionId, callback)` - Position detail
+* **[alert](#alert-positionid-options-callback)** `(positionId, options, callback)` - Set position alert
+* **alertDelete** `(positionId, callback)` - Remove alert from position
+* **[autoclose](#autoclose-positionid-options-callback)** `(positionId, options, callback)` - Set position autoclose
+* **autocloseDelete** `(positionId, callback)` - Remove autoclose from position
 * **performance** `(callback)` - Basic performance info
 * **trades** `(callback)` - Trading history
 * **[open](#open-trade-callback)** `(trade, callback)` - Open position
 * **close** `(positionId, callback)` - Close position
 * **[subscribe](#subscribe-eventsarray-callback)** `(eventsArray, callback, [onReady])` - Subscribe for Realtime data
 * **subscribeProducts** `(productsArray, callback, [onReady])` - Subscribe for Product price changes
-* **unsubscribe** `(eventsArray)` - Unsubscribe
+* **unsubscribe** `(eventsArray, callback)` - Unsubscribe
 * **groups** `(callback)` - Your groups
 * **group** `(groupId, callback)` - Group details
 * **groupFollow** `(groupId, callback)` - Follow group
@@ -177,7 +185,7 @@ TODO
 * **groupRole** `(groupId, callback)` - User group role
 * **groupMemberPortfolio** `(groupId, memberId, callback)` - Group member portfolio
 * **groupFollowersPreview** `(groupId, callback)` - Group followers overview (only public groups)
-* **groupSettings** `(groupId, settings, callback)` - Update group settings (notifications)
+* **[groupSettings](#groupSettings-groupid-settings-callback)** `(groupId, settings, callback)` - Update group settings (notifications)
 * **allowedGroups** `(callback)` - Get number of allowed groups
 
 #### Internal methods
@@ -197,6 +205,18 @@ Login to BUX, get your *access_token*.
   password: 'your_bux_password'
 }
 ```
+
+### alert (positionId, options, callback)
+### autoclose (positionId, options, callback)
+
+*options* object properties:
+```js
+{
+  "upperLimit": 0.8,    # 8%
+  "lowerLimit": -0.10,   # -10%
+}
+```
+
 ### open (trade, callback)
 
 *trade* object properties:
@@ -235,6 +255,15 @@ Available events:
 * `battle.finished`
 * `group.followed`
 * `notification`
+
+### groupSettings (groupId, settings, callback)
+
+*settings* object properties:
+```js
+{
+  "muteUntil": 31536000000000
+}
+```
 
 ## Related Projects
 * [bitbar-bux](https://github.com/burningtree/bitbar-bux) - BUX Plugin for BitBar, application for customizing OS X Menu Bar

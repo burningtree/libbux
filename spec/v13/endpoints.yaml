@@ -41,12 +41,13 @@ endpoints:
   'users/me/feeschedule': {}
   'users/me/tradeconfigurations/@product': {}
   'users/me/news': {}
+  'users/me/products/@product/tracker': { DELETE: {}, PUT: { data: { limit: { amount: '100000.00', currency: '', decimals: 2 }}}}
   'users/me/portfolio': {}
   'users/me/portfolio/cashBalance': {}
   'users/me/portfolio/performance': {}
   'users/me/portfolio/positions/@position': { GET: {}, DELETE: {}}
-  'users/me/portfolio/positions/@position/automaticExecutionTracker': { GET: {}, PUT: { data: { lowerLimit: -0.33 }}}
-  'users/me/portfolio/positions/@position/alertTracker': { GET: {}, PUT: { data: { upperLimit: 150 }}}
+  'users/me/portfolio/positions/@position/automaticExecutionTracker': { GET: {}, DELETE: {}, PUT: { data: { lowerLimit: -0.33 }}}
+  'users/me/portfolio/positions/@position/alertTracker': { GET: {}, DELETE: {}, PUT: { data: { upperLimit: 150 }}}
   'users/me/groups': {}
   'users/me/groups/@publicGroup': { DELETE: {}}
   'users/me/groups/@group/settings': { PUT: { data: { muteUntil: 31536000000000 }}}

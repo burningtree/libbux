@@ -1,0 +1,17 @@
+{
+  "req": {
+    "method": "DELETE",
+    "url": "https://api.getbux.com/core/13/users/me/portfolio/positions/9febd1c5-cb33-4d01-89f4-0e2c85497982/alertTracker"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Wed, 11 May 2016 00:38:42 GMT",
+    "content-length": "0",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store"
+  },
+  "status": 202,
+  "json": {}
+}

@@ -1,0 +1,33 @@
+{
+  "req": {
+    "method": "PUT",
+    "url": "https://api.getbux.com/core/13/users/me/products/sb28205/tracker",
+    "data": {
+      "limit": {
+        "amount": "100000.00",
+        "currency": "",
+        "decimals": 2
+      }
+    }
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Tue, 10 May 2016 23:54:20 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "limit": {
+      "currency": "",
+      "decimals": 2,
+      "amount": "100000.00"
+    }
+  }
+}
