@@ -5,7 +5,7 @@ Un-official Javascript/Node.js library for [BUX](http://getbux.com) trading plat
 
 It uses official REST & WebSockets APIs which are used for a BUX mobile applications. For these APIs, there is no public documentation and thus no official support from the BUX team. Keep in mind that any change in the interface may (temporarily) break this library.
 
-Current version: **<span bux-data="version">0.2.2</span>**    
+Current version: **<span bux-data="version">0.2.3</span>**    
 **This is EXPERIMENTAL version. Use at your own risk.**
 
 ## Table of contents
