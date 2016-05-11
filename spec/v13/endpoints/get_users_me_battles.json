@@ -1,0 +1,40 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/battles"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Wed, 11 May 2016 02:15:29 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "battles": [
+      {
+        "id": "7ff43342-641f-430f-a23a-c2fb7cb889f0",
+        "name": "fdsfdfds",
+        "status": "CREATED",
+        "creationTime": 1462930126561,
+        "startTime": 1462933726561,
+        "endTime": 1463106526561,
+        "me": {
+          "ranking": 0
+        },
+        "settings": {
+          "archetype": {
+            "name": "Blitz",
+            "iconId": "icon_battle_blitz"
+          }
+        }
+      }
+    ]
+  }
+}

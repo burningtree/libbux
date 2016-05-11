@@ -276,9 +276,61 @@ describe 'libbux', ->
         assert.equal data.muted, true
         done()
 
-    it 'allowedGroups', (done) ->
-      bux.allowedGroups (err, data) ->
+    it 'groupsAllowed', (done) ->
+      bux.groupsAllowed (err, data) ->
         assert.equal err, null
         assert.equal data.errorCode, 'CORE_038'
+        done()
+
+    it 'battles', (done) ->
+      bux.battles (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.battles.length, -1
+        done()
+
+    it 'battlesAllowed', (done) ->
+      bux.battlesAllowed (err, data) ->
+        assert.equal err, null
+        assert.isOk data
+        done()
+
+    it 'battle', (done) ->
+      bux.battle spec.examples.battle, (err, data) ->
+        assert.equal err, null
+        assert.equal data.creator.nickname, spec.examples.username
+        done()
+
+    it 'battleCreate', (done) ->
+      opts = spec.endpoints['users/me/battles'].POST.data
+      bux.battleCreate opts, (err, data) ->
+        assert.equal err, null
+        assert.equal data.name, opts.battleName
+        assert.equal data.status, 'CREATED'
+        done()
+
+    it 'battleFeed', (done) ->
+      bux.battleFeed spec.examples.battle, (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.recentEvents.length, -1
+        done()
+
+    it 'battleFeedAdd', (done) ->
+      opts = spec.endpoints['users/me/battles/@battle/feed'].POST.data
+      bux.battleFeedAdd spec.examples.battle, opts.message, (err, data) ->
+        assert.equal err, null
+        assert.isOk data
+        done()
+
+    it 'battleSettings', (done) ->
+      opts = spec.endpoints['users/me/battles/@battle/userBattleSettings'].PUT.data
+      bux.battleSettings spec.examples.battle, opts, (err, data) ->
+        assert.equal err, null
+        assert.equal data.muted, true
+        done()
+
+    it 'battleTemplates', (done) ->
+      bux.battleTemplates (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.templates.length, 1
         done()
 

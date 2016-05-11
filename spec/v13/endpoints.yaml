@@ -49,6 +49,7 @@ endpoints:
   'users/me/portfolio/positions/@position': { GET: {}, DELETE: {}}
   'users/me/portfolio/positions/@position/automaticExecutionTracker': { GET: {}, DELETE: {}, PUT: { data: { lowerLimit: -0.33 }}}
   'users/me/portfolio/positions/@position/alertTracker': { GET: {}, DELETE: {}, PUT: { data: { upperLimit: 150 }}}
+  'users/me/battles': { GET: {}, POST: { data: { battleName: 'Example battle X', orientation: 'LOCAL', templateId: '2' }}}
   'users/me/battles/allowed': {}
   'users/me/battles/templates': {}
   'users/me/battles/@battle': {}

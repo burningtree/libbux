@@ -83,6 +83,7 @@ bux.login(account, function(err, data) {
 * Real-time Data (WebSockets) - Un/Subscribe
 
 ### TODO
+* Battles - Invitations, Notifications
 * Groups - Post image, Delete image, Add member, Remove member, Change avatar
 * Products - Search
 * User - Settings, Invitations, Pincode operations
@@ -172,7 +173,8 @@ TODO
 * **[subscribe](#subscribe-eventsarray-callback)** `(eventsArray, callback, [onReady])` - Subscribe for Realtime data
 * **subscribeProducts** `(productsArray, callback, [onReady])` - Subscribe for Product price changes
 * **unsubscribe** `(eventsArray, callback)` - Unsubscribe
-* **groups** `(callback)` - Your groups
+* **groups** `(callback)` - Your following/participating groups
+* **groupsAllowed** `(callback)` - Get number of allowed groups
 * **group** `(groupId, callback)` - Group details
 * **groupFollow** `(groupId, callback)` - Follow group
 * **groupUnfollow** `(groupId, callback)` - Un-Follow group
@@ -184,14 +186,15 @@ TODO
 * **groupRole** `(groupId, callback)` - User group role
 * **groupMemberPortfolio** `(groupId, memberId, callback)` - Group member portfolio
 * **groupFollowersPreview** `(groupId, callback)` - Group followers overview (only public groups)
-* **[groupSettings](#groupSettings-groupid-settings-callback)** `(groupId, settings, callback)` - Update group settings (notifications)
-* **allowedGroups** `(callback)` - Get number of allowed groups
+* **[groupSettings](#groupsettings-groupid-settings-callback)** `(groupId, settings, callback)` - Update group settings (notifications)
 * **battles** `(callback)` - List of your battles
+* **battlesAllowed** `(callback)` - Get number of allowed battles
 * **battle** `(battleId, callback)` - Battle info
-* **[battleCreate](#battleCreate-options-callback)** `(options, callback)` - Create new battle
+* **[battleCreate](#battlecreate-options-callback)** `(options, callback)` - Create new battle
 * **battleFeed** `(battleId, callback)` - Battle feed
 * **battleFeedAdd** `(battleId, message, callback)` - Post message to battle
 * **battleSettings** `(battleId, settings, callback)` - Group settings
+* **battleTemplates** `(callback)` - Battle templates
 
 #### Internal methods
 * **[exec](#exec-method-endpoint-data-callback)** `(method, endpoint, data, callback)` - Execute BUX API call
