@@ -1,0 +1,17 @@
+{
+  "req": {
+    "method": "PUT",
+    "url": "https://api.getbux.com/core/13/users/me/pincode/lock"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 03:55:58 GMT",
+    "content-length": "0",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store"
+  },
+  "status": 202,
+  "json": {}
+}

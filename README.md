@@ -83,11 +83,13 @@ bux.login(account, function(err, data) {
 * Real-time Data (WebSockets) - Un/Subscribe
 * Users - Detail, Search
 * Transactions - List
+* Pincode - Lock, Unlock, Reset
 
 ### TODO
 * Battles - Invitations, Notifications
 * Groups - Post image, Delete image, Add member, Remove member, Change avatar
-* User - Settings, Invitations, Pincode operations
+* User - Settings, Invitations
+* Pincode - Create
 * Transactions - Deposit, Withdrawal
 
 ## User Guide
@@ -149,6 +151,10 @@ TODO
 
 * **[login](#login-account-callback)** `(account, callback)` - Login
 * **me** ``(callback)`` - Basic info about account
+* **lock** ``(callback)`` - Lock sensitive operations (seriousBUX only)
+* **lockStatus** ``(callback)`` - Get lock status (seriousBUX only)
+* **lockReset** ``(callback)`` - Reset your pincode via email (seriousBUX only)
+* **unlock** ``(pincode, callback)`` - Unlock with pincode (seriousBUX only)
 * **balance** ``(callback)`` - Cash balance
 * **transactions** `(callback)` - Cash transactions
 * **profile** `(callback)` - Your profile

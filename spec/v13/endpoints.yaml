@@ -37,6 +37,9 @@ endpoints:
   'search/people/': { GET: { query: { q: 'bigswingingnick' }}}
   'users/@anotherUser/profile': {}
   'users/me': {}
+  'users/me/pincode/lock': { GET: {}, PUT: {}}
+  'users/me/pincode/unlock': { PUT: { data: { pincode: '12345' }}}
+  'users/me/pincode/reset': { PUT: {}}
   'users/me/profile': {}
   'users/me/trades': { GET: {}, POST: { data: { boostEffect: '5', direction: 'BUY', homeCurrency: 'BUX', productId: 'sb27701', source: 'PRODUCTS_CURATED', tradeSize: '10' }}}
   'users/me/transactions': { GET: { query: { excludeTrades: true }}}

@@ -1,0 +1,22 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/pincode/lock"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 03:55:57 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "secondsUntilLocked": 0
+  }
+}

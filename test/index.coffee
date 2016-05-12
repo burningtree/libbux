@@ -383,3 +383,28 @@ describe 'libbux', ->
         assert.isAbove data.templates.length, 1
         done()
 
+    it 'lock', (done) ->
+      bux.lock (err, data) ->
+        assert.equal err, null
+        assert.isOk data
+        done()
+
+    it 'lockStatus', (done) ->
+      bux.lockStatus (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.secondsUntilLocked, -1
+        done()
+
+    it 'lockReset', (done) ->
+      bux.lockReset (err, data) ->
+        assert.equal err, null
+        assert.isOk data
+        done()
+
+    it 'unlock', (done) ->
+      opts = spec.endpoints['users/me/pincode/unlock'].PUT.data
+      bux.unlock opts.pincode, (err, data) ->
+        assert.equal err, null
+        assert.isOk data
+        done()
+

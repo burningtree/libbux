@@ -1,0 +1,30 @@
+{
+  "req": {
+    "method": "PUT",
+    "url": "https://api.getbux.com/core/13/users/me/pincode/unlock",
+    "data": {
+      "pincode": "12345"
+    }
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 03:56:00 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 400,
+  "json": {
+    "message": "Pincode does not match the user's stored pincode. Attempts left: 4",
+    "developerMessage": "Pincode does not match the user's stored pincode. Attempts left: 4",
+    "errorCode": "CORE_030",
+    "body": {
+      "attemptsLeft": 4
+    }
+  }
+}
