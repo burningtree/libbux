@@ -414,3 +414,9 @@ describe 'libbux', ->
         assert.isOk data
         done()
 
+    it 'convertStatus', (done) ->
+      bux.convertStatus (err, data) ->
+        assert.equal err, null
+        assert.equal data.homeCurrency, 'GBP'
+        done()
+

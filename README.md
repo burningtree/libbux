@@ -208,6 +208,7 @@ TODO
 * **battleFeedAdd** `(battleId, message, callback)` - Post message to battle
 * **battleSettings** `(battleId, settings, callback)` - Group settings
 * **battleTemplates** `(callback)` - Battle templates
+* **convertStatus** ``(callback)`` - Info about seriousBUX status
 
 #### Internal methods
 * **[exec](#exec-method-endpoint-data-callback)** `(method, endpoint, data, callback)` - Execute BUX API call

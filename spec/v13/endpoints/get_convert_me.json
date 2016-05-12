@@ -1,0 +1,48 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/convert/me"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 04:34:23 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "homeCurrency": "GBP",
+    "homeCurrencyDecimals": 2,
+    "conversionStatus": "KYC_NEEDS_IDENTIFICATION",
+    "profile": {
+      "countryOfResidence": "GB",
+      "nationality": "CZ",
+      "firstName": "Lib",
+      "lastName": "Bux",
+      "email": "libbux@arnal.cz",
+      "dateOfBirth": [
+        1985,
+        1,
+        12
+      ],
+      "gender": "MALE",
+      "acceptTerms": true,
+      "acceptRisk": true,
+      "acceptDataSharing": true,
+      "phoneNumber": "00420777123456"
+    },
+    "currentAddress": {
+      "building": "Street",
+      "street": "Street",
+      "city": "Prague",
+      "postalCode": "10000"
+    },
+    "conversionApplicationReference": "10a61bfa-17d3-11e6-80d4-002590d644df"
+  }
+}
