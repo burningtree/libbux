@@ -77,7 +77,7 @@ bux.login(account, function(err, data) {
 * Positions - List, Detail, History
 * Portfolio - Cash Balance, Performance
 * News - List
-* Social Feed - List
+* Social Feed - List, Activities
 * Groups - List, Feed, Un/Follow, Post, Detail
 * Battles - List, Feed, Post, Detail, Create
 * Real-time Data (WebSockets) - Un/Subscribe
@@ -208,6 +208,8 @@ TODO
 * **battleFeedAdd** `(battleId, message, callback)` - Post message to battle
 * **battleSettings** `(battleId, settings, callback)` - Group settings
 * **battleTemplates** `(callback)` - Battle templates
+* **activities** `(callback)` - Get global activities
+* **activitiesFollowed** `(callback)` - Get your activities
 * **convertStatus** ``(callback)`` - Info about seriousBUX status
 
 #### Internal methods

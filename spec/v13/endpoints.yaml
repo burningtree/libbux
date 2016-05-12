@@ -37,6 +37,7 @@ endpoints:
   'products/@product': {}
   'products/favorites/@product': { PUT: {}, DELETE: {}}
   'search/people/': { GET: { query: { q: 'bigswingingnick' }}}
+  'social/activities': {}
   'users/@anotherUser/profile': {}
   'users/me': {}
   'users/me/pincode/lock': { GET: {}, PUT: {}}
@@ -50,6 +51,7 @@ endpoints:
   'users/me/education': {}
   'users/me/notifications': {}
   'users/me/socialfeed': { GET: { query: { f: PUBLIC }}}
+  'users/me/social/activities': {}
   'users/me/feeschedule': {}
   'users/me/tradeconfigurations/@product': {}
   'users/me/news': {}

@@ -1,0 +1,219 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/social/activities"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 04:52:04 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": [
+    {
+      "type": "groups.channel",
+      "id": "f4045b36-9d8d-449c-8927-4be4f0049f60",
+      "notifications": 0,
+      "body": {
+        "id": "f4045b36-9d8d-449c-8927-4be4f0049f60",
+        "name": "Dax,öl und dIE wichtigsten Aktien©",
+        "creator": {
+          "id": "503a0dce-918c-4ec1-8b73-70e465be5108",
+          "nickname": "preysident",
+          "title": "Experienced Trader",
+          "accountType": "SERIOUS_BUX",
+          "countryCode": "DE"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 4621,
+        "orientation": "GLOBAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "40209560-ad26-4854-b6c8-4241544e1200",
+      "notifications": 0,
+      "body": {
+        "id": "40209560-ad26-4854-b6c8-4241544e1200",
+        "name": "Market Tongue",
+        "creator": {
+          "id": "db21df24-6101-4569-b928-2a670c847c67",
+          "nickname": "kimmybojangles",
+          "title": "Early Adopter",
+          "accountType": "FUN_BUX",
+          "countryCode": "GB"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 517,
+        "orientation": "LOCAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "acd16886-9e8f-4821-8add-a2ea1a783481",
+      "notifications": 0,
+      "body": {
+        "id": "acd16886-9e8f-4821-8add-a2ea1a783481",
+        "name": "Oil Business",
+        "creator": {
+          "id": "05895d09-1841-4a65-b126-a407618f9fd8",
+          "nickname": "betguardian",
+          "title": "Early Adopter",
+          "accountType": "SERIOUS_BUX",
+          "countryCode": "NL"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 5937,
+        "orientation": "GLOBAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "2227eec5-0f9f-432d-9d31-c41c36da208e",
+      "notifications": 0,
+      "body": {
+        "id": "2227eec5-0f9f-432d-9d31-c41c36da208e",
+        "name": "Forex tips and news",
+        "creator": {
+          "id": "05895d09-1841-4a65-b126-a407618f9fd8",
+          "nickname": "betguardian",
+          "title": "Early Adopter",
+          "accountType": "SERIOUS_BUX",
+          "countryCode": "NL"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 5016,
+        "orientation": "GLOBAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "f5e7665b-6b78-487e-9b3f-7c33a06c275d",
+      "notifications": 0,
+      "body": {
+        "id": "f5e7665b-6b78-487e-9b3f-7c33a06c275d",
+        "name": "Financial Calendar",
+        "creator": {
+          "id": "3b59b317-323c-4a0e-80ce-0d5f4fb0b4f0",
+          "nickname": "asyen",
+          "title": "Early Adopter",
+          "accountType": "FUN_BUX",
+          "countryCode": "NL"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 5090,
+        "orientation": "GLOBAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "06c7d1e1-ffbc-4435-b31e-5e89cdab93bf",
+      "notifications": 0,
+      "body": {
+        "id": "06c7d1e1-ffbc-4435-b31e-5e89cdab93bf",
+        "name": "News Flash",
+        "creator": {
+          "id": "1210ad86-ec1f-4efb-98f7-cb46f664020b",
+          "nickname": "ftse_survivor",
+          "title": "Early Adopter",
+          "accountType": "SERIOUS_BUX",
+          "countryCode": "GB"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 1409,
+        "orientation": "INTERNATIONAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "1af5a13d-35ad-40b8-9d85-f8598d9b14aa",
+      "notifications": 0,
+      "body": {
+        "id": "1af5a13d-35ad-40b8-9d85-f8598d9b14aa",
+        "name": "Nullius in verba",
+        "creator": {
+          "id": "66574173-c0e5-413c-b5b9-26348b4c201c",
+          "nickname": "jordijordi",
+          "title": "Experienced Trader",
+          "accountType": "FUN_BUX",
+          "countryCode": "GB"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 954,
+        "orientation": "GLOBAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "801ec549-5a25-47d9-a92b-9f469a685887",
+      "notifications": 0,
+      "body": {
+        "id": "801ec549-5a25-47d9-a92b-9f469a685887",
+        "name": "The trading room",
+        "creator": {
+          "id": "d5dac06f-abed-4caf-86d2-b9bebc264b2a",
+          "nickname": "nichocolates",
+          "title": "Early Adopter",
+          "accountType": "SERIOUS_BUX",
+          "countryCode": "NL"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 4012,
+        "orientation": "GLOBAL"
+      }
+    },
+    {
+      "type": "groups.channel",
+      "id": "66624667-aa21-47c4-a816-6836d9c6d71f",
+      "notifications": 0,
+      "body": {
+        "id": "66624667-aa21-47c4-a816-6836d9c6d71f",
+        "name": "Relax, it's only finance...",
+        "creator": {
+          "id": "db21df24-6101-4569-b928-2a670c847c67",
+          "nickname": "kimmybojangles",
+          "title": "Early Adopter",
+          "accountType": "FUN_BUX",
+          "countryCode": "GB"
+        },
+        "type": "PUBLIC",
+        "userGroupSettings": {
+          "muted": false
+        },
+        "followersCount": 194,
+        "orientation": "LOCAL"
+      }
+    }
+  ]
+}

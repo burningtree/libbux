@@ -414,6 +414,18 @@ describe 'libbux', ->
         assert.isOk data
         done()
 
+    it 'activities', (done) ->
+      bux.activities (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.length, 0
+        done()
+
+    it 'activitiesFollowed', (done) ->
+      bux.activitiesFollowed (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.length, 0
+        done()
+
     it 'convertStatus', (done) ->
       bux.convertStatus (err, data) ->
         assert.equal err, null
