@@ -1,0 +1,37 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/transactions?excludeTrades=true"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 03:20:58 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": [
+    {
+      "dateCreated": 1462895298372,
+      "userId": "93db03c7-cedb-41a9-9e51-3925be427b69",
+      "type": "BONUS",
+      "amount": {
+        "currency": "BUX",
+        "decimals": 2,
+        "amount": "1000.00"
+      },
+      "balance": {
+        "currency": "BUX",
+        "decimals": 2,
+        "amount": "1000.00"
+      },
+      "description": "Welcome to BUX, here's 1000.00 funBUX to get you started"
+    }
+  ]
+}

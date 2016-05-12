@@ -82,12 +82,13 @@ bux.login(account, function(err, data) {
 * Battles - List, Feed, Post, Detail, Create
 * Real-time Data (WebSockets) - Un/Subscribe
 * Users - Detail, Search
+* Transactions - List
 
 ### TODO
 * Battles - Invitations, Notifications
 * Groups - Post image, Delete image, Add member, Remove member, Change avatar
 * User - Settings, Invitations, Pincode operations
-* Transactions - List, Payment, Withdrawal
+* Transactions - Deposit, Withdrawal
 
 ## User Guide
 
@@ -149,6 +150,7 @@ TODO
 * **[login](#login-account-callback)** `(account, callback)` - Login
 * **me** ``(callback)`` - Basic info about account
 * **balance** ``(callback)`` - Cash balance
+* **transactions** `(callback)` - Cash transactions
 * **profile** `(callback)` - Your profile
 * **friends** `(callback)` - Friends list
 * **users** `(query, callback)` - Search user

@@ -100,6 +100,12 @@ describe 'libbux', ->
         assert.equal data.id, spec.examples.anotherUser
         done()
 
+    it 'transactions', (done) ->
+      bux.transactions (err, data) ->
+        assert.equal err, null
+        assert.equal data[0].type, 'BONUS'
+        done()
+
     it 'notifications', (done) ->
       bux.notifications (err, data) ->
         assert.equal err, null

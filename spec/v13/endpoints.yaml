@@ -39,6 +39,7 @@ endpoints:
   'users/me': {}
   'users/me/profile': {}
   'users/me/trades': { GET: {}, POST: { data: { boostEffect: '5', direction: 'BUY', homeCurrency: 'BUX', productId: 'sb27701', source: 'PRODUCTS_CURATED', tradeSize: '10' }}}
+  'users/me/transactions': { GET: { query: { excludeTrades: true }}}
   'users/me/friends': {}
   'users/me/education': {}
   'users/me/notifications': {}
