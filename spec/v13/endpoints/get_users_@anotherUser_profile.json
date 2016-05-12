@@ -1,0 +1,93 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/af8bdbc2-fa29-4106-ba7c-6f21f7c7a374/profile"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 00:53:11 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "af8bdbc2-fa29-4106-ba7c-6f21f7c7a374",
+    "nickname": "bigswingingnick",
+    "avatarUrl": "https://s3-eu-west-1.amazonaws.com/bux-avatars-live/af8bdbc2-fa29-4106-ba7c-6f21f7c7a374/154ee50e-2426-4fe7-a45c-8bcae5a8679d_avatar-640x384.jpg",
+    "accountType": "SERIOUS_BUX",
+    "countryCode": "NL",
+    "friend": false,
+    "level": 1,
+    "title": "Early Adopter",
+    "tradingStats": {
+      "totalTrades": 525,
+      "tradesProfit": 128,
+      "tradesLoss": 134,
+      "tradesUp": 93,
+      "tradesDown": 170,
+      "battlesWon": 151,
+      "bestTrade": {
+        "id": "b8e5b064-5ef8-4697-907a-c0e2eb8a319f",
+        "dateCreated": 1456328216528,
+        "product": {
+          "securityId": "sb32256",
+          "symbol": "Fitbit",
+          "category": "STOCKS",
+          "displayName": "Fitbit"
+        },
+        "investingAmount": {
+          "currency": "EUR",
+          "decimals": 2,
+          "amount": "50.00"
+        },
+        "direction": "BUY",
+        "type": "CLOSE",
+        "profitAndLoss": {
+          "currency": "EUR",
+          "decimals": 2,
+          "amount": "57.27"
+        },
+        "profitAndLossPercentage": "1.1454"
+      },
+      "worstTrade": {
+        "id": "98061651391",
+        "dateCreated": 1454951632774,
+        "product": {
+          "securityId": "sb27701",
+          "symbol": "GoPro",
+          "category": "STOCKS",
+          "displayName": "GoPro"
+        },
+        "investingAmount": {
+          "currency": "EUR",
+          "decimals": 2,
+          "amount": "50.00"
+        },
+        "direction": "BUY",
+        "type": "CLOSE",
+        "profitAndLoss": {
+          "currency": "EUR",
+          "decimals": 2,
+          "amount": "-50.00"
+        },
+        "profitAndLossPercentage": "-1.0000"
+      },
+      "mostPopularTrade": {
+        "product": {
+          "securityId": "sb26491",
+          "symbol": "NL25",
+          "displayName": "NL 25"
+        },
+        "direction": "SELL",
+        "type": "OPEN"
+      },
+      "lastRequested": "2016-05-10T11:29:40.787Z"
+    }
+  }
+}

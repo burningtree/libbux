@@ -88,6 +88,18 @@ describe 'libbux', ->
         assert.equal data[0].nickname, spec.examples.friends_first
         done()
 
+    it 'users', (done) ->
+      bux.users spec.endpoints['search/people/'].GET.query.q, (err, data) ->
+        assert.equal err, null
+        assert.equal data[0].id, spec.examples.anotherUser
+        done()
+
+    it 'user', (done) ->
+      bux.user spec.examples.anotherUser, (err, data) ->
+        assert.equal err, null
+        assert.equal data.id, spec.examples.anotherUser
+        done()
+
     it 'notifications', (done) ->
       bux.notifications (err, data) ->
         assert.equal err, null
@@ -106,16 +118,41 @@ describe 'libbux', ->
         assert.equal data.recentEvents[0].t, spec.examples.feed_first_type
         done()
 
+    it 'products', (done) ->
+      bux.products (err, data) ->
+        assert.equal err, null
+        assert.equal data[0].securityId, spec.examples.products_first_security
+        done()
+
     it 'product', (done) ->
       bux.product spec.examples.product, (err, data) ->
         assert.equal err, null
         assert.equal data.securityId, spec.examples.product
         done()
 
-    it 'products', (done) ->
-      bux.products (err, data) ->
+    it 'productAlert', (done) ->
+      opts = spec.endpoints['users/me/products/@product/tracker'].PUT.data
+      bux.productAlert spec.examples.product, opts.limit.amount, (err, data) ->
         assert.equal err, null
-        assert.equal data[0].securityId, spec.examples.products_first_security
+        assert.equal data.limit.amount, opts.limit.amount
+        done()
+
+    it 'productAlertDelete', (done) ->
+      bux.productAlertDelete spec.examples.product, (err, data) ->
+        assert.equal err, null
+        assert.isOk data
+        done()
+
+    it 'favorite', (done) ->
+      bux.favorite spec.examples.product, (err, data) ->
+        assert.equal err, null
+        assert.isOk data
+        done()
+
+    it 'favoriteDelete', (done) ->
+      bux.favoriteDelete spec.examples.product, (err, data) ->
+        assert.equal err, null
+        assert.isOk data
         done()
 
     it 'fees', (done) ->

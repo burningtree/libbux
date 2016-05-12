@@ -12,6 +12,7 @@ examples:
   group: bdd092cf-9b10-45c9-8273-7c500c736af9
   publicGroup: f5e7665b-6b78-487e-9b3f-7c33a06c275d
   user: 93db03c7-cedb-41a9-9e51-3925be427b69
+  anotherUser: af8bdbc2-fa29-4106-ba7c-6f21f7c7a374
   message: 167c12dd-16cf-11e6-b4c2-363465656139
   lastReadFeedItemId: 8ec1e2e9-0ab8-11e6-821d-363465656139
   battle: 87df3bef-6857-4fdf-be9a-e8cfa05202ea
@@ -32,6 +33,9 @@ endpoints:
   '/auth/3/authorize': { POST: {}}
   'products/search': {}
   'products/@product': {}
+  'products/favorites/@product': { PUT: {}, DELETE: {}}
+  'search/people/': { GET: { query: { q: 'bigswingingnick' }}}
+  'users/@anotherUser/profile': {}
   'users/me': {}
   'users/me/profile': {}
   'users/me/trades': { GET: {}, POST: { data: { boostEffect: '5', direction: 'BUY', homeCurrency: 'BUX', productId: 'sb27701', source: 'PRODUCTS_CURATED', tradeSize: '10' }}}

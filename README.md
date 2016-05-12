@@ -71,7 +71,7 @@ bux.login(account, function(err, data) {
 ### Implemented
 * Authentication - Login
 * User - Profile, Friends, Notifications
-* Products - List, Detail
+* Products - List, Detail, Favorite, Alert
 * Trading - Open position, Close position, Alerts, Auto-Close
 * Trading Fees - List
 * Positions - List, Detail, History
@@ -81,13 +81,13 @@ bux.login(account, function(err, data) {
 * Groups - List, Feed, Un/Follow, Post, Detail
 * Battles - List, Feed, Post, Detail, Create
 * Real-time Data (WebSockets) - Un/Subscribe
+* Users - Detail, Search
 
 ### TODO
 * Battles - Invitations, Notifications
 * Groups - Post image, Delete image, Add member, Remove member, Change avatar
 * Products - Search
 * User - Settings, Invitations, Pincode operations
-* Users - Detail, List?
 * Transactions - List, Payment, Withdrawal
 
 ## User Guide
@@ -152,6 +152,8 @@ TODO
 * **balance** ``(callback)`` - Cash balance
 * **profile** `(callback)` - Your profile
 * **friends** `(callback)` - Friends list
+* **users** `(query, callback)` - Search user
+* **user** `(userId, callback)` - User profile
 * **notifications** `(callback)` - List of pending notifications
 * **news** `(callback)` - News articles
 * **feed** `(callback)` - Social feed
@@ -159,6 +161,8 @@ TODO
 * **product** `(productId, callback)` - Product detail
 * **productAlert** `(productId, amount, callback)` - Set product alert
 * **productAlertDelete** `(productId, callback)` - Remove product alert
+* **favorite** `(productId, callback)` - Set product as favorite
+* **favoriteDelete** `(productId, callback)` - Remove product from favorites
 * **fees** `(callback)` - Trading fees
 * **portfolio** `(callback)` - Opened positions
 * **position** `(positionId, callback)` - Position detail

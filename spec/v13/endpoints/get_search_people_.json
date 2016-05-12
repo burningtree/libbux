@@ -1,0 +1,28 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/search/people/?q=bigswingingnick"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 00:52:07 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": [
+    {
+      "id": "af8bdbc2-fa29-4106-ba7c-6f21f7c7a374",
+      "nickname": "bigswingingnick",
+      "title": "Early Adopter",
+      "accountType": "SERIOUS_BUX",
+      "friendRequestPending": false
+    }
+  ]
+}
