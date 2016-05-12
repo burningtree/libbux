@@ -130,6 +130,12 @@ describe 'libbux', ->
         assert.equal data.securityId, spec.examples.product
         done()
 
+    it 'productSearch', (done) ->
+      bux.productSearch spec.examples.position_product_name, (err, data) ->
+        assert.equal err, null
+        assert.isAbove data.length, 0
+        done()
+
     it 'productAlert', (done) ->
       opts = spec.endpoints['users/me/products/@product/tracker'].PUT.data
       bux.productAlert spec.examples.product, opts.limit.amount, (err, data) ->

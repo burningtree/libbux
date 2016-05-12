@@ -159,6 +159,7 @@ TODO
 * **feed** `(callback)` - Social feed
 * **products** `(callback)` - Products list
 * **product** `(productId, callback)` - Product detail
+* **productSearch** `(query, callback)` - Product search
 * **productAlert** `(productId, amount, callback)` - Set product alert
 * **productAlertDelete** `(productId, callback)` - Remove product alert
 * **favorite** `(productId, callback)` - Set product as favorite
