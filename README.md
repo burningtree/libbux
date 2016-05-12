@@ -5,7 +5,7 @@ Un-official Javascript/Node.js library for [BUX](http://getbux.com) trading plat
 
 It uses official REST & WebSockets APIs which are used for a BUX mobile applications. For these APIs, there is no public documentation and thus no official support from the BUX team. Keep in mind that any change in the interface may (temporarily) break this library.
 
-Current version: **<span bux-data="version">0.2.4</span>**    
+Current version: **<span bux-data="version">0.2.5</span>**    
 **This is EXPERIMENTAL version. Use at your own risk.**
 
 ## Table of contents
@@ -86,6 +86,7 @@ bux.login(account, function(err, data) {
 * Pincode - Lock, Unlock, Reset
 
 ### TODO
+* Products - Statistics
 * Battles - Invitations, Notifications
 * Groups - Post image, Delete image, Add member, Remove member, Change avatar
 * User - Settings, Invitations
