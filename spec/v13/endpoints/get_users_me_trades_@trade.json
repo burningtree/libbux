@@ -1,0 +1,63 @@
+{
+  "req": {
+    "method": "GET",
+    "url": "https://api.getbux.com/core/13/users/me/trades/98999506669"
+  },
+  "header": {
+    "server": "nginx/1.8.0",
+    "date": "Thu, 12 May 2016 04:21:43 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "pragma": "no-cache",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "cache-control": "no-cache, no-store",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding"
+  },
+  "status": 200,
+  "json": {
+    "id": "98999506669",
+    "positionId": "98999506668",
+    "product": {
+      "securityId": "sb33927",
+      "symbol": "US Oil 19 May 16",
+      "displayName": "US Oil 19 May 16"
+    },
+    "type": "CLOSE",
+    "investingAmount": {
+      "currency": "EUR",
+      "decimals": 2,
+      "amount": "30.00"
+    },
+    "leverage": 10,
+    "direction": "SELL",
+    "openPrice": {
+      "currency": "USD",
+      "decimals": 2,
+      "amount": "45.60"
+    },
+    "openFee": {
+      "currency": "EUR",
+      "decimals": 2,
+      "amount": "0.30"
+    },
+    "openDate": 1462977388049,
+    "closeAmount": {
+      "currency": "EUR",
+      "decimals": 2,
+      "amount": "32.04"
+    },
+    "closePrice": {
+      "currency": "USD",
+      "decimals": 2,
+      "amount": "45.91"
+    },
+    "closeFee": {
+      "currency": "EUR",
+      "decimals": 2,
+      "amount": "0.30"
+    },
+    "closeDate": 1462981192532
+  }
+}

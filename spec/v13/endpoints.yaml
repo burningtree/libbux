@@ -16,6 +16,7 @@ examples:
   message: 167c12dd-16cf-11e6-b4c2-363465656139
   lastReadFeedItemId: 8ec1e2e9-0ab8-11e6-821d-363465656139
   battle: 87df3bef-6857-4fdf-be9a-e8cfa05202ea
+  trade: 98999506669
 
   username: buxlib
   friends_first: burningtree
@@ -42,6 +43,7 @@ endpoints:
   'users/me/pincode/reset': { PUT: {}}
   'users/me/profile': {}
   'users/me/trades': { GET: {}, POST: { data: { boostEffect: '5', direction: 'BUY', homeCurrency: 'BUX', productId: 'sb27701', source: 'PRODUCTS_CURATED', tradeSize: '10' }}}
+  'users/me/trades/@trade': {}
   'users/me/transactions': { GET: { query: { excludeTrades: true }}}
   'users/me/friends': {}
   'users/me/education': {}

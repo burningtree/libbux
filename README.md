@@ -180,6 +180,7 @@ TODO
 * **autocloseDelete** `(positionId, callback)` - Remove autoclose from position
 * **performance** `(callback)` - Basic performance info
 * **trades** `(callback)` - Trading history
+* **trade** `(tradeId, callback)` - Detailed info about trade from history
 * **[open](#open-trade-callback)** `(trade, callback)` - Open position
 * **close** `(positionId, callback)` - Close position
 * **[subscribe](#subscribe-eventsarray-callback)** `(eventsArray, callback, [onReady])` - Subscribe for Realtime data

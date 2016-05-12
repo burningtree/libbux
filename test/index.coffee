@@ -227,6 +227,12 @@ describe 'libbux', ->
         assert.equal data[0].type, 'OPEN'
         done()
 
+    it 'trade', (done) ->
+      bux.trade spec.examples.trade, (err, data) ->
+        assert.equal err, null
+        assert.equal data.id, spec.examples.trade
+        done()
+
     it 'open', (done) ->
       trade =
         product: 'sb27701'
