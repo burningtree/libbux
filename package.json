@@ -1,6 +1,6 @@
 {
   "name": "libbux",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Un-official Javascript/Node.js library for BUX trading platform.",
   "main": "lib/bux.js",
   "scripts": {
