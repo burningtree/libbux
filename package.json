@@ -22,16 +22,16 @@
   },
   "homepage": "https://github.com/burningtree/libbux#readme",
   "devDependencies": {
-    "async": "^2.0.0-rc.3",
+    "async": "^2.0.0-rc.6",
     "chai": "^3.5.0",
     "coffee-script": "^1.10.0",
-    "hapi": "^13.3.0",
-    "js-yaml": "^3.6.0",
-    "mocha": "^2.4.5"
+    "hapi": "^13.5.0",
+    "js-yaml": "^3.6.1",
+    "mocha": "^2.5.3"
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "superagent": "^1.8.3",
-    "ws": "^1.1.0"
+    "superagent": "^2.0.0",
+    "ws": "^1.1.1"
   }
 }
